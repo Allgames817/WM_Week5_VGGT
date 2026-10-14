@@ -1,0 +1,138 @@
+{
+  "scope": "All rg-visible project md/txt/py/json/ps1/yaml/yml files, including historical output and logs; excludes third-party COLMAP and Daily/vggt and audit reports themselves. UTF-8, BOM UTF-16 and GB18030 decoded. Checks local Markdown file targets and legacy Week5 directory names. Markdown line suffixes and /D:/ app paths normalized. Remote links, fragment anchors and arbitrary dynamic runtime paths not checked.",
+  "text_files_scanned": 1816,
+  "local_markdown_links_checked": 1031,
+  "undecodable_files": [],
+  "active_missing_markdown_targets": [],
+  "historical_snapshot_missing_targets_preserved": [
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 7,
+      "target": "reports/check_cpu.json"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 7,
+      "target": "reports/check_cpu_console.txt"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 9,
+      "target": "reports/compare_gsplat.json"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 9,
+      "target": "reports/compare_gsplat_console.txt"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 11,
+      "target": "outputs/day3/index.html"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 11,
+      "target": "outputs/day3/experiment_report.json"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 11,
+      "target": "outputs/day3/projection_stats.csv"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 72,
+      "target": "outputs/day3/projection_stats.csv"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 107,
+      "target": "INTERFACE_CONTRACT.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 107,
+      "target": "DAY3_GUIDE.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 134,
+      "target": "reports/before_torch241_fix_20261011_212436/compare_gsplat_console.txt"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 134,
+      "target": "reports/before_torch241_fix_20261011_212436/compare_gsplat.json"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 8,
+      "target": "DAY3_GUIDE.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 8,
+      "target": "SOURCES.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 9,
+      "target": "CODE_READING.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 10,
+      "target": "INTERFACE_CONTRACT.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 11,
+      "target": "PROJECTION_NOTES_TEMPLATE.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 38,
+      "target": "HANDOFF.md"
+    }
+  ],
+  "legacy_mentions_retained": [
+    {
+      "file": "Daily\\Week5_Day3\\notes\\inference_log.md",
+      "line": 64,
+      "text": "- 最初使用旧目录名 `WM_W05_Day1`，在源码/单元检查阶段找不到 Day1 lock。默认路径已改为以脚本目录为基准，并使用实际 `Week5_Day1` 目录。旧日志保存在 [原始路径错误记录](../evidence/failed_runs/single_full_20261012_161252/run.json)。"
+    },
+    {
+      "file": "Daily\\Week5_Day3\\evidence\\recovery_report.json",
+      "line": 9,
+      "text": "  \"original_failure\": \"Day1 lock path used WM_W05_Day1 instead of Week5_Day1; failed output directory then blocked rerun\","
+    },
+    {
+      "file": "Daily\\Week5_Day3\\evidence\\failed_runs\\single_full_20261012_161252\\run.json",
+      "line": 14,
+      "text": "  \"error_message\": \"Day1 lock not found: ..\\\\WM_W05_Day1\\\\evidence\\\\repo_lock.json. Point to your actual Day1 evidence; do not invent a commit.\","
+    },
+    {
+      "file": "Daily\\Week5_Day3\\evidence\\failed_runs\\single_full_20261012_161252\\error.txt",
+      "line": 11,
+      "text": "RuntimeError: Day1 lock not found: ..\\WM_W05_Day1\\evidence\\repo_lock.json. Point to your actual Day1 evidence; do not invent a commit."
+    },
+    {
+      "file": "Daily\\Week5_Day1\\MANIFEST.json",
+      "line": 2,
+      "text": "  \"package\": \"WM_W05_Day1\","
+    },
+    {
+      "file": "Daily\\Week5_Day2\\notes\\preprocessing.md",
+      "line": 31,
+      "text": "默认路径现已从脚本位置指向同级 `vggt` 和 `Week5_Day1/evidence/repo_lock.json`。曾经报错的 `WM_W05_Day1` 是旧目录名；实际目录是 `Week5_Day1`。"
+    }
+  ],
+  "day4_path_changes": {
+    "folder": "Daily/Week5_Day4",
+    "documentation": "WINDOWS_RUNBOOK.md uses actual Week5_Day1/3/4 siblings; Day1 ENVIRONMENT_WINDOWS.md also corrected.",
+    "defaults": "All Day4 CLI default paths are rooted at the script directory; explicit relative arguments still resolve from cwd. check_day4.py changed only its output path, with all 24 checks unchanged.",
+    "validation": "check_day4, verify_source, analyze_run and run_counterexamples executed from workspace root using default dependency paths. compare_official also executed from workspace root and reported agreement=True."
+  },
+  "original_manifests": "Retained as original package records; original hashes do not describe locally edited files."
+}

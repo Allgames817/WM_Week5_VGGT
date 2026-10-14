@@ -1,0 +1,38 @@
+{
+  "task": "WM-W05-Day4-preview",
+  "created_utc": "2026-10-12T12:21:39.917871+00:00",
+  "analysis_json_sha256": "a874d5bd8b5650fbff7a86c6c8eb464acb8c68c0be926c7f87b91ac9e77bf7d5",
+  "dense_geometry_sha256": "a2a7005cbfeb32f35876d241737619903d74eba9d161564fda46df66e2cb85f4",
+  "sampling": "uniform image-grid stride; NOT voxel downsampling or confidence selection",
+  "stride": 8,
+  "views": [
+    {
+      "view_index": 0,
+      "valid_dense_points": 181300,
+      "display_sample_points": 2860
+    },
+    {
+      "view_index": 1,
+      "valid_dense_points": 181300,
+      "display_sample_points": 2860
+    }
+  ],
+  "depth_display_quantiles": [
+    2,
+    98
+  ],
+  "depth_display_low": 0.6066021811962128,
+  "depth_display_high": 2.2944102811813356,
+  "depth_direction": "near dark, far bright",
+  "invalid_depth_display": "black; use valid_depth NPZ mask to distinguish from low displayed depth",
+  "depth_png_changes_raw_arrays": false,
+  "outlier_clipping_in_scatter": false,
+  "geometric_fusion_performed": false,
+  "geometry_accuracy_verified": false,
+  "artifact_sha256": {
+    "depth_00.png": "80b575e08cb8454cd9eeca73b946b214fe050dbdf5051ac0186accc091f83324",
+    "depth_01.png": "9f78593c50e3e8081a2fad4e1cad1634d589afa7d4ff77fa85aff1ac9319db54",
+    "scene.png": "3e924c6fc00c06aa6dd5adf106aa706734493671ea44d82fde51eff92bbea528",
+    "scene_samples.ply": "471cda002443f2e0faacfa925d3b23e64c2759904ac876320d6e181af907ad1b"
+  }
+}

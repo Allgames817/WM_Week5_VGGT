@@ -1,0 +1,108 @@
+{
+  "task": "WM-W05-Day7-unit-checks",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "name": "build_geometry/01",
+      "passed": true
+    },
+    {
+      "name": "build_geometry/02",
+      "passed": true
+    },
+    {
+      "name": "build_geometry/03",
+      "passed": true
+    },
+    {
+      "name": "build_geometry/04",
+      "passed": true
+    },
+    {
+      "name": "build_geometry/05",
+      "passed": true
+    },
+    {
+      "name": "build_geometry/06",
+      "passed": true
+    },
+    {
+      "name": "build_geometry/07",
+      "passed": true
+    },
+    {
+      "name": "build_geometry/08",
+      "passed": true
+    },
+    {
+      "name": "select_support/01",
+      "passed": true
+    },
+    {
+      "name": "select_support/02",
+      "passed": true
+    },
+    {
+      "name": "select_support/03",
+      "passed": true
+    },
+    {
+      "name": "select_support/04",
+      "passed": true
+    },
+    {
+      "name": "select_support/05",
+      "passed": true
+    },
+    {
+      "name": "select_support/06",
+      "passed": true
+    },
+    {
+      "name": "select_support/07",
+      "passed": true
+    },
+    {
+      "name": "select_support/08",
+      "passed": true
+    },
+    {
+      "name": "summarize_cross_view/01",
+      "passed": true
+    },
+    {
+      "name": "summarize_cross_view/02",
+      "passed": true
+    },
+    {
+      "name": "summarize_cross_view/03",
+      "passed": true
+    },
+    {
+      "name": "summarize_cross_view/04",
+      "passed": true
+    },
+    {
+      "name": "summarize_cross_view/05",
+      "passed": true
+    },
+    {
+      "name": "summarize_cross_view/06",
+      "passed": true
+    },
+    {
+      "name": "summarize_cross_view/07",
+      "passed": true
+    },
+    {
+      "name": "summarize_cross_view/08",
+      "passed": true
+    }
+  ],
+  "code_sha256": {
+    "geometry_packet_exercise.py": "8fde00233fc7bddc35acfb48e019d4c3ebc58e02eebb5ac1d5216c4c37a083fe",
+    "day7_exercise.py": "7f38dd1629d8790db3680a9d6ddfb1db06f89489d2df3511e0f6c135839ec23c",
+    "check_day7.py": "cec8fe061f75c30ff40f46c75bd55f52142236865c8c47fb282c0ca983fca8de"
+  }
+}

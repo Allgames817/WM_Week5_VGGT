@@ -1,0 +1,272 @@
+{
+  "task": "WM-W05-Day2-official-preprocessing",
+  "created_utc": "2026-10-12T05:52:58.030215+00:00",
+  "commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "loader_sha256": "d57b7a16c2e04333a2e68d365aa21f1dd61759e984f744cbcbe6b66d787f37ef",
+  "mode": "pad",
+  "actual_batch_shape": [
+    3,
+    3,
+    518,
+    518
+  ],
+  "first_image_alone_shape": [
+    1,
+    3,
+    518,
+    518
+  ],
+  "dtype": "torch.float32",
+  "device": "cpu",
+  "range": [
+    0.0,
+    1.0
+  ],
+  "plan_pixel_max_abs_error": 0.0,
+  "plan_pixel_comparison_passed": true,
+  "affine_convention": "zero-based pixel centers; half-pixel resize",
+  "affine_is_teaching_metadata_not_official_return": true,
+  "versions": {
+    "python": "3.11.17",
+    "numpy": "1.26.1",
+    "Pillow": "12.3.0",
+    "torch": "2.3.1+cu121",
+    "torchvision": "0.18.1+cu121"
+  },
+  "images": [
+    {
+      "file": "01_landscape.png",
+      "input_sha256": "fbd004ba41869b483354d999cb441b70c45398ad99901b401fcca6cbe39cdc3e",
+      "plan": {
+        "original_hw": [
+          480,
+          640
+        ],
+        "resized_hw": [
+          392,
+          518
+        ],
+        "crop_top": 0,
+        "mode_pad_tblr": [
+          63,
+          63,
+          0,
+          0
+        ],
+        "batch_pad_tblr": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_hw": [
+          518,
+          518
+        ]
+      },
+      "A_original_to_processed_pixel_centers": [
+        [
+          0.809375,
+          0.0,
+          -0.09531250000000002
+        ],
+        [
+          0.0,
+          0.8166666666666667,
+          62.90833333333333
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "probe_original_uv": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          319.5,
+          239.5
+        ],
+        [
+          639.0,
+          479.0
+        ]
+      ],
+      "probe_processed_uv": [
+        [
+          -0.09531250000000002,
+          62.90833333333333
+        ],
+        [
+          258.5,
+          258.5
+        ],
+        [
+          517.0953125,
+          454.0916666666667
+        ]
+      ],
+      "processed_png": "artifacts\\pad\\00_01_landscape_pad.png"
+    },
+    {
+      "file": "02_portrait.png",
+      "input_sha256": "9bdc23891e47d4a78dc302f1035d605fce4ea5baeebd01c3d0315da222a4dedf",
+      "plan": {
+        "original_hw": [
+          640,
+          480
+        ],
+        "resized_hw": [
+          518,
+          392
+        ],
+        "crop_top": 0,
+        "mode_pad_tblr": [
+          0,
+          0,
+          63,
+          63
+        ],
+        "batch_pad_tblr": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_hw": [
+          518,
+          518
+        ]
+      },
+      "A_original_to_processed_pixel_centers": [
+        [
+          0.8166666666666667,
+          0.0,
+          62.90833333333333
+        ],
+        [
+          0.0,
+          0.809375,
+          -0.09531250000000002
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "probe_original_uv": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          239.5,
+          319.5
+        ],
+        [
+          479.0,
+          639.0
+        ]
+      ],
+      "probe_processed_uv": [
+        [
+          62.90833333333333,
+          -0.09531250000000002
+        ],
+        [
+          258.5,
+          258.5
+        ],
+        [
+          454.0916666666667,
+          517.0953125
+        ]
+      ],
+      "processed_png": "artifacts\\pad\\01_02_portrait_pad.png"
+    },
+    {
+      "file": "03_rgba_square.png",
+      "input_sha256": "68f9e7b5704f7a8b5f705ca2c2bfeebd58c2373d55e1210908f73e55e1219115",
+      "plan": {
+        "original_hw": [
+          480,
+          480
+        ],
+        "resized_hw": [
+          518,
+          518
+        ],
+        "crop_top": 0,
+        "mode_pad_tblr": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "batch_pad_tblr": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_hw": [
+          518,
+          518
+        ]
+      },
+      "A_original_to_processed_pixel_centers": [
+        [
+          1.0791666666666666,
+          0.0,
+          0.039583333333333304
+        ],
+        [
+          0.0,
+          1.0791666666666666,
+          0.039583333333333304
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "probe_original_uv": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          239.5,
+          239.5
+        ],
+        [
+          479.0,
+          479.0
+        ]
+      ],
+      "probe_processed_uv": [
+        [
+          0.039583333333333304,
+          0.039583333333333304
+        ],
+        [
+          258.5,
+          258.5
+        ],
+        [
+          516.9604166666667,
+          516.9604166666667
+        ]
+      ],
+      "processed_png": "artifacts\\pad\\02_03_rgba_square_pad.png"
+    }
+  ],
+  "model_executed": false,
+  "weights_loaded": false,
+  "scope": "Image preprocessing only; no geometric prediction or learned attention"
+}

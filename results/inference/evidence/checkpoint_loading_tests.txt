@@ -1,0 +1,8 @@
+test_invalid_byte_ranges_rejected_before_copy (test_checkpoint_loading.CheckpointLoadingTests.test_invalid_byte_ranges_rejected_before_copy) ... ok
+test_invalid_checkpoint_rejected_before_assignment (test_checkpoint_loading.CheckpointLoadingTests.test_invalid_checkpoint_rejected_before_assignment) ... ok
+test_matches_pytorch_strict_loading (test_checkpoint_loading.CheckpointLoadingTests.test_matches_pytorch_strict_loading) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.126s
+
+OK

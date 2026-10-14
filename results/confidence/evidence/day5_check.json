@@ -1,0 +1,111 @@
+{
+  "task": "WM-W05-Day5-unit-checks",
+  "created_utc": "2026-10-12T14:43:52.736822+00:00",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "name": "selection/01_all_eligible",
+      "passed": true
+    },
+    {
+      "name": "selection/02_top75_is_not_score075",
+      "passed": true
+    },
+    {
+      "name": "selection/03_top50_linear_quantile",
+      "passed": true
+    },
+    {
+      "name": "selection/04_inclusive_ties",
+      "passed": true
+    },
+    {
+      "name": "selection/05_invalid_scores_and_ineligible_values",
+      "passed": true
+    },
+    {
+      "name": "selection/06_empty_candidates",
+      "passed": true
+    },
+    {
+      "name": "selection/07_noncontiguous_dtype_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "selection/08_input_validation",
+      "passed": true
+    },
+    {
+      "name": "residual/01_known_euclidean_distance",
+      "passed": true
+    },
+    {
+      "name": "residual/02_same_pixel_not_nearest_neighbor",
+      "passed": true
+    },
+    {
+      "name": "residual/03_excluded_rows_nan",
+      "passed": true
+    },
+    {
+      "name": "residual/04_nonfinite_coordinates",
+      "passed": true
+    },
+    {
+      "name": "residual/05_promote_before_subtract",
+      "passed": true
+    },
+    {
+      "name": "residual/06_world_negative_z_is_not_invalid_depth",
+      "passed": true
+    },
+    {
+      "name": "residual/07_noncontiguous_and_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "residual/08_input_validation_and_empty_grid",
+      "passed": true
+    },
+    {
+      "name": "summary/01_distance_statistics",
+      "passed": true
+    },
+    {
+      "name": "summary/02_distinct_denominators",
+      "passed": true
+    },
+    {
+      "name": "summary/03_no_selected_samples",
+      "passed": true
+    },
+    {
+      "name": "summary/04_empty_candidates_and_empty_grid",
+      "passed": true
+    },
+    {
+      "name": "summary/05_nonfinite_residual_is_not_zero",
+      "passed": true
+    },
+    {
+      "name": "summary/06_pool_samples_not_view_means",
+      "passed": true
+    },
+    {
+      "name": "summary/07_promote_before_square_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "summary/08_input_validation",
+      "passed": true
+    }
+  ],
+  "code_sha256": {
+    "day5_exercise.py": "999f0480bdae30d66562f0b8b2ad1795b34b3fd8574710764f12979b112f1e06",
+    "contracts.py": "f46f82e3487204e400f553811feab3c9fad1ab76cdf8ee36db80c41b445bf642",
+    "check_day5.py": "3ce40759ae35485f379e332ef99ec46b7cf098779beb60ac6d92460117996a4f"
+  },
+  "model_executed": false,
+  "real_prediction_data_used": false
+}

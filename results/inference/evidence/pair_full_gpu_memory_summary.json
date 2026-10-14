@@ -1,0 +1,361 @@
+{
+  "started_utc": "2026-10-12T09:36:26.7832518Z",
+  "command": "python run_inference.py --views 2 --profile full --out .\\artifacts\\pair_full",
+  "python": "H:\\anaconda3\\envs\\wm_vggt\\python.exe",
+  "cudnn_v8_disabled": false,
+  "counter": "Win32_PerfFormattedData_GPUPerformanceCounters_GPUProcessMemory",
+  "note": "WDDM samples filtered to this Python PID. Counter refresh and polling can miss short peaks; shared usage alone does not prove VRAM pressure caused fallback.",
+  "system_total_ram_bytes": 25551560704,
+  "system_free_ram_before_bytes": 7009259520,
+  "baseline_all_processes": [
+    {
+      "Name": "pid_45908_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 28672
+    },
+    {
+      "Name": "pid_57012_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 0
+    },
+    {
+      "Name": "pid_5560_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 0
+    },
+    {
+      "Name": "pid_43296_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 0
+    },
+    {
+      "Name": "pid_12332_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 0
+    },
+    {
+      "Name": "pid_24460_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 42917888,
+      "SharedUsage": 729088,
+      "TotalCommitted": 46850048
+    },
+    {
+      "Name": "pid_33500_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 16994304,
+      "SharedUsage": 364544,
+      "TotalCommitted": 36274176
+    },
+    {
+      "Name": "pid_47232_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 16384
+    },
+    {
+      "Name": "pid_14180_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 0
+    },
+    {
+      "Name": "pid_14180_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 9588736,
+      "SharedUsage": 880640,
+      "TotalCommitted": 12042240
+    },
+    {
+      "Name": "pid_9276_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 73900032,
+      "SharedUsage": 2506752,
+      "TotalCommitted": 112885760
+    },
+    {
+      "Name": "pid_43536_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 34168832,
+      "SharedUsage": 397312,
+      "TotalCommitted": 46198784
+    },
+    {
+      "Name": "pid_46268_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 100986880,
+      "SharedUsage": 5234688,
+      "TotalCommitted": 110927872
+    },
+    {
+      "Name": "pid_37420_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 0
+    },
+    {
+      "Name": "pid_37656_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 53248
+    },
+    {
+      "Name": "pid_53144_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 15687680,
+      "SharedUsage": 397312,
+      "TotalCommitted": 28184576
+    },
+    {
+      "Name": "pid_44528_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 21663744,
+      "SharedUsage": 364544,
+      "TotalCommitted": 25563136
+    },
+    {
+      "Name": "pid_7484_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 5410816,
+      "SharedUsage": 1085440,
+      "TotalCommitted": 22642688
+    },
+    {
+      "Name": "pid_20932_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 50196480,
+      "SharedUsage": 622592,
+      "TotalCommitted": 65003520
+    },
+    {
+      "Name": "pid_51340_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 10407936,
+      "SharedUsage": 0,
+      "TotalCommitted": 23904256
+    },
+    {
+      "Name": "pid_24336_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 7864320,
+      "SharedUsage": 1097728,
+      "TotalCommitted": 10199040
+    },
+    {
+      "Name": "pid_40096_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 22319104,
+      "SharedUsage": 512000,
+      "TotalCommitted": 26497024
+    },
+    {
+      "Name": "pid_29688_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 28176384,
+      "SharedUsage": 3334144,
+      "TotalCommitted": 32735232
+    },
+    {
+      "Name": "pid_5104_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 33427456,
+      "SharedUsage": 778240,
+      "TotalCommitted": 39288832
+    },
+    {
+      "Name": "pid_45908_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 84230144,
+      "SharedUsage": 4759552,
+      "TotalCommitted": 90058752
+    },
+    {
+      "Name": "pid_47632_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 8151040,
+      "SharedUsage": 364544,
+      "TotalCommitted": 10706944
+    },
+    {
+      "Name": "pid_20988_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 62464000,
+      "SharedUsage": 364544,
+      "TotalCommitted": 69513216
+    },
+    {
+      "Name": "pid_7024_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 200704
+    },
+    {
+      "Name": "pid_11176_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 16384
+    },
+    {
+      "Name": "pid_6576_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 12267520,
+      "SharedUsage": 258048,
+      "TotalCommitted": 14958592
+    },
+    {
+      "Name": "pid_37656_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 115621888,
+      "SharedUsage": 13258752,
+      "TotalCommitted": 148492288
+    },
+    {
+      "Name": "pid_36988_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 8523776,
+      "SharedUsage": 1142784,
+      "TotalCommitted": 11051008
+    },
+    {
+      "Name": "pid_13276_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 0
+    },
+    {
+      "Name": "pid_2160_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 1974272
+    },
+    {
+      "Name": "pid_38472_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 1921024
+    },
+    {
+      "Name": "pid_38472_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 41213952,
+      "SharedUsage": 733184,
+      "TotalCommitted": 35971072
+    },
+    {
+      "Name": "pid_35252_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 62193664,
+      "SharedUsage": 4751360,
+      "TotalCommitted": 67837952
+    },
+    {
+      "Name": "pid_16448_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 13611008,
+      "SharedUsage": 212992,
+      "TotalCommitted": 16396288
+    },
+    {
+      "Name": "pid_16156_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 294912
+    },
+    {
+      "Name": "pid_16156_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 51216384,
+      "SharedUsage": 532480,
+      "TotalCommitted": 51978240
+    },
+    {
+      "Name": "pid_7024_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 493101056,
+      "SharedUsage": 811008,
+      "TotalCommitted": 528199680
+    },
+    {
+      "Name": "pid_16220_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 8146944,
+      "SharedUsage": 0,
+      "TotalCommitted": 15753216
+    },
+    {
+      "Name": "pid_26720_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 12857344,
+      "SharedUsage": 1425408,
+      "TotalCommitted": 18890752
+    },
+    {
+      "Name": "pid_27620_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 22429696,
+      "SharedUsage": 0,
+      "TotalCommitted": 39321600
+    },
+    {
+      "Name": "pid_24376_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 8589312,
+      "SharedUsage": 0,
+      "TotalCommitted": 11108352
+    },
+    {
+      "Name": "pid_21244_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 81170432,
+      "SharedUsage": 5758976,
+      "TotalCommitted": 88240128
+    },
+    {
+      "Name": "pid_20116_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 17530880,
+      "SharedUsage": 466944,
+      "TotalCommitted": 21155840
+    },
+    {
+      "Name": "pid_12220_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 0,
+      "TotalCommitted": 32768
+    },
+    {
+      "Name": "pid_14292_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 21958656,
+      "SharedUsage": 933888,
+      "TotalCommitted": 27185152
+    },
+    {
+      "Name": "pid_15168_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 13254656,
+      "SharedUsage": 417792,
+      "TotalCommitted": 15634432
+    },
+    {
+      "Name": "pid_13540_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 9498624,
+      "SharedUsage": 466944,
+      "TotalCommitted": 13975552
+    },
+    {
+      "Name": "pid_12220_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 151068672,
+      "SharedUsage": 2547712,
+      "TotalCommitted": 143261696
+    },
+    {
+      "Name": "pid_12856_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 7864320,
+      "SharedUsage": 0,
+      "TotalCommitted": 10199040
+    },
+    {
+      "Name": "pid_2160_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 919359488,
+      "SharedUsage": 12935168,
+      "TotalCommitted": 755974144
+    },
+    {
+      "Name": "pid_1700_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 55947264,
+      "SharedUsage": 16637952,
+      "TotalCommitted": 74485760
+    },
+    {
+      "Name": "pid_4_luid_0x00000000_0x000125F7_phys_0",
+      "DedicatedUsage": 0,
+      "SharedUsage": 8192,
+      "TotalCommitted": 8192
+    },
+    {
+      "Name": "pid_4_luid_0x00000000_0x00010C1D_phys_0",
+      "DedicatedUsage": 4235264,
+      "SharedUsage": 262144,
+      "TotalCommitted": 4497408
+    }
+  ],
+  "pid": 30320,
+  "exit_code": 0,
+  "finished_utc": "2026-10-12T09:36:59.5786252Z",
+  "samples": 97,
+  "samples_with_shared_memory": 86,
+  "sampled_peak_dedicated_bytes": 6332309504,
+  "sampled_peak_shared_bytes": 144703488
+}

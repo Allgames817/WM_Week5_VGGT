@@ -1,0 +1,9 @@
+Field / shape / saved dtype / finite count / total
+pose_enc [1, 1, 9] float32 9 / 9
+depth [1, 1, 350, 518, 1] float32 181300 / 181300
+depth_conf [1, 1, 350, 518] float32 181300 / 181300
+world_points [1, 1, 350, 518, 3] float32 543900 / 543900
+world_points_conf [1, 1, 350, 518] float32 181300 / 181300
+images [1, 1, 3, 350, 518] float32 543900 / 543900
+Depth previews: artifacts\single_full\inspection
+Use raw_predictions.npz for computation, never the 8-bit preview.

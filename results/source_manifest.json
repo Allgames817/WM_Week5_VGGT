@@ -1,0 +1,2086 @@
+{
+  "package": "WM_Week5_VGGT",
+  "created_local_date": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "scope": "Copied evidence remains byte-identical; documentation is organized by topic. Historical absolute paths are provenance, not package runtime dependencies.",
+  "copied_files": [
+    {
+      "source": "Daily/Week5_Day1/evidence/repo_lock.json",
+      "destination": "results/contracts/repo_lock.json",
+      "size_bytes": 4542,
+      "sha256": "10224c340ee6e564d99e47dfa6f0d6a2bf8dccdc6164ea8f1fe263aba68c0c37",
+      "purpose": "Input/output and source contract"
+    },
+    {
+      "source": "Daily/Week5_Day1/evidence/environment.json",
+      "destination": "results/contracts/environment.json",
+      "size_bytes": 1638,
+      "sha256": "ea7feabe36a77f06739c4aaa01bc63db42d3dc5ab221e2e71b0301d90d3d37b6",
+      "purpose": "Input/output and source contract"
+    },
+    {
+      "source": "Daily/Week5_Day1/evidence/pip_freeze.txt",
+      "destination": "results/contracts/pip_freeze.txt",
+      "size_bytes": 705,
+      "sha256": "0eff23eec71f1e9bb74d6105ee6599bb474f312a9ef5ea0452ea768ecca11b02",
+      "purpose": "Input/output and source contract"
+    },
+    {
+      "source": "Daily/Week5_Day1/evidence/day1_check.json",
+      "destination": "results/contracts/checks.json",
+      "size_bytes": 2269,
+      "sha256": "acefed30384a3abb82c0d0e24e711fb79af597aac540e0eee551c9e2fc02a146",
+      "purpose": "Input/output and source contract"
+    },
+    {
+      "source": "Daily/Week5_Day2/evidence/attention_demo.json",
+      "destination": "results/preprocessing/attention_demo.json",
+      "size_bytes": 4465,
+      "sha256": "99165f1479faf5feaeabbaba8984b286ab03248c978b5ed40ffdf41dcda4789b",
+      "purpose": "Preprocessing and attention diagnostics"
+    },
+    {
+      "source": "Daily/Week5_Day2/evidence/day2_check.json",
+      "destination": "results/preprocessing/checks.json",
+      "size_bytes": 3527,
+      "sha256": "f2023eb411e219705f8df158208bd87a8916e2c1806b9ac2e979cabd4c508a3c",
+      "purpose": "Preprocessing and attention diagnostics"
+    },
+    {
+      "source": "Daily/Week5_Day2/evidence/preprocess_crop.json",
+      "destination": "results/preprocessing/preprocess_crop.json",
+      "size_bytes": 5384,
+      "sha256": "d423eebf296245fc619201c70269a36f91fce48eee7200e65a5702a3d15fef74",
+      "purpose": "Preprocessing and attention diagnostics"
+    },
+    {
+      "source": "Daily/Week5_Day2/evidence/preprocess_pad.json",
+      "destination": "results/preprocessing/preprocess_pad.json",
+      "size_bytes": 5377,
+      "sha256": "c6c9a7be300bd2fb5ed331375ef0aaffd0a14f871e5df9a21a8f380c35d83af6",
+      "purpose": "Preprocessing and attention diagnostics"
+    },
+    {
+      "source": "Daily/Week5_Day2/evidence/source_check.json",
+      "destination": "results/preprocessing/source_check.json",
+      "size_bytes": 9967,
+      "sha256": "595269a25b2dc79bbb705445ecab3837d8ebaef5981d81ee7611183c1e057f64",
+      "purpose": "Preprocessing and attention diagnostics"
+    },
+    {
+      "source": "Daily/Week5_Day2/artifacts/crop/00_01_landscape_crop.png",
+      "destination": "results/preprocessing/crop/00_01_landscape_crop.png",
+      "size_bytes": 18814,
+      "sha256": "55b6d7f7d52cef207e38c4669eb55603bc4d12cf3e5ba33f8b1c064af142237f",
+      "purpose": "Synthetic preprocessing previews"
+    },
+    {
+      "source": "Daily/Week5_Day2/artifacts/crop/01_02_portrait_crop.png",
+      "destination": "results/preprocessing/crop/01_02_portrait_crop.png",
+      "size_bytes": 14675,
+      "sha256": "199fadf1ee616c62080bdaccc295557f73f1747ab4b9950801997ec479e9b56a",
+      "purpose": "Synthetic preprocessing previews"
+    },
+    {
+      "source": "Daily/Week5_Day2/artifacts/crop/02_03_rgba_square_crop.png",
+      "destination": "results/preprocessing/crop/02_03_rgba_square_crop.png",
+      "size_bytes": 15019,
+      "sha256": "0f9017be9b8de3921f4e90d70cdab3625b88b6c8ea2d297a1cec3b431426e386",
+      "purpose": "Synthetic preprocessing previews"
+    },
+    {
+      "source": "Daily/Week5_Day2/artifacts/pad/00_01_landscape_pad.png",
+      "destination": "results/preprocessing/pad/00_01_landscape_pad.png",
+      "size_bytes": 18814,
+      "sha256": "55b6d7f7d52cef207e38c4669eb55603bc4d12cf3e5ba33f8b1c064af142237f",
+      "purpose": "Synthetic preprocessing previews"
+    },
+    {
+      "source": "Daily/Week5_Day2/artifacts/pad/01_02_portrait_pad.png",
+      "destination": "results/preprocessing/pad/01_02_portrait_pad.png",
+      "size_bytes": 19923,
+      "sha256": "01c925fd8a55375f9890fa6cb1fc05e91f1af234bcaf0f873442413bc1fb374f",
+      "purpose": "Synthetic preprocessing previews"
+    },
+    {
+      "source": "Daily/Week5_Day2/artifacts/pad/02_03_rgba_square_pad.png",
+      "destination": "results/preprocessing/pad/02_03_rgba_square_pad.png",
+      "size_bytes": 15019,
+      "sha256": "0f9017be9b8de3921f4e90d70cdab3625b88b6c8ea2d297a1cec3b431426e386",
+      "purpose": "Synthetic preprocessing previews"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/cameras.npz",
+      "destination": "results/inference/pair_camera_depth/cameras.npz",
+      "size_bytes": 517,
+      "sha256": "a9a58be04b839111c02406ce7ec24002784100f4f988956d01a3d48de9ce8ff5",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/inspection/depth_00.png",
+      "destination": "results/inference/pair_camera_depth/inspection/depth_00.png",
+      "size_bytes": 34096,
+      "sha256": "80ea2a20c050e82fa900ff1d7f2d8afee5c8f0f74e13c5bb4aac540bb854be1f",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/inspection/depth_01.png",
+      "destination": "results/inference/pair_camera_depth/inspection/depth_01.png",
+      "size_bytes": 29490,
+      "sha256": "f2df7dbc0ff2561c2a9f1236b7965bd656052db3cea52f414de0ff40211ac97a",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/inspection/inspection.json",
+      "destination": "results/inference/pair_camera_depth/inspection/inspection.json",
+      "size_bytes": 2250,
+      "sha256": "e85c0313bce7b93679715ed0b8e6d6f73cf5be0fce7f92115cae03317b40de03",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/pose_iterations.npz",
+      "destination": "results/inference/pair_camera_depth/pose_iterations.npz",
+      "size_bytes": 1126,
+      "sha256": "32d29828f237c0f900039c537814d8aefc8249aa9721e5d4ad23563d2dbb25bd",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/processed_rgb/00.png",
+      "destination": "results/inference/pair_camera_depth/processed_rgb/00.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/processed_rgb/01.png",
+      "destination": "results/inference/pair_camera_depth/processed_rgb/01.png",
+      "size_bytes": 342161,
+      "sha256": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/raw_predictions.npz",
+      "destination": "results/inference/pair_camera_depth/raw_predictions.npz",
+      "size_bytes": 3322111,
+      "sha256": "a7e922b39d1a4e7c604f29bf4f1886f62f1ad3db8528e3f6c9b05e7c46b5a9f9",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_camera_depth/run.json",
+      "destination": "results/inference/pair_camera_depth/run.json",
+      "size_bytes": 26783,
+      "sha256": "c0a6ab3b7e1ba14afa6a79deb4cbb2e6627919fee695be326996e8ea515ba089",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/cameras.npz",
+      "destination": "results/inference/pair_full/cameras.npz",
+      "size_bytes": 517,
+      "sha256": "a9a58be04b839111c02406ce7ec24002784100f4f988956d01a3d48de9ce8ff5",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/inspection/depth_00.png",
+      "destination": "results/inference/pair_full/inspection/depth_00.png",
+      "size_bytes": 34037,
+      "sha256": "80b575e08cb8454cd9eeca73b946b214fe050dbdf5051ac0186accc091f83324",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/inspection/depth_01.png",
+      "destination": "results/inference/pair_full/inspection/depth_01.png",
+      "size_bytes": 29513,
+      "sha256": "9f78593c50e3e8081a2fad4e1cad1634d589afa7d4ff77fa85aff1ac9319db54",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/inspection/inspection.json",
+      "destination": "results/inference/pair_full/inspection/inspection.json",
+      "size_bytes": 3038,
+      "sha256": "b7d7fd259658421a0f37c494f9ddc0a7385ccb394d041c67f07e161308132bad",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/pose_iterations.npz",
+      "destination": "results/inference/pair_full/pose_iterations.npz",
+      "size_bytes": 1126,
+      "sha256": "32d29828f237c0f900039c537814d8aefc8249aa9721e5d4ad23563d2dbb25bd",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/processed_rgb/00.png",
+      "destination": "results/inference/pair_full/processed_rgb/00.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/processed_rgb/01.png",
+      "destination": "results/inference/pair_full/processed_rgb/01.png",
+      "size_bytes": 342161,
+      "sha256": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/raw_predictions.npz",
+      "destination": "results/inference/pair_full/raw_predictions.npz",
+      "size_bytes": 8238257,
+      "sha256": "6d7c55b54ac1e7cf056b39ff8d9f65f0ab2e9c2550496f403ee335a2408ed607",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/run.json",
+      "destination": "results/inference/pair_full/run.json",
+      "size_bytes": 27913,
+      "sha256": "d4540430354a14c0e5c17955403a051d310733d0d68805bc57787cac64f80207",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/single_full/cameras.npz",
+      "destination": "results/inference/single_full/cameras.npz",
+      "size_bytes": 452,
+      "sha256": "19deb4ef93c5e689f4669239b1b95ff068a44f421a542ae35fddec0101193b52",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/single_full/inspection/depth_00.png",
+      "destination": "results/inference/single_full/inspection/depth_00.png",
+      "size_bytes": 32376,
+      "sha256": "35ade454ba40180ecaee701c00d86f796b931b5384dcb5b0010a45b19b571a12",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/single_full/inspection/inspection.json",
+      "destination": "results/inference/single_full/inspection/inspection.json",
+      "size_bytes": 3031,
+      "sha256": "8a27c1f080a241390c241e121228051d8a67d0ddd6c25145500de2a6be6fbc17",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/single_full/pose_iterations.npz",
+      "destination": "results/inference/single_full/pose_iterations.npz",
+      "size_bytes": 971,
+      "sha256": "5f7f20fbeac7ddfea61857785490151567299bf1038286ad38cc1f0a3f383d1b",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/single_full/processed_rgb/00.png",
+      "destination": "results/inference/single_full/processed_rgb/00.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/single_full/raw_predictions.npz",
+      "destination": "results/inference/single_full/raw_predictions.npz",
+      "size_bytes": 4071063,
+      "sha256": "3a56c4910b926a784501b6e6807cdd231d33c78ec0201fd40171fc921b990a85",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/single_full/run.json",
+      "destination": "results/inference/single_full/run.json",
+      "size_bytes": 27888,
+      "sha256": "b5074c19e9b45cd5bc7ea474e5e71391ca39023561614272e227ffbc852e0eef",
+      "purpose": "Successful inference outputs"
+    },
+    {
+      "source": "Daily/Week5_Day3/inputs/input_manifest.json",
+      "destination": "results/inference/input_manifest.json",
+      "size_bytes": 1216,
+      "sha256": "0395a74686fa7763ae4e9aa8481d4551a8d3bf324ceec7c083cb56689885809d",
+      "purpose": "Image provenance and order"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/checkpoint_loading_tests.txt",
+      "destination": "results/inference/evidence/checkpoint_loading_tests.txt",
+      "size_bytes": 540,
+      "sha256": "5553cd8331c2d0aae21ca38d90ad5db3d541f3b28729a4bfb86ef30a48ddc657",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/cpu_construction_diagnostic.txt",
+      "destination": "results/inference/evidence/cpu_construction_diagnostic.txt",
+      "size_bytes": 188,
+      "sha256": "1ee8e5fa0c155b5c6a183dd920cfb87ab1565b9283f6064d149fc58591f0b29b",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/cuda_exp_diagnostic.txt",
+      "destination": "results/inference/evidence/cuda_exp_diagnostic.txt",
+      "size_bytes": 113,
+      "sha256": "fa93434042fb2cb0b5e164e180e3f8fe340d1a4badef340851fb9e28697a81c0",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/day3_check.json",
+      "destination": "results/inference/evidence/day3_check.json",
+      "size_bytes": 1614,
+      "sha256": "fc35d85741361e97e581cdbfd87bc8e0761a3a083608deed2934d20e021a5c91",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/day3_check_recheck_20261012.json",
+      "destination": "results/inference/evidence/day3_check_recheck_20261012.json",
+      "size_bytes": 1614,
+      "sha256": "555d5e62f25e327ee2a5ac9f3b423d99c0d38432169a692f12282be23a1158a2",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/pair_camera_depth_console.txt",
+      "destination": "results/inference/evidence/pair_camera_depth_console.txt",
+      "size_bytes": 907,
+      "sha256": "42a0d27e4f7b2a27172634b8d52dba2a9b9dd35228ff7e060f1f9b62bfb7aa7f",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/pair_camera_depth_inspection_console.txt",
+      "destination": "results/inference/evidence/pair_camera_depth_inspection_console.txt",
+      "size_bytes": 369,
+      "sha256": "20354de49a8e2a2c04891bf4b8a9b7cf253123786e968e9e0c5f9b1b3fec95e0",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/pair_full_gpu_memory.jsonl",
+      "destination": "results/inference/evidence/pair_full_gpu_memory.jsonl",
+      "size_bytes": 27274,
+      "sha256": "5721654dc4db214473b9a52f5401d8d1befbbdd7f137d0ae4d73a5258532d923",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/pair_full_gpu_memory_summary.json",
+      "destination": "results/inference/evidence/pair_full_gpu_memory_summary.json",
+      "size_bytes": 10579,
+      "sha256": "0b2612332c902139e0f8607c467d7d6b2fabab7e568ec4c0db5e35080b8167b0",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/pair_full_stderr.txt",
+      "destination": "results/inference/evidence/pair_full_stderr.txt",
+      "size_bytes": 300,
+      "sha256": "708ca3233f8f88a6769dcdcb8ba72faf4ef7cf9842fb141186ab3a02af3ee3d8",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/pair_full_stdout.txt",
+      "destination": "results/inference/evidence/pair_full_stdout.txt",
+      "size_bytes": 598,
+      "sha256": "f2986be14f76ed336909b18465853e71b4652527879767b741893a45f93a6e57",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/path_audit.json",
+      "destination": "results/inference/evidence/path_audit.json",
+      "size_bytes": 4300,
+      "sha256": "6668bf7abc7109c4d503d048b5751fe5897e41d6b86c5cd51b464f0f2b0e64e7",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/preflight.json",
+      "destination": "results/inference/evidence/preflight.json",
+      "size_bytes": 14332,
+      "sha256": "389dca7917530db4a747ccba412322874de2e88fae4ab3837c7b43ca1d1f33f8",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/recovery_report.json",
+      "destination": "results/inference/evidence/recovery_report.json",
+      "size_bytes": 1776,
+      "sha256": "c46747db99b4de46d3fd844d00e892369d3ed0813e09adb26ea3aa09103b94d2",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/single_full_console.txt",
+      "destination": "results/inference/evidence/single_full_console.txt",
+      "size_bytes": 898,
+      "sha256": "29924c6accde046bb550cf13a91885d78bbbc1b83cc46602fc7c0938dfbdac7e",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/single_full_inspection_console.txt",
+      "destination": "results/inference/evidence/single_full_inspection_console.txt",
+      "size_bytes": 477,
+      "sha256": "34fd2a06bdd3b0d7cb8a624d5ad32f85e108c8d0978cf243e5964e697a062dee",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/source_check.json",
+      "destination": "results/inference/evidence/source_check.json",
+      "size_bytes": 12885,
+      "sha256": "5a4fd0ef606935571451f13c797a029a6dc4d7fad64dd153424b7400cd63c00f",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/storage_backend_diagnostic.txt",
+      "destination": "results/inference/evidence/storage_backend_diagnostic.txt",
+      "size_bytes": 322,
+      "sha256": "a960e9cd35678326f866fdbff9b1ef47a18ef0e4037093e4064ddf6caccf9ed2",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/weights_lock.json",
+      "destination": "results/inference/evidence/weights_lock.json",
+      "size_bytes": 639,
+      "sha256": "06507c54b47a9dea1645bcc0f9f2e011820ca738367fcf503fab5132ab11fe73",
+      "purpose": "Historical runtime diagnostics and checks"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/analysis.json",
+      "destination": "results/geometry/analysis.json",
+      "size_bytes": 24131,
+      "sha256": "a874d5bd8b5650fbff7a86c6c8eb464acb8c68c0be926c7f87b91ac9e77bf7d5",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/cameras.csv",
+      "destination": "results/geometry/cameras.csv",
+      "size_bytes": 711,
+      "sha256": "41d6b6b0ee453b77b703b550a10dea23937b8be878947c590d83bf46729332f6",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/day4_geometry.npz",
+      "destination": "results/geometry/day4_geometry.npz",
+      "size_bytes": 14909177,
+      "sha256": "a2a7005cbfeb32f35876d241737619903d74eba9d161564fda46df66e2cb85f4",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/official_comparison.json",
+      "destination": "results/geometry/official_comparison.json",
+      "size_bytes": 1537,
+      "sha256": "b81d3aebba6895d640d265ecf490a94cfad68a502f1d21fce34d919a87063b90",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/preview/depth_00.png",
+      "destination": "results/geometry/preview/depth_00.png",
+      "size_bytes": 34037,
+      "sha256": "80b575e08cb8454cd9eeca73b946b214fe050dbdf5051ac0186accc091f83324",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/preview/depth_01.png",
+      "destination": "results/geometry/preview/depth_01.png",
+      "size_bytes": 29513,
+      "sha256": "9f78593c50e3e8081a2fad4e1cad1634d589afa7d4ff77fa85aff1ac9319db54",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/preview/preview.json",
+      "destination": "results/geometry/preview/preview.json",
+      "size_bytes": 1480,
+      "sha256": "5e04d5e21a6598fafd73e6ff2f498feef27232040814d02e86101a245d4f8692",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/preview/scene.png",
+      "destination": "results/geometry/preview/scene.png",
+      "size_bytes": 272878,
+      "sha256": "3e924c6fc00c06aa6dd5adf106aa706734493671ea44d82fde51eff92bbea528",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/preview/scene_samples.ply",
+      "destination": "results/geometry/preview/scene_samples.ply",
+      "size_bytes": 335624,
+      "sha256": "471cda002443f2e0faacfa925d3b23e64c2759904ac876320d6e181af907ad1b",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day4/evidence/completion.json",
+      "destination": "results/geometry/evidence/completion.json",
+      "size_bytes": 2301,
+      "sha256": "19a1f959df730c3c4be5c12ceb839d53956c547955d98b7d0c793ee3b2af3ecc",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day4/evidence/counterexamples.json",
+      "destination": "results/geometry/evidence/counterexamples.json",
+      "size_bytes": 3523,
+      "sha256": "e007fd9401d47e6376c26aa31b97c369c83a679d716457b5237af570e238d7a2",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day4/evidence/day4_check.json",
+      "destination": "results/geometry/evidence/day4_check.json",
+      "size_bytes": 2595,
+      "sha256": "8c322eed82b567b8215fcc621d64d2bc7384fcbaa71547697369182b8dff2fd2",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day4/evidence/path_audit.json",
+      "destination": "results/geometry/evidence/path_audit.json",
+      "size_bytes": 6388,
+      "sha256": "7387ac9e570f471cd6a4d4ae8f970669c4e3360400bedfc2dd112c10678498f1",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day4/evidence/path_audit_before.json",
+      "destination": "results/geometry/evidence/path_audit_before.json",
+      "size_bytes": 17806,
+      "sha256": "4162fe2d5a488b415e043e5bcfe1a404d60f89c9e45c0ce7c11c0aace53b7658",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day4/evidence/source_check.json",
+      "destination": "results/geometry/evidence/source_check.json",
+      "size_bytes": 12885,
+      "sha256": "004cc6dec768baa94f4cf9056a117a57f53fa0259946b9d0ab5a96d9110ca376",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/comparison.json",
+      "destination": "results/confidence/comparison.json",
+      "size_bytes": 36912,
+      "sha256": "0d42fc1d16237eee42bff644782721af0aa7ea43e9c97ce88bf54bcc80739178",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/day5_selection.npz",
+      "destination": "results/confidence/day5_selection.npz",
+      "size_bytes": 18045478,
+      "sha256": "5544849d9a4ceab6d3c76850c95c19b4aeb1a93564e23df4bad02f4d2205dfff",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/confidence_depth_view00.png",
+      "destination": "results/confidence/preview/confidence_depth_view00.png",
+      "size_bytes": 49271,
+      "sha256": "7e04daeaa4b34dee52befd8188549e2650914b66a6334ae186a1da6e785bdcc4",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/confidence_depth_view01.png",
+      "destination": "results/confidence/preview/confidence_depth_view01.png",
+      "size_bytes": 50883,
+      "sha256": "b6b0546bddeee442d021f04c0f62c117ab84ac3b391566e5a4ae8243308044ef",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/confidence_direct_view00.png",
+      "destination": "results/confidence/preview/confidence_direct_view00.png",
+      "size_bytes": 48557,
+      "sha256": "50644f4c86bc667e316d0597b4ff10eaeb180847a2ed751c358394a3f62747fd",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/confidence_direct_view01.png",
+      "destination": "results/confidence/preview/confidence_direct_view01.png",
+      "size_bytes": 53125,
+      "sha256": "12f5480e7979b24a58f434acf285b83b8fe507a2e1703f5457bd4cd966c5bd0b",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/depth_all_samples.ply",
+      "destination": "results/confidence/preview/depth_all_samples.ply",
+      "size_bytes": 289892,
+      "sha256": "05d5219d369687d570c67e4c9e57c665b0b60ee2088e5baa7d82753da8b693e4",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/depth_high50_samples.ply",
+      "destination": "results/confidence/preview/depth_high50_samples.ply",
+      "size_bytes": 103186,
+      "sha256": "745c3475a1a47249c64512d4df31ffdf089157026cebd01f97f9d398472845db",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/depth_high75_samples.ply",
+      "destination": "results/confidence/preview/depth_high75_samples.ply",
+      "size_bytes": 248887,
+      "sha256": "b29793cb876c897f169e9f387d7e2f047d416ef627c65ab06223d1a030b4ef57",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/direct_all_samples.ply",
+      "destination": "results/confidence/preview/direct_all_samples.ply",
+      "size_bytes": 289977,
+      "sha256": "57538ab582e76f3892bd492f853faf53fe331a81565fdee6025794802cbb3554",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/direct_high50_samples.ply",
+      "destination": "results/confidence/preview/direct_high50_samples.ply",
+      "size_bytes": 103181,
+      "sha256": "07472f3816fbf38248a745a92f75d4a71f83fe145a21cf98000680c234829b8e",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/direct_high75_samples.ply",
+      "destination": "results/confidence/preview/direct_high75_samples.ply",
+      "size_bytes": 249037,
+      "sha256": "5c05f492c21e74a6173f989f3d0b846cc3f2591e0b43673769b91c1c08de85d1",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_depth_all_view00.png",
+      "destination": "results/confidence/preview/mask_depth_all_view00.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_depth_all_view01.png",
+      "destination": "results/confidence/preview/mask_depth_all_view01.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_depth_high50_view00.png",
+      "destination": "results/confidence/preview/mask_depth_high50_view00.png",
+      "size_bytes": 3545,
+      "sha256": "e4a354e30548235b39b880ed7cecf2ebaed5bfa52c8e80391afe43debfcaa5ab",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_depth_high50_view01.png",
+      "destination": "results/confidence/preview/mask_depth_high50_view01.png",
+      "size_bytes": 3648,
+      "sha256": "4edaaf402296044eb39d95b5e43b512424c269dedab157270f57842b67af613c",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_depth_high75_view00.png",
+      "destination": "results/confidence/preview/mask_depth_high75_view00.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_depth_high75_view01.png",
+      "destination": "results/confidence/preview/mask_depth_high75_view01.png",
+      "size_bytes": 1850,
+      "sha256": "a85a0980e756526d2703e27f3853d11451efc60d2fdb69785d2c10f2bc06de5f",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_direct_all_view00.png",
+      "destination": "results/confidence/preview/mask_direct_all_view00.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_direct_all_view01.png",
+      "destination": "results/confidence/preview/mask_direct_all_view01.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_direct_high50_view00.png",
+      "destination": "results/confidence/preview/mask_direct_high50_view00.png",
+      "size_bytes": 2523,
+      "sha256": "987568a91a78cc9c603c01304e57e0e795ce8f56d4223a0592cbff85536aae9d",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_direct_high50_view01.png",
+      "destination": "results/confidence/preview/mask_direct_high50_view01.png",
+      "size_bytes": 2621,
+      "sha256": "cd74bbbfd3c96c420459887b7c91c26374a39fbc86a36747dfb837620694fbf2",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_direct_high75_view00.png",
+      "destination": "results/confidence/preview/mask_direct_high75_view00.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_direct_high75_view01.png",
+      "destination": "results/confidence/preview/mask_direct_high75_view01.png",
+      "size_bytes": 2929,
+      "sha256": "69c5a6933579ac1375fa1fd22db219cbc15ce4a7aa722f5029b1529d874e1261",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_pair_all_view00.png",
+      "destination": "results/confidence/preview/mask_pair_all_view00.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_pair_all_view01.png",
+      "destination": "results/confidence/preview/mask_pair_all_view01.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_pair_high50_view00.png",
+      "destination": "results/confidence/preview/mask_pair_high50_view00.png",
+      "size_bytes": 2881,
+      "sha256": "c68442ce0c7faf57346a544d937907a5191e16f07cdaa1cbea5a5142f94e25d6",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_pair_high50_view01.png",
+      "destination": "results/confidence/preview/mask_pair_high50_view01.png",
+      "size_bytes": 2617,
+      "sha256": "c836503b4a41751660f7a4b11b43e0e40a78f11493bd8eef87c6d7f41c31c900",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_pair_high75_view00.png",
+      "destination": "results/confidence/preview/mask_pair_high75_view00.png",
+      "size_bytes": 764,
+      "sha256": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_pair_high75_view01.png",
+      "destination": "results/confidence/preview/mask_pair_high75_view01.png",
+      "size_bytes": 3134,
+      "sha256": "d35766c0dff6dad0aa52b4ca4ae38b4d21037bddeadb90b5e33caab6cdc3f363",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/preview.json",
+      "destination": "results/confidence/preview/preview.json",
+      "size_bytes": 7289,
+      "sha256": "d529f713bbcf318ecce25f7ea334089a5ae17bf5d7de5d466a2408044024125a",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/residual_all_view00.png",
+      "destination": "results/confidence/preview/residual_all_view00.png",
+      "size_bytes": 46733,
+      "sha256": "83d755e1b41b27cca02e89fb8f437e955c080f74b2ad55d7a954d3845d541425",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/residual_all_view01.png",
+      "destination": "results/confidence/preview/residual_all_view01.png",
+      "size_bytes": 41897,
+      "sha256": "9a20d9651745d18aec1f95b1768ddf7fbfbc6ad47ebf56f3a814678eaec66ac0",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/residual_high50_view00.png",
+      "destination": "results/confidence/preview/residual_high50_view00.png",
+      "size_bytes": 5965,
+      "sha256": "19944d1d685db099e1090e1b62335552d96b064d34cd486fa6bfb7dd6e3da446",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/residual_high50_view01.png",
+      "destination": "results/confidence/preview/residual_high50_view01.png",
+      "size_bytes": 5854,
+      "sha256": "40aec231dd3a49c80eb10d7ec1172666e642a3aa7eb184120284566203ec7762",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/residual_high75_view00.png",
+      "destination": "results/confidence/preview/residual_high75_view00.png",
+      "size_bytes": 46733,
+      "sha256": "83d755e1b41b27cca02e89fb8f437e955c080f74b2ad55d7a954d3845d541425",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/residual_high75_view01.png",
+      "destination": "results/confidence/preview/residual_high75_view01.png",
+      "size_bytes": 18483,
+      "sha256": "5f395ebb70aee92017d322bd6229875ab599aab0353f569143854aa06725efd2",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_depth_all_view00.png",
+      "destination": "results/confidence/preview/rgb_depth_all_view00.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_depth_all_view01.png",
+      "destination": "results/confidence/preview/rgb_depth_all_view01.png",
+      "size_bytes": 342161,
+      "sha256": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_depth_high50_view00.png",
+      "destination": "results/confidence/preview/rgb_depth_high50_view00.png",
+      "size_bytes": 188572,
+      "sha256": "8a3a4ee2c6dc03c51ba51559a43e453e28041c3f9c61a54bca13c26b4e41f438",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_depth_high50_view01.png",
+      "destination": "results/confidence/preview/rgb_depth_high50_view01.png",
+      "size_bytes": 193954,
+      "sha256": "8d1adfc0c6d488df4b201ae2fae7b5c0ce52113b82d6eef8c27695eb3293c0d2",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_depth_high75_view00.png",
+      "destination": "results/confidence/preview/rgb_depth_high75_view00.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_depth_high75_view01.png",
+      "destination": "results/confidence/preview/rgb_depth_high75_view01.png",
+      "size_bytes": 272361,
+      "sha256": "f8a0172fc26ddfe15bb76594e6f246db30a1b486a8642677b4484563e60fa0e4",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_direct_all_view00.png",
+      "destination": "results/confidence/preview/rgb_direct_all_view00.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_direct_all_view01.png",
+      "destination": "results/confidence/preview/rgb_direct_all_view01.png",
+      "size_bytes": 342161,
+      "sha256": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_direct_high50_view00.png",
+      "destination": "results/confidence/preview/rgb_direct_high50_view00.png",
+      "size_bytes": 173964,
+      "sha256": "8ae92e57b8aca98a8812440538d257d14de1de93852113275f321ce347c1b88c",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_direct_high50_view01.png",
+      "destination": "results/confidence/preview/rgb_direct_high50_view01.png",
+      "size_bytes": 183061,
+      "sha256": "78ac40dd26913e7a381913f3b7ad6e1ed7a54cb52e2bc2727047c986332e27ec",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_direct_high75_view00.png",
+      "destination": "results/confidence/preview/rgb_direct_high75_view00.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/rgb_direct_high75_view01.png",
+      "destination": "results/confidence/preview/rgb_direct_high75_view01.png",
+      "size_bytes": 274486,
+      "sha256": "1c4824723f2608d7da0af0b7b13b3e69822c1bdc9207b6a22a0f6f950bf3d4f3",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/scene_all.png",
+      "destination": "results/confidence/preview/scene_all.png",
+      "size_bytes": 277701,
+      "sha256": "8f5730efd7cd7343436a6788f4f37982c93e5f05356c68dd9bcf3f29929d4cfb",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/scene_high50.png",
+      "destination": "results/confidence/preview/scene_high50.png",
+      "size_bytes": 176323,
+      "sha256": "36d9e97ac5508159c7b9e9f2f44912255948c7043d49d48d6e89dfc41cd84b46",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/scene_high75.png",
+      "destination": "results/confidence/preview/scene_high75.png",
+      "size_bytes": 242031,
+      "sha256": "4077ea1a08d0b0b7be13ee5e39f498b0913acd57f2f2806909a184239437d2ec",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/selection_summary.csv",
+      "destination": "results/confidence/selection_summary.csv",
+      "size_bytes": 2957,
+      "sha256": "8f7efba4fad5ae46078655790994f5b459ad04aacdb43256b18b87e4e83c54f3",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day5/evidence/day5_check.json",
+      "destination": "results/confidence/evidence/day5_check.json",
+      "size_bytes": 2722,
+      "sha256": "f0a2cfdfa57df64dedced6187765a46b257caad0f3835d5142e54e2410d37b67",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day5/evidence/mask_experiments.json",
+      "destination": "results/confidence/evidence/mask_experiments.json",
+      "size_bytes": 2195,
+      "sha256": "42bb7400898cfbc6ff141cc6e474162f25095460c930d65936a03b9a98e1a847",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day5/evidence/source_check.json",
+      "destination": "results/confidence/evidence/source_check.json",
+      "size_bytes": 13015,
+      "sha256": "0a9e905dbd5c493c5197a1b90e50cdc7510bf7e6434a76ecbc64f0bf46e8385f",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/consistency.json",
+      "destination": "results/cross_view/consistency.json",
+      "size_bytes": 40729,
+      "sha256": "26b6a2db6be39f86a6c11f0cdca753388759300a233ede70761e0d713bc9cc95",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/day6_cross_view.npz",
+      "destination": "results/cross_view/day6_cross_view.npz",
+      "size_bytes": 23547812,
+      "sha256": "3eddd1ee637c79355ab871fe3feb48c7ff68c666662f0784fc82a18bfb3ce47d",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/direction_summary.csv",
+      "destination": "results/cross_view/direction_summary.csv",
+      "size_bytes": 4633,
+      "sha256": "65f539a0ebdcd74a5fce5b01410ae38f55d48e5846dd60962d1ae14453e76d68",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_comparable_rgb.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_comparable_rgb.png",
+      "size_bytes": 239361,
+      "sha256": "a7672e5797f9bd689f22a81d00cb5ec8cc555b22fd077bd075dbe79bd208c295",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_depth_agree.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_depth_agree.png",
+      "size_bytes": 3612,
+      "sha256": "691f44a19464bdf86706742bbc56b02d6457bcc11209fccbe83cf6c4602949f1",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_front_conflict.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_front_conflict.png",
+      "size_bytes": 1360,
+      "sha256": "9ab5ccb9250e79c4eabec0ecab225782834ab875827f894bb0bd2f45448653f5",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_label_codes.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_label_codes.png",
+      "size_bytes": 5144,
+      "sha256": "cc446738916c389e717d244399ce766cb9e8fdcfee46616262dc4a23de02ea9f",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_nonprojectable.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_nonprojectable.png",
+      "size_bytes": 256,
+      "sha256": "3f421f2f1a58530ce7b41feba349d8e1d8e72927b55d9aa0749228ab42cae9a2",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_outside_target.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_outside_target.png",
+      "size_bytes": 1935,
+      "sha256": "0cc150bb4cb722b0afd54d4e21312bd954056a98e13d124e4ea0f2514a287bae",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_possible_occlusion.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_possible_occlusion.png",
+      "size_bytes": 2615,
+      "sha256": "9bd00988d06601cfbade185608421a0513eca728a0e2026fab5563add95a76b5",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_signed_relative_display.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_signed_relative_display.png",
+      "size_bytes": 22115,
+      "sha256": "62fed8fb8779099854cef7cb8f1dfd4af27df4aea7eea33cd827810a11410191",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_source_rejected.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_source_rejected.png",
+      "size_bytes": 256,
+      "sha256": "3f421f2f1a58530ce7b41feba349d8e1d8e72927b55d9aa0749228ab42cae9a2",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_source_rgb.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_source_rgb.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_target_projection.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_target_projection.png",
+      "size_bytes": 1546822,
+      "sha256": "9d72241661ea8daae88c65f66fe6ceb73bc00e56d7048e6f836a55b98ca38609",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_target_rgb.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_target_rgb.png",
+      "size_bytes": 342161,
+      "sha256": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_target_unsupported.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s00_to_s01_target_unsupported.png",
+      "size_bytes": 2278,
+      "sha256": "9fbc6d90eb219def4539cdcd9e15c22c66f03761caef1cb3eeb5076b37c3095e",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_comparable_rgb.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_comparable_rgb.png",
+      "size_bytes": 244593,
+      "sha256": "1944bf634d7917ae87ed9205ef3889bd870a462370f03673e59fc55e117812bb",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_depth_agree.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_depth_agree.png",
+      "size_bytes": 3702,
+      "sha256": "809d1317edd12b904ff630cbf7416a5493f679e10060d1d01e719f6bfb7b26a1",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_front_conflict.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_front_conflict.png",
+      "size_bytes": 1409,
+      "sha256": "ffb9cac224535388b3bcc2974fe42d083f4e3ed7a749102e21edd080bcb0cacc",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_label_codes.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_label_codes.png",
+      "size_bytes": 4284,
+      "sha256": "8389b4947f783305b0a4779c97bdf3107eb36bc4c7cfdd2f273bd144a8daadca",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_nonprojectable.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_nonprojectable.png",
+      "size_bytes": 256,
+      "sha256": "3f421f2f1a58530ce7b41feba349d8e1d8e72927b55d9aa0749228ab42cae9a2",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_outside_target.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_outside_target.png",
+      "size_bytes": 1569,
+      "sha256": "1435032927cf552e15bc71464efc7351c271b9e0881cfecb7a316622fc2a2461",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_possible_occlusion.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_possible_occlusion.png",
+      "size_bytes": 1994,
+      "sha256": "56ee8c0cc08b974848fcad7ff3f5d588f1c07d79239149a9e79c4114f1cefee4",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_signed_relative_display.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_signed_relative_display.png",
+      "size_bytes": 24618,
+      "sha256": "c6c0571f97b82dd012dd8c2349a82706b024221d4525386098b37b0761a06840",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_source_rejected.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_source_rejected.png",
+      "size_bytes": 1620,
+      "sha256": "81d28594f3c48064b3b8fa0325f06afa1fb9c6ed4dcd27160e40d9d1fd7a906b",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_source_rgb.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_source_rgb.png",
+      "size_bytes": 342161,
+      "sha256": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_target_projection.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_target_projection.png",
+      "size_bytes": 1529111,
+      "sha256": "49f7b346ffe818964362634e18fdb5f8ea31b76d3ceacb89922006237a576faf",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_target_rgb.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_target_rgb.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_target_unsupported.png",
+      "destination": "results/cross_view/preview/high75_r05/b00_s01_to_s00_target_unsupported.png",
+      "size_bytes": 256,
+      "sha256": "3f421f2f1a58530ce7b41feba349d8e1d8e72927b55d9aa0749228ab42cae9a2",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/preview.json",
+      "destination": "results/cross_view/preview/high75_r05/preview.json",
+      "size_bytes": 3630,
+      "sha256": "6d4e6c74b15fc9685dd4f033d8e1cc87beffc03111e858354c170da6deed1f76",
+      "purpose": "Geometry analysis and saved floating-point evidence"
+    },
+    {
+      "source": "Daily/Week5_Day6/evidence/day6_check.json",
+      "destination": "results/cross_view/evidence/day6_check.json",
+      "size_bytes": 2693,
+      "sha256": "16025e33d7778a55e2d83c4208907246cea76119de10d4d17547b89ef6e020ac",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day6/evidence/source_check.json",
+      "destination": "results/cross_view/evidence/source_check.json",
+      "size_bytes": 13025,
+      "sha256": "7666c1d9ffcad8a932d00b4e959a4fe859812d0a1233fccc973f5bc2f3697b9c",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day6/evidence/visibility_cases.json",
+      "destination": "results/cross_view/evidence/visibility_cases.json",
+      "size_bytes": 6954,
+      "sha256": "6d0bcd2a26ab9b2931aa791d5b6adc0fa9d27b1002f271742473685959511381",
+      "purpose": "Historical analytic checks and counterexamples"
+    },
+    {
+      "source": "Daily/Week5_Day7/artifacts/geometry_packet/cross_view_summary.json",
+      "destination": "results/geometry_packet/cross_view_summary.json",
+      "size_bytes": 23722,
+      "sha256": "2a4c2d5630d7b90120662938e0aafe834c311a97216f9f382fc925b64b0c72fd",
+      "purpose": "Unified geometry packet and provenance"
+    },
+    {
+      "source": "Daily/Week5_Day7/artifacts/geometry_packet/geometry_packet.npz",
+      "destination": "results/geometry_packet/geometry_packet.npz",
+      "size_bytes": 15282069,
+      "sha256": "de4acdea6ba2cf510e321e8ae575807fd429da6ce66829ad5525b75cfd03342e",
+      "purpose": "Unified geometry packet and provenance"
+    },
+    {
+      "source": "Daily/Week5_Day7/artifacts/geometry_packet/geometry_packet_manifest.json",
+      "destination": "results/geometry_packet/geometry_packet_manifest.json",
+      "size_bytes": 9040,
+      "sha256": "1faa82e22ea6fbd91bd005ee097c27973f798d7545411c86ab18128613513f87",
+      "purpose": "Unified geometry packet and provenance"
+    },
+    {
+      "source": "Daily/Week5_Day7/evidence/completion.json",
+      "destination": "results/validation/completion.json",
+      "size_bytes": 1446,
+      "sha256": "db519682351348e86e9a27d63808ec62113067dcb6328181998e06a32cd0f222",
+      "purpose": "Historical independent interface acceptance"
+    },
+    {
+      "source": "Daily/Week5_Day7/evidence/day7_check.json",
+      "destination": "results/validation/day7_check.json",
+      "size_bytes": 2208,
+      "sha256": "0625749d556aa224b77ff87ace9f04844bc982562d441ed42089ee6990dd975d",
+      "purpose": "Historical independent interface acceptance"
+    },
+    {
+      "source": "Daily/Week5_Day7/evidence/packet_check.json",
+      "destination": "results/validation/packet_check.json",
+      "size_bytes": 1690,
+      "sha256": "83e5815acd8439d74a2dfa169a5fd8258f276d013d2225c1f7b5dcea55582e04",
+      "purpose": "Historical independent interface acceptance"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/processed_rgb/00.png",
+      "destination": "figures/input_view_00.png",
+      "size_bytes": 338170,
+      "sha256": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/processed_rgb/01.png",
+      "destination": "figures/input_view_01.png",
+      "size_bytes": 342161,
+      "sha256": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/inspection/depth_00.png",
+      "destination": "figures/depth_view_00.png",
+      "size_bytes": 34037,
+      "sha256": "80b575e08cb8454cd9eeca73b946b214fe050dbdf5051ac0186accc091f83324",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day3/artifacts/pair_full/inspection/depth_01.png",
+      "destination": "figures/depth_view_01.png",
+      "size_bytes": 29513,
+      "sha256": "9f78593c50e3e8081a2fad4e1cad1634d589afa7d4ff77fa85aff1ac9319db54",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day4/artifacts/pair_geometry/preview/scene.png",
+      "destination": "figures/geometry_scene.png",
+      "size_bytes": 272878,
+      "sha256": "3e924c6fc00c06aa6dd5adf106aa706734493671ea44d82fde51eff92bbea528",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/scene_all.png",
+      "destination": "figures/point_maps_all.png",
+      "size_bytes": 277701,
+      "sha256": "8f5730efd7cd7343436a6788f4f37982c93e5f05356c68dd9bcf3f29929d4cfb",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/scene_high50.png",
+      "destination": "figures/point_maps_high50.png",
+      "size_bytes": 176323,
+      "sha256": "36d9e97ac5508159c7b9e9f2f44912255948c7043d49d48d6e89dfc41cd84b46",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_pair_high50_view00.png",
+      "destination": "figures/support_high50_view_00.png",
+      "size_bytes": 2881,
+      "sha256": "c68442ce0c7faf57346a544d937907a5191e16f07cdaa1cbea5a5142f94e25d6",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day5/artifacts/pair_point_comparison/preview/mask_pair_high50_view01.png",
+      "destination": "figures/support_high50_view_01.png",
+      "size_bytes": 2617,
+      "sha256": "c836503b4a41751660f7a4b11b43e0e40a78f11493bd8eef87c6d7f41c31c900",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s00_to_s01_target_projection.png",
+      "destination": "figures/cross_view_00_to_01.png",
+      "size_bytes": 1546822,
+      "sha256": "9d72241661ea8daae88c65f66fe6ceb73bc00e56d7048e6f836a55b98ca38609",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day6/artifacts/pair_cross_view/preview/high75_r05/b00_s01_to_s00_target_projection.png",
+      "destination": "figures/cross_view_01_to_00.png",
+      "size_bytes": 1529111,
+      "sha256": "49f7b346ffe818964362634e18fdb5f8ea31b76d3ceacb89922006237a576faf",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day2/artifacts/crop/01_02_portrait_crop.png",
+      "destination": "figures/preprocess_crop.png",
+      "size_bytes": 14675,
+      "sha256": "199fadf1ee616c62080bdaccc295557f73f1747ab4b9950801997ec479e9b56a",
+      "purpose": "Featured figure, unchanged bytes"
+    },
+    {
+      "source": "Daily/Week5_Day2/artifacts/pad/01_02_portrait_pad.png",
+      "destination": "figures/preprocess_pad.png",
+      "size_bytes": 19923,
+      "sha256": "01c925fd8a55375f9890fa6cb1fc05e91f1af234bcaf0f873442413bc1fb374f",
+      "purpose": "Featured figure, unchanged bytes"
+    }
+  ],
+  "documentation_inputs_not_distributed": [
+    {
+      "source": "Daily/Week5_Day1/check_day1.py",
+      "size_bytes": 9165,
+      "sha256": "5747dd22f861442024cb4f79492633f028a5015ee0b35b7686d3412ac214d472"
+    },
+    {
+      "source": "Daily/Week5_Day1/CODE_WALKTHROUGH.md",
+      "size_bytes": 2347,
+      "sha256": "0e8340923cd309868675e0bfc0b97397bf3c862cb7240e4b1790c92452b53872"
+    },
+    {
+      "source": "Daily/Week5_Day1/contract_exercise.py",
+      "size_bytes": 3840,
+      "sha256": "0cd5c56222262c278ed939691e0be1d46d4490f999afad1e30238714ff6ce949"
+    },
+    {
+      "source": "Daily/Week5_Day1/DAY1_GUIDE.md",
+      "size_bytes": 5713,
+      "sha256": "12fefc2934c82f44c5a703779e4a8a4f4e28f3d21fae3464123f757771b88598"
+    },
+    {
+      "source": "Daily/Week5_Day1/env_probe.py",
+      "size_bytes": 4665,
+      "sha256": "cdc27aae54b75bc06a846a06b4cefee170d946cfe8fb97c09dbc9dcd602f9cf6"
+    },
+    {
+      "source": "Daily/Week5_Day1/ENVIRONMENT_WINDOWS.md",
+      "size_bytes": 5265,
+      "sha256": "b81f3cde8e2defc481199dce763fc18c1f2d2d0dfbb884f8b834a619ad32d7b1"
+    },
+    {
+      "source": "Daily/Week5_Day1/INTERFACE_SPEC.md",
+      "size_bytes": 5052,
+      "sha256": "5f498695c66c1a8d08629cb82be460f87993654cbf680fc55298482d520a9888"
+    },
+    {
+      "source": "Daily/Week5_Day1/notes/input_output_contract.md",
+      "size_bytes": 10977,
+      "sha256": "ffed7f0bc766094e96fedd18b9125bded09e8128253c00a1889d51ae223089c1"
+    },
+    {
+      "source": "Daily/Week5_Day1/notes/overview.md",
+      "size_bytes": 6592,
+      "sha256": "3f641e3ca973a0ce8c3257e587119d27dcc0ba386e3e7335936123013a1b8684"
+    },
+    {
+      "source": "Daily/Week5_Day1/notes/self_check.md",
+      "size_bytes": 4498,
+      "sha256": "903c6c33f5eda6393e82006d17dc6681cb3501116d097e95c7af1f9c5cf29efc"
+    },
+    {
+      "source": "Daily/Week5_Day1/PACKAGE_NOTES.md",
+      "size_bytes": 1324,
+      "sha256": "e33842af72d33c8df972913526eee2d5f11d4bdf8b114d9b3bdbbbe840a23d57"
+    },
+    {
+      "source": "Daily/Week5_Day1/READING_MAP.md",
+      "size_bytes": 2608,
+      "sha256": "4fa9db75a2310ccad4ce7fda8f10895d25d57e81c07ffbc18e1ab890d309d254"
+    },
+    {
+      "source": "Daily/Week5_Day1/README.md",
+      "size_bytes": 1306,
+      "sha256": "c5def9a15c39d17d03784ee82452bc59cfacda4d4edd89e730bfae24cdf280d7"
+    },
+    {
+      "source": "Daily/Week5_Day1/record_repo.py",
+      "size_bytes": 8345,
+      "sha256": "179a4c6d997ef9038bc220d0ebbb55b1a41e7355b2ea75060ade804aa5141504"
+    },
+    {
+      "source": "Daily/Week5_Day1/SOURCES.md",
+      "size_bytes": 3433,
+      "sha256": "5b8e975b0aee50bb59f2f04233ddf6a356408fac1cc384ff28797074cc6c0fc7"
+    },
+    {
+      "source": "Daily/Week5_Day1/templates/environment_and_repo.md",
+      "size_bytes": 732,
+      "sha256": "521bf66455b00ee3041c6657b1a3c68ed012ea0f6c53c732dc72e7d0722b48d2"
+    },
+    {
+      "source": "Daily/Week5_Day1/templates/input_output_contract.md",
+      "size_bytes": 1185,
+      "sha256": "53ea7364a4d9073d96a082a4b1e5d9268940918bb9e1707f16fe01ca21f9cae2"
+    },
+    {
+      "source": "Daily/Week5_Day1/templates/overview.md",
+      "size_bytes": 631,
+      "sha256": "7a06eff97950c8829fa6ad0c2813a72583a979fd3c0b3b133c2a82f61612328c"
+    },
+    {
+      "source": "Daily/Week5_Day1/templates/self_check.md",
+      "size_bytes": 921,
+      "sha256": "1d04ca944b4952bc836af73be51a6dc843a330f31c3594a87275bdb7fbfd1a6b"
+    },
+    {
+      "source": "Daily/Week5_Day1/templates/week4_bridge_status.md",
+      "size_bytes": 649,
+      "sha256": "efc94156d97c8bf0b73103696d92a7b1d461724e1ad8fd3af8cf3c5954eff120"
+    },
+    {
+      "source": "Daily/Week5_Day1/TODO_CONTRACT.md",
+      "size_bytes": 2889,
+      "sha256": "b28bf4c407ed8c8d74854ee1c39a801a9391bf2be9113ed37d5c20402162f2c8"
+    },
+    {
+      "source": "Daily/Week5_Day2/check_day2.py",
+      "size_bytes": 10214,
+      "sha256": "a20b8e843c2a6d21184e5e0b4c52614154a851dea08c6b9c1b9e8aceaf573089"
+    },
+    {
+      "source": "Daily/Week5_Day2/CODE_WALKTHROUGH.md",
+      "size_bytes": 2810,
+      "sha256": "8d41032c6af684095c712682a22462a8464991e8d20eddd36ccd6ae2ffb556f2"
+    },
+    {
+      "source": "Daily/Week5_Day2/day2_exercise.py",
+      "size_bytes": 6448,
+      "sha256": "585e91945ff890cebf5dec158f8afbb084b3ce41e78490cf8b4ac6359b3154cc"
+    },
+    {
+      "source": "Daily/Week5_Day2/DAY2_GUIDE.md",
+      "size_bytes": 5074,
+      "sha256": "a363dfe452eb8ff3a11542fb1314920d6214b940b739dcf57951828692b1df0a"
+    },
+    {
+      "source": "Daily/Week5_Day2/DAY3_BRIDGE.md",
+      "size_bytes": 1057,
+      "sha256": "0c5f30f3ccbb2648562c7eb5e611f802073de3fa3f21020e82e33e767a5b7148"
+    },
+    {
+      "source": "Daily/Week5_Day2/ENVIRONMENT_WINDOWS.md",
+      "size_bytes": 4470,
+      "sha256": "343e552b5030bb560238a9a3b4e27306262da0ac545ac16d8acd53796da1f85c"
+    },
+    {
+      "source": "Daily/Week5_Day2/make_inputs.py",
+      "size_bytes": 2772,
+      "sha256": "89ab63402446b91725deeebdbd7a4be7c94e869a5dde5a08684391f39c80a6dc"
+    },
+    {
+      "source": "Daily/Week5_Day2/notes/attention_flow.md",
+      "size_bytes": 7230,
+      "sha256": "9ba3da3bdffad13b03cd658aa02488f8bdc64d2276acc783c4e051eaf38bd02d"
+    },
+    {
+      "source": "Daily/Week5_Day2/notes/preprocessing.md",
+      "size_bytes": 6776,
+      "sha256": "4bc924ff4cecd1f46e18c21560e7672294287ab057609ac14a69f3c97abc3046"
+    },
+    {
+      "source": "Daily/Week5_Day2/PACKAGE_NOTES.md",
+      "size_bytes": 1614,
+      "sha256": "f495b8db6e5e55ca4405fe8f7fc7cdf36b54cd71ee8f56c1ffd8cf652dc4ab2a"
+    },
+    {
+      "source": "Daily/Week5_Day2/PIXEL_COORDINATES.md",
+      "size_bytes": 2832,
+      "sha256": "aa10b9d7e534c48f251e52e3013854df6056b84f64af79f15e6ec937b81dfd37"
+    },
+    {
+      "source": "Daily/Week5_Day2/READING_MAP.md",
+      "size_bytes": 2022,
+      "sha256": "cb82ad382ae052391d01e2d61d7772bde0c6f86973c23358e7346f2bdde95def"
+    },
+    {
+      "source": "Daily/Week5_Day2/README.md",
+      "size_bytes": 994,
+      "sha256": "2d07abe73019917266190f135915156cb25537e7f476aeb2bc07fc9779ca0d10"
+    },
+    {
+      "source": "Daily/Week5_Day2/repo_tools.py",
+      "size_bytes": 8345,
+      "sha256": "179a4c6d997ef9038bc220d0ebbb55b1a41e7355b2ea75060ade804aa5141504"
+    },
+    {
+      "source": "Daily/Week5_Day2/run_attention_demo.py",
+      "size_bytes": 2780,
+      "sha256": "68e298fc875d97a93a9a90932645dd7a1d60b42459e90530330cce44e0b4f628"
+    },
+    {
+      "source": "Daily/Week5_Day2/run_preprocess.py",
+      "size_bytes": 7515,
+      "sha256": "40b5a5302ec9a2829944a17b90d01af769b11c13b79ba841c4a50a35115b9169"
+    },
+    {
+      "source": "Daily/Week5_Day2/SELF_CHECK.md",
+      "size_bytes": 5972,
+      "sha256": "a519a901d81287da180bed99f41df7dda12aece96d5f0e7951b6ef2f82a17e76"
+    },
+    {
+      "source": "Daily/Week5_Day2/SOURCES.md",
+      "size_bytes": 3208,
+      "sha256": "1a3aaf169c64f9ad8b798eb440869a3490042ada2b8e956382fe8b54631559f2"
+    },
+    {
+      "source": "Daily/Week5_Day2/templates/attention_flow.md",
+      "size_bytes": 808,
+      "sha256": "6e6012d72a686ab1662726240de733fa09efd75578288ecd9a0f796834919a98"
+    },
+    {
+      "source": "Daily/Week5_Day2/templates/preprocessing.md",
+      "size_bytes": 879,
+      "sha256": "25c5197ab65272369560eb0a0e762b4807c7367c1aa18d5e586eb742239bb231"
+    },
+    {
+      "source": "Daily/Week5_Day2/templates/self_check.md",
+      "size_bytes": 212,
+      "sha256": "fcc534e5cc2733eaddc8c66b5c3b6e52a99eea7b9b7a20751da4415bad539f52"
+    },
+    {
+      "source": "Daily/Week5_Day2/TODO_CONTRACT.md",
+      "size_bytes": 4270,
+      "sha256": "2bb3f578e72aa3ae2705058ebf056e9e3d71bec34a1fc187671628fe0c2b7ef0"
+    },
+    {
+      "source": "Daily/Week5_Day2/verify_source.py",
+      "size_bytes": 5147,
+      "sha256": "dd99f3af4872f065df5cc0ebb67915a04a607c54e9fbbc2d4c3e300c43f5a72b"
+    },
+    {
+      "source": "Daily/Week5_Day3/check_day3.py",
+      "size_bytes": 7461,
+      "sha256": "07fec84f7f5481250e8146f11bd9ddb3898011d171eae692c1a0d46ecf2293f9"
+    },
+    {
+      "source": "Daily/Week5_Day3/CODE_WALKTHROUGH.md",
+      "size_bytes": 2621,
+      "sha256": "b3ce3630ac2bf70692ea41b08aafb425ff9271209c26f3bb65e7bead2d7e459d"
+    },
+    {
+      "source": "Daily/Week5_Day3/common.py",
+      "size_bytes": 2823,
+      "sha256": "3745f385c526fdf53a2e900d550ca271dc8c84fecc02bb2673a280396374cb5c"
+    },
+    {
+      "source": "Daily/Week5_Day3/day3_exercise.py",
+      "size_bytes": 3748,
+      "sha256": "56b3cba8e799377b6404aeb9fc9dc8c64ea3bb341aa5bf69780b2a234e5dbf12"
+    },
+    {
+      "source": "Daily/Week5_Day3/DAY3_GUIDE.md",
+      "size_bytes": 6992,
+      "sha256": "7a6ada9e03912bab44467ede1e26b52e87aa8b5c4cb22d7df63faefc76ff4713"
+    },
+    {
+      "source": "Daily/Week5_Day3/input_raw/README.md",
+      "size_bytes": 1166,
+      "sha256": "7feb9be7a743521ed1d55db95a1c3842142448ed351ff1e8113980891a300dfe"
+    },
+    {
+      "source": "Daily/Week5_Day3/inspect_run.py",
+      "size_bytes": 3143,
+      "sha256": "2c4a7de00db3695c3faa70920f48b2abcab157aa9b4bffed949d1a6e4747ac06"
+    },
+    {
+      "source": "Daily/Week5_Day3/notes/inference_log.md",
+      "size_bytes": 9290,
+      "sha256": "a55c479f5b0b621e20922e8477e56ddfd542b5d09e79be426953537f2608909b"
+    },
+    {
+      "source": "Daily/Week5_Day3/notes/output_inventory.md",
+      "size_bytes": 8528,
+      "sha256": "d499328faecb486faef177148c47d1aedd45d35ba41b2b6e161072304395964d"
+    },
+    {
+      "source": "Daily/Week5_Day3/notes/self_check.md",
+      "size_bytes": 6759,
+      "sha256": "4ba1ca3f91fe1c3bd3e19072054753ba1ca32ffdab109bb0fc7f0c16e4d278e2"
+    },
+    {
+      "source": "Daily/Week5_Day3/OUTPUT_CONTRACT.md",
+      "size_bytes": 3597,
+      "sha256": "a36f9d0f71095c41b01487341fa8646385863cd4109572361209c7bd64a1d8dd"
+    },
+    {
+      "source": "Daily/Week5_Day3/PACKAGE_NOTES.md",
+      "size_bytes": 883,
+      "sha256": "cc57bfab6c3eefc89dde21a02fc3387c2eb42c420341ca77ffd6d92bd4fce235"
+    },
+    {
+      "source": "Daily/Week5_Day3/preflight.py",
+      "size_bytes": 2953,
+      "sha256": "a4ed6c2b5cf3ce72f0502b427ebb2db4a6759d51833797a1f553d371744733de"
+    },
+    {
+      "source": "Daily/Week5_Day3/prepare_inputs.py",
+      "size_bytes": 3089,
+      "sha256": "5a28c8ddf655d5dd4ae54c354bc65691319dc2c0719e0cc00352b4054942a6fe"
+    },
+    {
+      "source": "Daily/Week5_Day3/prepare_weights.py",
+      "size_bytes": 3581,
+      "sha256": "637c04b5aab822c816cf8c2e215dbd3121a40831379b1aa76340fad1ceb9167a"
+    },
+    {
+      "source": "Daily/Week5_Day3/READING_MAP.md",
+      "size_bytes": 1348,
+      "sha256": "728446dee8aca76ebbc75da7f283a3e3b279a524a6b0fa7a6bb863c38611a8a1"
+    },
+    {
+      "source": "Daily/Week5_Day3/README.md",
+      "size_bytes": 956,
+      "sha256": "1d8af549fecc523a1a60064770bb38cdf1db69c1f2800dd56023df1abc3e9df4"
+    },
+    {
+      "source": "Daily/Week5_Day3/repo_tools.py",
+      "size_bytes": 6722,
+      "sha256": "476640f615bace5951b75c030af0a66b74ef8ec1523e2dc79fe8082413985b65"
+    },
+    {
+      "source": "Daily/Week5_Day3/run_inference.py",
+      "size_bytes": 18790,
+      "sha256": "6347603b9b117012e551e24a90b2222f53158a459a89b8dbe6f02ac9c3a2f4df"
+    },
+    {
+      "source": "Daily/Week5_Day3/SOURCES.md",
+      "size_bytes": 3073,
+      "sha256": "e0a369160e81fe6ba0ed9ef097ad29fd85fd2472856770544e6a32693e3463d5"
+    },
+    {
+      "source": "Daily/Week5_Day3/templates/inference_log.md",
+      "size_bytes": 1150,
+      "sha256": "fd2f6d85fe5d6936906bbae8733a69471f1bffb90f5a38369d707d255f484588"
+    },
+    {
+      "source": "Daily/Week5_Day3/templates/output_inventory.md",
+      "size_bytes": 807,
+      "sha256": "51115365b6d2f8f1354d3ea30380aa0d9e65fafe10f12a63c1ae2e3a4c36833e"
+    },
+    {
+      "source": "Daily/Week5_Day3/templates/self_check.md",
+      "size_bytes": 951,
+      "sha256": "213fa143374d3f2b224b84147fa1517acb7143fb7b9fa862b7133fedb59dcd1c"
+    },
+    {
+      "source": "Daily/Week5_Day3/tests/test_checkpoint_loading.py",
+      "size_bytes": 4821,
+      "sha256": "a366368043eea7c67d0fed8510f22f2838706defe0fbe253d33532c61d0762b4"
+    },
+    {
+      "source": "Daily/Week5_Day3/TODO_CONTRACT.md",
+      "size_bytes": 3060,
+      "sha256": "de301e5391d6fd22376e49cdf974b674eeea1338047254ccfc88e33ac79e5366"
+    },
+    {
+      "source": "Daily/Week5_Day3/TROUBLESHOOTING.md",
+      "size_bytes": 4026,
+      "sha256": "df188baa49d4ff5c6c742ac79355bbdb5c43dd441d9bbe431ad70d6a2464d18c"
+    },
+    {
+      "source": "Daily/Week5_Day3/verify_source.py",
+      "size_bytes": 5572,
+      "sha256": "f3620aaec620e3dc9e6aea9b405da2b68572e26e54099573952de688b98809e1"
+    },
+    {
+      "source": "Daily/Week5_Day3/WINDOWS_RUNBOOK.md",
+      "size_bytes": 5821,
+      "sha256": "cc0adc7e562e0669dd9c76a846ea3f82aa2fb15334a78813a4d1fbf8420d762c"
+    },
+    {
+      "source": "Daily/Week5_Day4/analyze_run.py",
+      "size_bytes": 9494,
+      "sha256": "e0d490705fe23fc9793bc2bfecfa6587a19ad342461ad73bd306a669234c8e25"
+    },
+    {
+      "source": "Daily/Week5_Day4/check_day4.py",
+      "size_bytes": 7951,
+      "sha256": "deb61032388da18845984737ae95bd3c959092e843277cdd04cc28e20f32794e"
+    },
+    {
+      "source": "Daily/Week5_Day4/CODE_WALKTHROUGH.md",
+      "size_bytes": 2591,
+      "sha256": "da35ff172f8a6bc55bfecb4a8039f39d5daa181ee24536ac874b53cc5b1be154"
+    },
+    {
+      "source": "Daily/Week5_Day4/common.py",
+      "size_bytes": 5768,
+      "sha256": "0b68364f5418c2fb3a5d3bff63ce31dee03ea902cde8f3610393c29a728b9aa2"
+    },
+    {
+      "source": "Daily/Week5_Day4/compare_official.py",
+      "size_bytes": 3755,
+      "sha256": "f2ac0fb03246c544649ec76d28f9954c1347fc7013e92dbff62e92f14b3de058"
+    },
+    {
+      "source": "Daily/Week5_Day4/contracts.py",
+      "size_bytes": 1782,
+      "sha256": "00d7905da4cb364df9f8369592e62b9debeec73a5555598a35e17b8f2b14babb"
+    },
+    {
+      "source": "Daily/Week5_Day4/day4_exercise.py",
+      "size_bytes": 3585,
+      "sha256": "87e5a43e7b782c13364a93960789600c35d5a77a412bc57d78820229fcba2bbc"
+    },
+    {
+      "source": "Daily/Week5_Day4/DAY4_GUIDE.md",
+      "size_bytes": 6813,
+      "sha256": "099d2b6cc4aa9dc5a2b2035ce3ee922e305b00d5c7b9c69d153adb29fbcdae43"
+    },
+    {
+      "source": "Daily/Week5_Day4/notes/camera_depth_geometry.md",
+      "size_bytes": 6136,
+      "sha256": "48eee4eb8e2f21d1fcf5de31f9c6556c045bc8b7fa2300d5680a27369d85c309"
+    },
+    {
+      "source": "Daily/Week5_Day4/notes/roundtrip_limits.md",
+      "size_bytes": 6706,
+      "sha256": "ae78a304af8a10f91b0d1f5d3c16b52104e8f73d82dc37d80da5d4d2f9cd1299"
+    },
+    {
+      "source": "Daily/Week5_Day4/OUTPUT_CONTRACT.md",
+      "size_bytes": 3096,
+      "sha256": "5f7468c3a34b2fba4005c40e3b2c2c52d89dcff9eefda6fd0d9a850a15a9d76b"
+    },
+    {
+      "source": "Daily/Week5_Day4/PACKAGE_NOTES.md",
+      "size_bytes": 2004,
+      "sha256": "b75bbd63ecb936117e38e2100c61e471c77cea63dddbb0b6480c211103bdfd83"
+    },
+    {
+      "source": "Daily/Week5_Day4/preview_geometry.py",
+      "size_bytes": 5540,
+      "sha256": "8ee5026af2e8e2079e6c14f80a70d060705e15e806b4dacd9a6e0b5208446e9d"
+    },
+    {
+      "source": "Daily/Week5_Day4/READING_MAP.md",
+      "size_bytes": 1449,
+      "sha256": "d2dea942411217b30b2b1e6b8fbcb535bbed6bb49228650f006392888ba3608d"
+    },
+    {
+      "source": "Daily/Week5_Day4/README.md",
+      "size_bytes": 2557,
+      "sha256": "833b454029c0e20a46f2e06b5d76b9b84f92680c0e016e753a309e63aa4175e1"
+    },
+    {
+      "source": "Daily/Week5_Day4/repo_tools.py",
+      "size_bytes": 6722,
+      "sha256": "476640f615bace5951b75c030af0a66b74ef8ec1523e2dc79fe8082413985b65"
+    },
+    {
+      "source": "Daily/Week5_Day4/run_counterexamples.py",
+      "size_bytes": 4087,
+      "sha256": "c42328d4e1fc6b0025919a0e44b171983c5a4b1acf23165f7e5f20f7e2895861"
+    },
+    {
+      "source": "Daily/Week5_Day4/SELF_CHECK.md",
+      "size_bytes": 5955,
+      "sha256": "f0acec636c567e4d54b7eed0e35b3719ebc92c85106b73c0e31a7db7d68cfaaf"
+    },
+    {
+      "source": "Daily/Week5_Day4/SOURCES.md",
+      "size_bytes": 2494,
+      "sha256": "c34c74971aa5ef12724163982e0f64571342f77ee607be1a15e5ab413654f8e1"
+    },
+    {
+      "source": "Daily/Week5_Day4/templates/camera_depth_geometry.md",
+      "size_bytes": 1009,
+      "sha256": "5402dcf428d3ad325d8d3fc57c99bc0883ab4ce46180ecc0cf8159943721ec8c"
+    },
+    {
+      "source": "Daily/Week5_Day4/templates/roundtrip_limits.md",
+      "size_bytes": 914,
+      "sha256": "a660a43c0e96c5acc3444d78d258a08743a190c6e71f2d1fe219802c98d592fc"
+    },
+    {
+      "source": "Daily/Week5_Day4/TODO_CONTRACT.md",
+      "size_bytes": 3264,
+      "sha256": "4df9f654f46c19378a93d0300876db5334f07718dd1492b74e8b04b14056192c"
+    },
+    {
+      "source": "Daily/Week5_Day4/TROUBLESHOOTING.md",
+      "size_bytes": 3304,
+      "sha256": "f69fa0a5afbfac89b8a914e12a6b28fa0dbf52dfb671d133be2f29d26b1a989d"
+    },
+    {
+      "source": "Daily/Week5_Day4/verify_source.py",
+      "size_bytes": 5588,
+      "sha256": "6a3cd1f91adddd6d37ef7ae78b9bca9adad5b1f10f52e9a4278c632e526daa48"
+    },
+    {
+      "source": "Daily/Week5_Day4/WINDOWS_RUNBOOK.md",
+      "size_bytes": 4961,
+      "sha256": "f94fa016f2bd4b6b4360f072b0342cc999ccbf5140a0205e4ee0ca25e22cdc45"
+    },
+    {
+      "source": "Daily/Week5_Day5/check_day5.py",
+      "size_bytes": 9852,
+      "sha256": "3ce40759ae35485f379e332ef99ec46b7cf098779beb60ac6d92460117996a4f"
+    },
+    {
+      "source": "Daily/Week5_Day5/CODE_WALKTHROUGH.md",
+      "size_bytes": 2472,
+      "sha256": "038075c0f1478fb298b385bcedd159d87de45af5e8bb3cdd31e4a32b3bba0086"
+    },
+    {
+      "source": "Daily/Week5_Day5/common.py",
+      "size_bytes": 9015,
+      "sha256": "9dfb1e6c7fe28ed3ed2a52171d6d20836b235b2b10c2127c550a0d9526426ae2"
+    },
+    {
+      "source": "Daily/Week5_Day5/compare_point_maps.py",
+      "size_bytes": 11902,
+      "sha256": "765957a0e4a88fb3b7aafbe49759bb7ff122ec678be0cf221fce408cad41c84b"
+    },
+    {
+      "source": "Daily/Week5_Day5/contracts.py",
+      "size_bytes": 1199,
+      "sha256": "f46f82e3487204e400f553811feab3c9fad1ab76cdf8ee36db80c41b445bf642"
+    },
+    {
+      "source": "Daily/Week5_Day5/day5_exercise.py",
+      "size_bytes": 4235,
+      "sha256": "999f0480bdae30d66562f0b8b2ad1795b34b3fd8574710764f12979b112f1e06"
+    },
+    {
+      "source": "Daily/Week5_Day5/DAY5_GUIDE.md",
+      "size_bytes": 7292,
+      "sha256": "5532919aa8fa3219dee87a5ab778d5974ac99b53598f56a948f64885a49c1f97"
+    },
+    {
+      "source": "Daily/Week5_Day5/notes/confidence_filtering.md",
+      "size_bytes": 6401,
+      "sha256": "4511153b6347be21b919d2e0fae2e731b39a1037531f6f0c80ecdf5a3a4b3ada"
+    },
+    {
+      "source": "Daily/Week5_Day5/notes/point_map_comparison.md",
+      "size_bytes": 6095,
+      "sha256": "f659eb19c155827a1ab2c9d1d7ee3cca510866140365d4f21b3235ad070ac655"
+    },
+    {
+      "source": "Daily/Week5_Day5/OUTPUT_CONTRACT.md",
+      "size_bytes": 4341,
+      "sha256": "78a0e42a71cf0c04e38b822c7cdf218e031c66fe20fbd13d69758765c52b3539"
+    },
+    {
+      "source": "Daily/Week5_Day5/PACKAGE_NOTES.md",
+      "size_bytes": 1091,
+      "sha256": "1081c229aef1350f989fb7a1f367dbe7d9d16797047e4a41d66abe13bff3cab3"
+    },
+    {
+      "source": "Daily/Week5_Day5/preview_selection.py",
+      "size_bytes": 8002,
+      "sha256": "7b14efc2afa8aa914ec43d8ae1affe86e0441900d2cedd0768bac0210538f538"
+    },
+    {
+      "source": "Daily/Week5_Day5/READING_MAP.md",
+      "size_bytes": 1837,
+      "sha256": "8d51ffd09bda12dbd56e07a13e626b215b27c02f654e85a02d13f8734d7d0744"
+    },
+    {
+      "source": "Daily/Week5_Day5/README.md",
+      "size_bytes": 870,
+      "sha256": "17c05fa506d0bb8351924148779a20375cf431bcb08b6025a66e7732f75e35e0"
+    },
+    {
+      "source": "Daily/Week5_Day5/repo_tools.py",
+      "size_bytes": 6722,
+      "sha256": "476640f615bace5951b75c030af0a66b74ef8ec1523e2dc79fe8082413985b65"
+    },
+    {
+      "source": "Daily/Week5_Day5/run_mask_experiments.py",
+      "size_bytes": 2001,
+      "sha256": "9fe495a97e893a4fa337ce0e113f2d8e5979b7328a5d9e70e18fec5792933c8b"
+    },
+    {
+      "source": "Daily/Week5_Day5/SELF_CHECK.md",
+      "size_bytes": 6328,
+      "sha256": "55175a79d0d5068859a2a289cded3b3069d8ee923428938c6a8e9580cb93d1c3"
+    },
+    {
+      "source": "Daily/Week5_Day5/SOURCES.md",
+      "size_bytes": 2171,
+      "sha256": "d4a0870d64712c5743112cd423e800245d91449b97ff40e10b6494a12931fcd5"
+    },
+    {
+      "source": "Daily/Week5_Day5/templates/confidence_filtering.md",
+      "size_bytes": 1244,
+      "sha256": "0c8a4713bd69d43ffce16266e9b43cf5eff71788485c5492c7c41e07c0a0f349"
+    },
+    {
+      "source": "Daily/Week5_Day5/templates/point_map_comparison.md",
+      "size_bytes": 1612,
+      "sha256": "5c25cf75b9653f56ae948d0d1174d692464cf653d0823a46f8013860a1f85d94"
+    },
+    {
+      "source": "Daily/Week5_Day5/TODO_CONTRACT.md",
+      "size_bytes": 4224,
+      "sha256": "f8fcc641e5ca885f39e8cd642fec1825fa3ed1676c229dccf610a0b530393610"
+    },
+    {
+      "source": "Daily/Week5_Day5/TROUBLESHOOTING.md",
+      "size_bytes": 2255,
+      "sha256": "54578a7f7a97737225f89bed0532af905a2065ad87a05899e0797a0ab7bb0c40"
+    },
+    {
+      "source": "Daily/Week5_Day5/verify_source.py",
+      "size_bytes": 6085,
+      "sha256": "097624887129d3a28b62fae528f2bbed5b4352daeebc9ab9b6649383ce9c21de"
+    },
+    {
+      "source": "Daily/Week5_Day5/WINDOWS_RUNBOOK.md",
+      "size_bytes": 5240,
+      "sha256": "cd4806c38655b161e8e900bb0d4dd5acc311338c81ac8eaeda1eab7af230ff24"
+    },
+    {
+      "source": "Daily/Week5_Day6/analyze_cross_view.py",
+      "size_bytes": 10227,
+      "sha256": "b0534e1dce722d5a3c06a3fc60b6cd4c2c47a8232a0b4fe35d105916c7d0689b"
+    },
+    {
+      "source": "Daily/Week5_Day6/check_day6.py",
+      "size_bytes": 10272,
+      "sha256": "e60ec5ccc913c3d8b48015ca8c5d950fa7bd7c2c6d07b89311da686f49b2c199"
+    },
+    {
+      "source": "Daily/Week5_Day6/CODE_WALKTHROUGH.md",
+      "size_bytes": 2068,
+      "sha256": "7837dfda1e322f14a560a55e346ba3a825ba606de84f3dd313900dbce1512386"
+    },
+    {
+      "source": "Daily/Week5_Day6/common.py",
+      "size_bytes": 12484,
+      "sha256": "8ee847093cf33ed44e09eafdbfecad03b368ddd9b7127ec49e12eb04cf024869"
+    },
+    {
+      "source": "Daily/Week5_Day6/contracts.py",
+      "size_bytes": 2851,
+      "sha256": "caf58b20aaf1169920b7ecfad1a58d2d81610302939c9b4e3a4d8f2dd76316ae"
+    },
+    {
+      "source": "Daily/Week5_Day6/day6_exercise.py",
+      "size_bytes": 4873,
+      "sha256": "aa3b60e8f75ee733f239b8028a6947aae697b0ca1f9b6cd09f50baa5517cd0e9"
+    },
+    {
+      "source": "Daily/Week5_Day6/DAY6_GUIDE.md",
+      "size_bytes": 7907,
+      "sha256": "3cfd7108d9b5bcd71732069424f10ff5f20d4c884f1ea25cf60025189af8b5e1"
+    },
+    {
+      "source": "Daily/Week5_Day6/FAILURE_TAXONOMY.md",
+      "size_bytes": 2763,
+      "sha256": "e6a0a9dc0112b8a774de03bdc60a72e06ef8e63475db7d6b7ace8ba22a8c833a"
+    },
+    {
+      "source": "Daily/Week5_Day6/geometry_ops.py",
+      "size_bytes": 1785,
+      "sha256": "72b39fe5d5ee0b3726420a0f838e76fada531e4ce5493ef0311c02af2a9ca7a3"
+    },
+    {
+      "source": "Daily/Week5_Day6/notes/cross_view_diagnosis.md",
+      "size_bytes": 9090,
+      "sha256": "b965f3fbb0a0219e40e78f53e6092189fa4a73d09231e9efca3d2d7be83e4781"
+    },
+    {
+      "source": "Daily/Week5_Day6/notes/visibility_limits.md",
+      "size_bytes": 6267,
+      "sha256": "54e1930afbabe2cc02d2a5a9c1d3e4ceba2638f79e132ba18704a49c44ff9676"
+    },
+    {
+      "source": "Daily/Week5_Day6/OUTPUT_CONTRACT.md",
+      "size_bytes": 4162,
+      "sha256": "9b6dc4645d103fa216f8103b3588c026ba492cab1e92e899d7784aaf6eb93cae"
+    },
+    {
+      "source": "Daily/Week5_Day6/PACKAGE_NOTES.md",
+      "size_bytes": 1490,
+      "sha256": "808fabfd67ea60a81fdc0b539b774e560fb1ffba38ee3bd9bb58f4c2e1abd350"
+    },
+    {
+      "source": "Daily/Week5_Day6/pipeline.py",
+      "size_bytes": 2878,
+      "sha256": "f0fbd1459fc22e918d1306606c7a3a4b07bea93651817cf929df475c2aca4191"
+    },
+    {
+      "source": "Daily/Week5_Day6/preview_cross_view.py",
+      "size_bytes": 4186,
+      "sha256": "4ccb19123d8ceab2e786225d7c3c1023ef556be9453275d57a182582eb8c1a05"
+    },
+    {
+      "source": "Daily/Week5_Day6/READING_MAP.md",
+      "size_bytes": 1532,
+      "sha256": "5cb340c1e3d9a2677f357736498c2c80776e12ed46a2f7891397e44893858673"
+    },
+    {
+      "source": "Daily/Week5_Day6/README.md",
+      "size_bytes": 774,
+      "sha256": "90427271c4fc98bba8883917dda3a26ccfac983b5ba42971e2ccc6ab2c4d20af"
+    },
+    {
+      "source": "Daily/Week5_Day6/repo_tools.py",
+      "size_bytes": 6722,
+      "sha256": "476640f615bace5951b75c030af0a66b74ef8ec1523e2dc79fe8082413985b65"
+    },
+    {
+      "source": "Daily/Week5_Day6/run_visibility_cases.py",
+      "size_bytes": 3970,
+      "sha256": "dcdf17f64f2a0a59b07860c6bcd53e8122637cb623d9e57452483557c5f98ab3"
+    },
+    {
+      "source": "Daily/Week5_Day6/SELF_CHECK.md",
+      "size_bytes": 5046,
+      "sha256": "81a18d614ed794f1510d7c4d7d59967f711bb01b699d5ff60b59576847356551"
+    },
+    {
+      "source": "Daily/Week5_Day6/SOURCES.md",
+      "size_bytes": 3159,
+      "sha256": "b8e77c352945a533dcd8f98577ec0c2c2194fc79c6708d28270e93ae8e09cce9"
+    },
+    {
+      "source": "Daily/Week5_Day6/templates/cross_view_diagnosis.md",
+      "size_bytes": 1725,
+      "sha256": "eb72b24efbb3b485c76e25a99c95e2dc5ddc3522c72149b5673652cb27ef24a9"
+    },
+    {
+      "source": "Daily/Week5_Day6/templates/visibility_limits.md",
+      "size_bytes": 1216,
+      "sha256": "f25543e9143421452e0fb7db1861f2730e19bff3675d5893942f3d089cbce31c"
+    },
+    {
+      "source": "Daily/Week5_Day6/TODO_CONTRACT.md",
+      "size_bytes": 4773,
+      "sha256": "aebd0f58c67570efa07ef12459b69e4d524a537ccc9020758c28c1de55f5daca"
+    },
+    {
+      "source": "Daily/Week5_Day6/TROUBLESHOOTING.md",
+      "size_bytes": 2678,
+      "sha256": "d289bcead4742c9c653f461c128981b64cc2526ca496ccaeccb36aa474a9035e"
+    },
+    {
+      "source": "Daily/Week5_Day6/verify_source.py",
+      "size_bytes": 6079,
+      "sha256": "5a97cb90335e8700c86b2c38b5e53fd27eb134bda1d38be6e0e2fbbf5862304a"
+    },
+    {
+      "source": "Daily/Week5_Day6/WINDOWS_RUNBOOK.md",
+      "size_bytes": 5361,
+      "sha256": "f7868c90274a8faf88d5c15db06282d1b1f5d810bd61a0af0e3e64e5d8018063"
+    },
+    {
+      "source": "Daily/Week5_Day7/build_packet.py",
+      "size_bytes": 9541,
+      "sha256": "52a12e25edd2b45b4c2c4f682b5d39830992cb2d589c355cbdaac855849ed35e"
+    },
+    {
+      "source": "Daily/Week5_Day7/check_day7.py",
+      "size_bytes": 6655,
+      "sha256": "cec8fe061f75c30ff40f46c75bd55f52142236865c8c47fb282c0ca983fca8de"
+    },
+    {
+      "source": "Daily/Week5_Day7/day7_exercise.py",
+      "size_bytes": 2632,
+      "sha256": "7f38dd1629d8790db3680a9d6ddfb1db06f89489d2df3511e0f6c135839ec23c"
+    },
+    {
+      "source": "Daily/Week5_Day7/DAY7_GUIDE.md",
+      "size_bytes": 2487,
+      "sha256": "e248174db34d91b4d5806d393c05100c12d092ee0c6cd389f4983dce7ab4f62e"
+    },
+    {
+      "source": "Daily/Week5_Day7/geometry_packet_exercise.py",
+      "size_bytes": 6309,
+      "sha256": "8fde00233fc7bddc35acfb48e019d4c3ebc58e02eebb5ac1d5216c4c37a083fe"
+    },
+    {
+      "source": "Daily/Week5_Day7/inspect_packet.py",
+      "size_bytes": 12505,
+      "sha256": "a3d91de5fc0352dc6b2d4fb3fcc97ae2169ba46977a0f94b3437f32cc706e8f7"
+    },
+    {
+      "source": "Daily/Week5_Day7/SELF_CHECK.md",
+      "size_bytes": 4702,
+      "sha256": "eabacf8b6f4cd0f2d4f4b885996ec925ec75c668ed94cee31e1eb17f24e70005"
+    },
+    {
+      "source": "Daily/Week5_Day7/templates/week5_summary.md",
+      "size_bytes": 6550,
+      "sha256": "dfbb6c00a15dc82d31cdd2f97009752c78e64afc5be236840dcebf12afada472"
+    },
+    {
+      "source": "Daily/Week5_Day7/templates/week6_bridge.md",
+      "size_bytes": 1717,
+      "sha256": "ad9e0660e558c185ea65ee0a7361733b541c5807c2364ceb15e15c869f4f2d9a"
+    },
+    {
+      "source": "Daily/Week5_Day7/TODO_CONTRACT.md",
+      "size_bytes": 2438,
+      "sha256": "a06a0fb6ea8ec4d19498ce1f4cb7aee7f36ff5e6bf3d8a6b769698927d742714"
+    },
+    {
+      "source": "Daily/Week5_Day7/WINDOWS_RUNBOOK.md",
+      "size_bytes": 2738,
+      "sha256": "a0e85b14a31c2c8746de8c689b7b09eb7bbdc9f677dcbab1bdc29c925a45e980"
+    }
+  ]
+}

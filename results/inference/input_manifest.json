@@ -1,0 +1,42 @@
+{
+  "task": "WM-W05-Day3-real-inputs",
+  "created_utc": "2026-10-12T07:55:24.928299+00:00",
+  "ordering": "case-insensitive filename sort of source photographs",
+  "orientation_policy": "EXIF orientation applied once; PNG outputs contain no EXIF rotation",
+  "alpha_policy": "composite onto white before RGB conversion",
+  "images": [
+    {
+      "index": 0,
+      "raw_name": "01.png",
+      "raw_sha256": "54527a575988094058cdc1975b421c48e0f446726473d0ac21ea55ecb24e96a7",
+      "original_hw": [
+        520,
+        779
+      ],
+      "original_exif_orientation": null,
+      "file": "00.png",
+      "canonical_hw": [
+        520,
+        779
+      ],
+      "canonical_sha256": "154b17a43845062cbd314a73ba49e9b4a5a74b1a4eae66ceedfbbc9505df7348"
+    },
+    {
+      "index": 1,
+      "raw_name": "02.png",
+      "raw_sha256": "0ad4c6d74c16661ed427f8100124aaf53e7fd0577b32c362f13559dfad7027a7",
+      "original_hw": [
+        520,
+        779
+      ],
+      "original_exif_orientation": null,
+      "file": "01.png",
+      "canonical_hw": [
+        520,
+        779
+      ],
+      "canonical_sha256": "7134a3e9448f2e62a73e5362bd28c9d584bac90f178ecc853adb6d61e907d5f8"
+    }
+  ],
+  "scene_geometry_verified": false
+}

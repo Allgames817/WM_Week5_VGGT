@@ -1,0 +1,52 @@
+{
+  "task": "WM-W05-Day7-standalone-packet-check",
+  "created_utc": "2026-10-13T18:04:16.625752+00:00",
+  "pid": 53660,
+  "python": "H:\\anaconda3\\envs\\wm_vggt\\python.exe",
+  "isolated_mode": true,
+  "packet": "D:\\WM_Study\\Daily\\Week5_Day7\\artifacts\\geometry_packet",
+  "reader_sha256": "a3d91de5fc0352dc6b2d4fb3fcc97ae2169ba46977a0f94b3437f32cc706e8f7",
+  "status": "success",
+  "checks": [
+    {
+      "name": "exported_file_sha256",
+      "passed": true
+    },
+    {
+      "name": "array_layout_and_metadata",
+      "passed": true
+    },
+    {
+      "name": "geometry_validity_and_camera_consistency",
+      "passed": true
+    },
+    {
+      "name": "confidence_thresholds_and_support_masks",
+      "passed": true
+    },
+    {
+      "name": "cross_view_summary_internal_consistency",
+      "passed": true
+    },
+    {
+      "name": "packet_files_unchanged",
+      "passed": true
+    }
+  ],
+  "packet_sha256": {
+    "geometry_packet_manifest.json": "1faa82e22ea6fbd91bd005ee097c27973f798d7545411c86ab18128613513f87",
+    "geometry_packet.npz": "de4acdea6ba2cf510e321e8ae575807fd429da6ce66829ad5525b75cfd03342e",
+    "cross_view_summary.json": "2a4c2d5630d7b90120662938e0aafe834c311a97216f9f382fc925b64b0c72fd"
+  },
+  "shape_BSHW": [
+    1,
+    2,
+    350,
+    518
+  ],
+  "npz_field_count": 17,
+  "packet_files_unchanged": true,
+  "scope": "Export integrity and internal consistency only; source paths were not opened and true geometry accuracy was not evaluated.",
+  "limits": "Raw Day6 labels/residuals are not exported; pooled median/p95 cannot be independently recomputed by this reader.",
+  "todo_modules_imported": false
+}

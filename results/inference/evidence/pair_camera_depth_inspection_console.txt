@@ -1,0 +1,7 @@
+Field / shape / saved dtype / finite count / total
+pose_enc [1, 2, 9] float32 18 / 18
+depth [1, 2, 350, 518, 1] float32 362600 / 362600
+depth_conf [1, 2, 350, 518] float32 362600 / 362600
+images [1, 2, 3, 350, 518] float32 1087800 / 1087800
+Depth previews: artifacts\pair_camera_depth\inspection
+Use raw_predictions.npz for computation, never the 8-bit preview.

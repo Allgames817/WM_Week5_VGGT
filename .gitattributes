@@ -1,0 +1,6 @@
+# Preserve archived evidence byte-for-byte, including original line endings.
+* -text
+*.png binary
+*.npz binary
+*.npy binary
+*.ply binary

@@ -1,0 +1,308 @@
+{
+  "task": "WM-W05-Day7-geometry-packet",
+  "status": "success",
+  "created_utc": "2026-10-13T17:58:32.182171+00:00",
+  "run_path": "D:\\WM_Study\\Daily\\Week5_Day3\\artifacts\\pair_full",
+  "profile": "full",
+  "input_order": [
+    "00.png",
+    "01.png"
+  ],
+  "shape_BSHW": [
+    1,
+    2,
+    350,
+    518
+  ],
+  "near_model_units": 1e-06,
+  "source_commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "weights": {
+    "task": "WM-W05-Day3-weights-lock",
+    "created_utc": "2026-10-12T08:08:19.824587+00:00",
+    "repo_id": "facebook/VGGT-1B",
+    "filename": "model.safetensors",
+    "revision": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+    "local_path": "D:\\WM_Study\\Daily\\vggt_weights\\model.safetensors",
+    "size_bytes": 5026367224,
+    "sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+    "official_etag_sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+    "source_endpoint": "https://huggingface.co",
+    "model_constructed": false,
+    "note": "Original VGGT-1B, not VGGT-1B-Commercial or VGGT-Omega"
+  },
+  "input_sha256": {
+    "D:\\WM_Study\\Daily\\Week5_Day3\\artifacts\\pair_full\\run.json": "d4540430354a14c0e5c17955403a051d310733d0d68805bc57787cac64f80207",
+    "D:\\WM_Study\\Daily\\Week5_Day3\\artifacts\\pair_full\\raw_predictions.npz": "6d7c55b54ac1e7cf056b39ff8d9f65f0ab2e9c2550496f403ee335a2408ed607",
+    "D:\\WM_Study\\Daily\\Week5_Day3\\artifacts\\pair_full\\cameras.npz": "a9a58be04b839111c02406ce7ec24002784100f4f988956d01a3d48de9ce8ff5",
+    "D:\\WM_Study\\Daily\\Week5_Day4\\artifacts\\pair_geometry\\analysis.json": "a874d5bd8b5650fbff7a86c6c8eb464acb8c68c0be926c7f87b91ac9e77bf7d5",
+    "D:\\WM_Study\\Daily\\Week5_Day4\\artifacts\\pair_geometry\\day4_geometry.npz": "a2a7005cbfeb32f35876d241737619903d74eba9d161564fda46df66e2cb85f4",
+    "D:\\WM_Study\\Daily\\Week5_Day5\\artifacts\\pair_point_comparison\\comparison.json": "0d42fc1d16237eee42bff644782721af0aa7ea43e9c97ce88bf54bcc80739178",
+    "D:\\WM_Study\\Daily\\Week5_Day5\\artifacts\\pair_point_comparison\\day5_selection.npz": "5544849d9a4ceab6d3c76850c95c19b4aeb1a93564e23df4bad02f4d2205dfff",
+    "D:\\WM_Study\\Daily\\Week5_Day6\\artifacts\\pair_cross_view\\consistency.json": "26b6a2db6be39f86a6c11f0cdca753388759300a233ede70761e0d713bc9cc95",
+    "D:\\WM_Study\\Daily\\Week5_Day6\\artifacts\\pair_cross_view\\day6_cross_view.npz": "3eddd1ee637c79355ab871fe3feb48c7ff68c666662f0784fc82a18bfb3ce47d",
+    "D:\\WM_Study\\Daily\\Week5_Day1\\evidence\\repo_lock.json": "10224c340ee6e564d99e47dfa6f0d6a2bf8dccdc6164ea8f1fe263aba68c0c37"
+  },
+  "source_verified": true,
+  "model_executed": false,
+  "point_source": "points_world: independent depth unprojection; direct_world_points: unchanged Day3 point head",
+  "coordinate_convention": "OpenCV w2c; camera Z depth; integer pixel centers; K belongs to processed H/W; C=-R.T@t",
+  "scale": "model units, not calibrated meters",
+  "geometry_accuracy_verified": false,
+  "support_policy": "finite valid camera Z; finite depth confidence; per B/S linear quantile; inclusive ties; keep_mask=high75",
+  "confidence_thresholds": {
+    "all": [
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "high75": [
+      [
+        1.0,
+        1.01935613155365
+      ]
+    ],
+    "high50": [
+      [
+        9.69174575805664,
+        10.51439094543457
+      ]
+    ]
+  },
+  "valid_depth_separate_from_support": true,
+  "cross_view_scope": "Directed source-pixel queries; pooled uses original comparable samples. Not matching accuracy or unique-surface coverage.",
+  "cross_view_default_high75_r05": {
+    "directions": [
+      {
+        "batch_index": 0,
+        "source_view": 0,
+        "target_view": 1,
+        "grid_count": 181300,
+        "source_selected_count": 181300,
+        "comparable_count": 116918,
+        "category_counts": {
+          "source_rejected": 0,
+          "nonprojectable": 0,
+          "outside_target": 41415,
+          "target_unsupported": 22967,
+          "depth_agree": 102393,
+          "possible_occlusion": 13470,
+          "front_conflict": 1055
+        },
+        "comparable_of_source": 0.6448869277440706,
+        "agree_of_comparable": 0.8757676320156007,
+        "agree_of_grid": 0.5647710976282405,
+        "abs_relative_mean": 0.06871693441424817,
+        "abs_relative_median": 0.005215095912614734,
+        "abs_relative_p95": 0.5812982510622979,
+        "relative_rmse": 0.23269898806793113
+      },
+      {
+        "batch_index": 0,
+        "source_view": 1,
+        "target_view": 0,
+        "grid_count": 181300,
+        "source_selected_count": 135975,
+        "comparable_count": 119084,
+        "category_counts": {
+          "source_rejected": 45325,
+          "nonprojectable": 0,
+          "outside_target": 16891,
+          "target_unsupported": 0,
+          "depth_agree": 102812,
+          "possible_occlusion": 15416,
+          "front_conflict": 856
+        },
+        "comparable_of_source": 0.8757786357786358,
+        "agree_of_comparable": 0.8633569581136005,
+        "agree_of_grid": 0.5670821842250414,
+        "abs_relative_mean": 0.06535809317757636,
+        "abs_relative_median": 0.006281370987316973,
+        "abs_relative_p95": 0.5989490885532379,
+        "relative_rmse": 0.18906103627462434
+      }
+    ],
+    "pooled": {
+      "grid_count": 362600,
+      "source_selected_count": 317275,
+      "comparable_count": 236002,
+      "category_counts": {
+        "source_rejected": 45325,
+        "nonprojectable": 0,
+        "outside_target": 58306,
+        "target_unsupported": 22967,
+        "depth_agree": 205205,
+        "possible_occlusion": 28886,
+        "front_conflict": 1911
+      },
+      "comparable_of_source": 0.7438405169017414,
+      "agree_of_comparable": 0.8695053431750578,
+      "agree_of_grid": 0.5659266409266409,
+      "abs_relative_mean": 0.06702210026102987,
+      "abs_relative_median": 0.005709993985418497,
+      "abs_relative_p95": 0.5898365888566451,
+      "relative_rmse": 0.21180648928161144
+    }
+  },
+  "fields": {
+    "depth": {
+      "shape": [
+        1,
+        2,
+        350,
+        518,
+        1
+      ],
+      "dtype": "float32"
+    },
+    "K": {
+      "shape": [
+        1,
+        2,
+        3,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "w2c": {
+      "shape": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "c2w": {
+      "shape": [
+        1,
+        2,
+        4,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "camera_centers": {
+      "shape": [
+        1,
+        2,
+        3
+      ],
+      "dtype": "float64"
+    },
+    "points_world": {
+      "shape": [
+        1,
+        2,
+        350,
+        518,
+        3
+      ],
+      "dtype": "float64"
+    },
+    "valid_depth": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "bool"
+    },
+    "depth_conf": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "float32"
+    },
+    "depth_keep_all": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "bool"
+    },
+    "depth_threshold_all": {
+      "shape": [
+        1,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "depth_keep_high75": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "bool"
+    },
+    "depth_threshold_high75": {
+      "shape": [
+        1,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "depth_keep_high50": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "bool"
+    },
+    "depth_threshold_high50": {
+      "shape": [
+        1,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "keep_mask": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "bool"
+    },
+    "direct_world_points": {
+      "shape": [
+        1,
+        2,
+        350,
+        518,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "direct_world_points_conf": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "float32"
+    }
+  },
+  "code_sha256": {
+    "geometry_packet_exercise.py": "8fde00233fc7bddc35acfb48e019d4c3ebc58e02eebb5ac1d5216c4c37a083fe",
+    "day7_exercise.py": "7f38dd1629d8790db3680a9d6ddfb1db06f89489d2df3511e0f6c135839ec23c",
+    "check_day7.py": "cec8fe061f75c30ff40f46c75bd55f52142236865c8c47fb282c0ca983fca8de",
+    "build_packet.py": "52a12e25edd2b45b4c2c4f682b5d39830992cb2d589c355cbdaac855849ed35e"
+  },
+  "artifact_sha256": {
+    "geometry_packet.npz": "de4acdea6ba2cf510e321e8ae575807fd429da6ce66829ad5525b75cfd03342e",
+    "cross_view_summary.json": "2a4c2d5630d7b90120662938e0aafe834c311a97216f9f382fc925b64b0c72fd"
+  }
+}

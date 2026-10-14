@@ -1,0 +1,70 @@
+{
+  "task": "WM-W05-Day1-environment",
+  "created_utc": "2026-10-12T03:24:00.232611+00:00",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python_version": "3.11.17",
+  "python_executable": "H:\\anaconda3\\envs\\wm_vggt\\python.exe",
+  "conda_environment": "wm_vggt",
+  "dependencies": {
+    "torch": {
+      "version": "2.3.1+cu121",
+      "import_ok": true
+    },
+    "torchvision": {
+      "version": "0.18.1+cu121",
+      "import_ok": true
+    },
+    "numpy": {
+      "version": "1.26.1",
+      "import_ok": true
+    },
+    "Pillow": {
+      "version": "12.3.0",
+      "import_ok": true
+    },
+    "huggingface-hub": {
+      "version": "2.2.0",
+      "import_ok": true
+    },
+    "einops": {
+      "version": "0.8.2",
+      "import_ok": true
+    },
+    "safetensors": {
+      "version": "0.8.0",
+      "import_ok": true
+    },
+    "opencv-python": {
+      "version": "4.10.0.84",
+      "import_ok": true
+    },
+    "matplotlib": {
+      "version": "3.11.2",
+      "import_ok": true
+    }
+  },
+  "cuda": {
+    "torch_build_cuda": "12.1",
+    "detected": true,
+    "devices": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "total_memory_bytes": 8585216000,
+        "total_memory_gib": 7.996,
+        "compute_capability": [
+          8,
+          9
+        ]
+      }
+    ],
+    "model_inference_tested": false
+  },
+  "vggt_imported": false,
+  "vggt_instantiated": false,
+  "weight_downloaded_by_this_script": false,
+  "day3_inference_verified": false,
+  "dependency_probe_passed": true,
+  "warnings": [],
+  "errors": []
+}

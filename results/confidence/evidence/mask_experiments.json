@@ -1,0 +1,122 @@
+{
+  "task": "WM-W05-Day5-mask-experiments",
+  "created_utc": "2026-10-12T14:44:09.007018+00:00",
+  "synthetic_selection_only": true,
+  "model_executed": false,
+  "quantile_not_probability": {
+    "scores": [
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ]
+    ],
+    "requested_keep_fraction": 0.75,
+    "quantile_threshold": 1.75,
+    "quantile_mask": [
+      [
+        false,
+        true,
+        true,
+        true
+      ]
+    ],
+    "absolute_score_ge_075_mask": [
+      [
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "ties": {
+    "scores": [
+      [
+        1.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "requested_keep_fraction": 0.5,
+    "threshold": 2.0,
+    "mask": [
+      [
+        false,
+        true,
+        true,
+        true
+      ]
+    ],
+    "counts": {
+      "grid_count": 4,
+      "candidate_count": 4,
+      "retained_count": 3,
+      "retained_of_candidates": 0.75,
+      "processed_grid_coverage": 0.75,
+      "finite_residual_count": 0,
+      "mean_distance": null,
+      "median_distance": null,
+      "p95_distance": null,
+      "rmse_distance": null
+    }
+  },
+  "disjoint_selections": {
+    "depth_scores": [
+      [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ]
+    ],
+    "direct_scores": [
+      [
+        4.0,
+        3.0,
+        2.0,
+        1.0
+      ]
+    ],
+    "depth_threshold": 2.5,
+    "direct_threshold": 2.5,
+    "depth_mask": [
+      [
+        false,
+        false,
+        true,
+        true
+      ]
+    ],
+    "direct_mask": [
+      [
+        true,
+        true,
+        false,
+        false
+      ]
+    ],
+    "joint_mask": [
+      [
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "joint_counts": {
+      "grid_count": 4,
+      "candidate_count": 4,
+      "retained_count": 0,
+      "retained_of_candidates": 0.0,
+      "processed_grid_coverage": 0.0,
+      "finite_residual_count": 0,
+      "mean_distance": null,
+      "median_distance": null,
+      "p95_distance": null,
+      "rmse_distance": null
+    }
+  }
+}

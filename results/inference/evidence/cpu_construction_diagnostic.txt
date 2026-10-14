@@ -1,0 +1,5 @@
+Python: H:\anaconda3\envs\wm_vggt\python.exe
+Torch: 2.3.1+cu121 CPU threads: 14
+Constructing VGGT on CPU
+Construction succeeded: 9.976102100001299 seconds
+Parameter bytes: 5026150064

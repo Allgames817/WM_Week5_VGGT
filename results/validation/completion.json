@@ -1,0 +1,65 @@
+{
+  "status": "success",
+  "created_utc": "2026-10-13T17:58:32.294171+00:00",
+  "analytic_checks": {
+    "passed": 24,
+    "total": 24
+  },
+  "comparisons": {
+    "c2w": {
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    "camera_centers": {
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    "points_world": {
+      "passed": true,
+      "max_abs_difference": 4.440892098500626e-16
+    },
+    "valid_depth": {
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    "depth_keep_all": {
+      "passed": true,
+      "retained_per_view": [
+        [
+          181300,
+          181300
+        ]
+      ]
+    },
+    "depth_keep_high75": {
+      "passed": true,
+      "retained_per_view": [
+        [
+          181300,
+          135975
+        ]
+      ]
+    },
+    "depth_keep_high50": {
+      "passed": true,
+      "retained_per_view": [
+        [
+          90650,
+          90650
+        ]
+      ]
+    },
+    "day6_all_18_direction_rows": {
+      "passed": true
+    },
+    "legacy_three_interfaces": {
+      "passed": true
+    }
+  },
+  "historical_inputs_unchanged": true,
+  "npz_readback_passed": true,
+  "paths_resolved_from_script": true,
+  "working_directory": "D:\\WM_Study",
+  "output": "D:\\WM_Study\\Daily\\Week5_Day7\\artifacts\\geometry_packet",
+  "manifest_sha256": "1faa82e22ea6fbd91bd005ee097c27973f798d7545411c86ab18128613513f87"
+}

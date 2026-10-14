@@ -1,0 +1,241 @@
+{
+  "task": "WM-W05-Day6-synthetic-cases",
+  "created_utc": "2026-10-12T17:14:36.159902+00:00",
+  "unit_checks": {
+    "task": "WM-W05-Day6-unit-checks",
+    "created_utc": "2026-10-12T17:14:15.676008+00:00",
+    "passed": 24,
+    "total": 24,
+    "checks": [
+      {
+        "name": "sampling/01_uv_order_and_integer_centres",
+        "passed": true
+      },
+      {
+        "name": "sampling/02_half_up_not_bankers_round",
+        "passed": true
+      },
+      {
+        "name": "sampling/03_bounds_before_rounding_no_clipping",
+        "passed": true
+      },
+      {
+        "name": "sampling/04_nonfinite_uv_is_not_a_pixel",
+        "passed": true
+      },
+      {
+        "name": "sampling/05_target_mask_depth_and_near",
+        "passed": true
+      },
+      {
+        "name": "sampling/06_empty_query_and_one_pixel_grid",
+        "passed": true
+      },
+      {
+        "name": "sampling/07_dtype_noncontiguous_no_mutation",
+        "passed": true
+      },
+      {
+        "name": "sampling/08_validation",
+        "passed": true
+      },
+      {
+        "name": "relation/01_signs_and_target_denominator",
+        "passed": true
+      },
+      {
+        "name": "relation/02_inclusive_tolerance",
+        "passed": true
+      },
+      {
+        "name": "relation/03_zero_tolerance",
+        "passed": true
+      },
+      {
+        "name": "relation/04_invalid_depth_and_eligibility",
+        "passed": true
+      },
+      {
+        "name": "relation/05_near_boundary",
+        "passed": true
+      },
+      {
+        "name": "relation/06_common_positive_scale",
+        "passed": true
+      },
+      {
+        "name": "relation/07_float_promotion_and_no_mutation",
+        "passed": true
+      },
+      {
+        "name": "relation/08_validation_and_empty",
+        "passed": true
+      },
+      {
+        "name": "summary/01_seven_categories_partition",
+        "passed": true
+      },
+      {
+        "name": "summary/02_all_comparable_not_only_agreement",
+        "passed": true
+      },
+      {
+        "name": "summary/03_no_comparable_is_not_zero_error",
+        "passed": true
+      },
+      {
+        "name": "summary/04_all_source_rejected_and_empty",
+        "passed": true
+      },
+      {
+        "name": "summary/05_exact_sample_pooling",
+        "passed": true
+      },
+      {
+        "name": "summary/06_promote_before_square",
+        "passed": true
+      },
+      {
+        "name": "summary/07_noncontiguous_no_mutation",
+        "passed": true
+      },
+      {
+        "name": "summary/08_validation_fails_closed",
+        "passed": true
+      }
+    ],
+    "code_sha256": {
+      "day6_exercise.py": "aa3b60e8f75ee733f239b8028a6947aae697b0ca1f9b6cd09f50baa5517cd0e9",
+      "contracts.py": "caf58b20aaf1169920b7ecfad1a58d2d81610302939c9b4e3a4d8f2dd76316ae",
+      "check_day6.py": "e60ec5ccc913c3d8b48015ca8c5d950fa7bd7c2c6d07b89311da686f49b2c199"
+    },
+    "model_executed": false
+  },
+  "model_executed": false,
+  "real_predictions_modified": false,
+  "cases": [
+    {
+      "name": "exclusive_reasons",
+      "description": "Analytical queries against a constant depth grid; invalid, outside and unsupported are separate.",
+      "labels": [
+        4,
+        5,
+        6,
+        2,
+        1,
+        0,
+        3
+      ],
+      "statistics": {
+        "grid_count": 7,
+        "source_selected_count": 6,
+        "comparable_count": 3,
+        "category_counts": {
+          "source_rejected": 1,
+          "nonprojectable": 1,
+          "outside_target": 1,
+          "target_unsupported": 1,
+          "depth_agree": 1,
+          "possible_occlusion": 1,
+          "front_conflict": 1
+        },
+        "comparable_of_source": 0.5,
+        "agree_of_comparable": 0.3333333333333333,
+        "agree_of_grid": 0.14285714285714285,
+        "abs_relative_mean": 0.5,
+        "abs_relative_median": 0.5,
+        "abs_relative_p95": 0.95,
+        "relative_rmse": 0.6454972243679028
+      },
+      "question": "Why is positive depth disagreement a possible-occlusion hypothesis rather than proof?"
+    },
+    {
+      "name": "depth_discontinuity",
+      "input_depths": [
+        [
+          2.0,
+          10.0
+        ]
+      ],
+      "query_uv": [
+        [
+          0.5,
+          0.0
+        ]
+      ],
+      "nearest_depth": 10.0,
+      "linear_midpoint_depth": 6.0,
+      "question": "Does interpolation create a value not belonging to either layer? Why does nearest sampling still not solve boundary ambiguity?"
+    },
+    {
+      "name": "scale_and_flat_wall_ambiguities",
+      "baseline": {
+        "grid_count": 15,
+        "source_selected_count": 15,
+        "comparable_count": 12,
+        "category_counts": {
+          "source_rejected": 0,
+          "nonprojectable": 0,
+          "outside_target": 3,
+          "target_unsupported": 0,
+          "depth_agree": 12,
+          "possible_occlusion": 0,
+          "front_conflict": 0
+        },
+        "comparable_of_source": 0.8,
+        "agree_of_comparable": 1.0,
+        "agree_of_grid": 0.8,
+        "abs_relative_mean": 0.0,
+        "abs_relative_median": 0.0,
+        "abs_relative_p95": 0.0,
+        "relative_rmse": 0.0
+      },
+      "common_scale_x2": {
+        "grid_count": 15,
+        "source_selected_count": 15,
+        "comparable_count": 12,
+        "category_counts": {
+          "source_rejected": 0,
+          "nonprojectable": 0,
+          "outside_target": 3,
+          "target_unsupported": 0,
+          "depth_agree": 12,
+          "possible_occlusion": 0,
+          "front_conflict": 0
+        },
+        "comparable_of_source": 0.8,
+        "agree_of_comparable": 1.0,
+        "agree_of_grid": 0.8,
+        "abs_relative_mean": 0.0,
+        "abs_relative_median": 0.0,
+        "abs_relative_p95": 0.0,
+        "relative_rmse": 0.0
+      },
+      "tangential_target_pose_change": {
+        "grid_count": 15,
+        "source_selected_count": 15,
+        "comparable_count": 9,
+        "category_counts": {
+          "source_rejected": 0,
+          "nonprojectable": 0,
+          "outside_target": 6,
+          "target_unsupported": 0,
+          "depth_agree": 9,
+          "possible_occlusion": 0,
+          "front_conflict": 0
+        },
+        "comparable_of_source": 0.6,
+        "agree_of_comparable": 1.0,
+        "agree_of_grid": 0.6,
+        "abs_relative_mean": 0.0,
+        "abs_relative_median": 0.0,
+        "abs_relative_p95": 0.0,
+        "relative_rmse": 0.0
+      },
+      "max_uv_change_common_scale": 0.0,
+      "max_relative_change_common_scale": 0.0,
+      "same_labels_common_scale": true,
+      "question": "Why can common scale preserve the check? Why can an incorrect sideways target pose preserve depth agreement on overlapping parts of a flat wall?"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "task": "WM-W05-Day6-unit-checks",
+  "created_utc": "2026-10-12T17:14:15.676008+00:00",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "name": "sampling/01_uv_order_and_integer_centres",
+      "passed": true
+    },
+    {
+      "name": "sampling/02_half_up_not_bankers_round",
+      "passed": true
+    },
+    {
+      "name": "sampling/03_bounds_before_rounding_no_clipping",
+      "passed": true
+    },
+    {
+      "name": "sampling/04_nonfinite_uv_is_not_a_pixel",
+      "passed": true
+    },
+    {
+      "name": "sampling/05_target_mask_depth_and_near",
+      "passed": true
+    },
+    {
+      "name": "sampling/06_empty_query_and_one_pixel_grid",
+      "passed": true
+    },
+    {
+      "name": "sampling/07_dtype_noncontiguous_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "sampling/08_validation",
+      "passed": true
+    },
+    {
+      "name": "relation/01_signs_and_target_denominator",
+      "passed": true
+    },
+    {
+      "name": "relation/02_inclusive_tolerance",
+      "passed": true
+    },
+    {
+      "name": "relation/03_zero_tolerance",
+      "passed": true
+    },
+    {
+      "name": "relation/04_invalid_depth_and_eligibility",
+      "passed": true
+    },
+    {
+      "name": "relation/05_near_boundary",
+      "passed": true
+    },
+    {
+      "name": "relation/06_common_positive_scale",
+      "passed": true
+    },
+    {
+      "name": "relation/07_float_promotion_and_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "relation/08_validation_and_empty",
+      "passed": true
+    },
+    {
+      "name": "summary/01_seven_categories_partition",
+      "passed": true
+    },
+    {
+      "name": "summary/02_all_comparable_not_only_agreement",
+      "passed": true
+    },
+    {
+      "name": "summary/03_no_comparable_is_not_zero_error",
+      "passed": true
+    },
+    {
+      "name": "summary/04_all_source_rejected_and_empty",
+      "passed": true
+    },
+    {
+      "name": "summary/05_exact_sample_pooling",
+      "passed": true
+    },
+    {
+      "name": "summary/06_promote_before_square",
+      "passed": true
+    },
+    {
+      "name": "summary/07_noncontiguous_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "summary/08_validation_fails_closed",
+      "passed": true
+    }
+  ],
+  "code_sha256": {
+    "day6_exercise.py": "aa3b60e8f75ee733f239b8028a6947aae697b0ca1f9b6cd09f50baa5517cd0e9",
+    "contracts.py": "caf58b20aaf1169920b7ecfad1a58d2d81610302939c9b4e3a4d8f2dd76316ae",
+    "check_day6.py": "e60ec5ccc913c3d8b48015ca8c5d950fa7bd7c2c6d07b89311da686f49b2c199"
+  },
+  "model_executed": false
+}

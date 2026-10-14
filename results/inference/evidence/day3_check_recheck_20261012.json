@@ -1,0 +1,75 @@
+{
+  "task": "WM-W05-Day3-unit-checks",
+  "created_utc": "2026-10-12T12:13:46.912500+00:00",
+  "passed": 16,
+  "total": 16,
+  "results": [
+    {
+      "name": "S01_finite_float32",
+      "passed": true
+    },
+    {
+      "name": "S02_shape_dtype",
+      "passed": true
+    },
+    {
+      "name": "S03_nonfinite_separate_counts",
+      "passed": true
+    },
+    {
+      "name": "S04_all_invalid_nulls",
+      "passed": true
+    },
+    {
+      "name": "S05_empty",
+      "passed": true
+    },
+    {
+      "name": "S06_scalar",
+      "passed": true
+    },
+    {
+      "name": "S07_strided_readonly_unchanged",
+      "passed": true
+    },
+    {
+      "name": "S08_types_and_float64_accumulation",
+      "passed": true
+    },
+    {
+      "name": "L01_full_layout",
+      "passed": true
+    },
+    {
+      "name": "L02_camera_depth_layout",
+      "passed": true
+    },
+    {
+      "name": "L03_keep_batch_and_views",
+      "passed": true
+    },
+    {
+      "name": "L04_reject_wrong_tensor_shapes",
+      "passed": true
+    },
+    {
+      "name": "L05_missing_fields",
+      "passed": true
+    },
+    {
+      "name": "L06_extra_fields_and_profile_mismatch",
+      "passed": true
+    },
+    {
+      "name": "L07_bad_schema_and_dtypes",
+      "passed": true
+    },
+    {
+      "name": "L08_layout_not_finite_audit_unchanged",
+      "passed": true
+    }
+  ],
+  "exercise_sha256": "56b3cba8e799377b6404aeb9fc9dc8c64ea3bb341aa5bf69780b2a234e5dbf12",
+  "check_script_sha256": "07fec84f7f5481250e8146f11bd9ddb3898011d171eae692c1a0d46ecf2293f9",
+  "scope": "CPU audit-function tests, not VGGT inference or geometry validation"
+}

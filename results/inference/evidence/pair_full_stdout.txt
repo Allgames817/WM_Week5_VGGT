@@ -1,0 +1,17 @@
+Stage: source_and_unit_checks
+Stage: input_verification
+Stage: checkpoint_hash_verification
+Verifying checkpoint SHA-256 (local disk read, no download)...
+Stage: cpu_preprocessing
+Stage: cpu_model_construction
+Stage: cpu_checkpoint_loading
+Stage: cuda_model_and_input_transfer
+Stage: forward
+Stage: cpu_export
+Stage: saving_raw_arrays
+Stage: layout_and_finite_audit
+Stage: camera_decode_cpu
+SUCCESS: execution + numeric interface only, NOT geometric accuracy.
+Forward first-call seconds: 1.7310613000008743
+Forward peak allocated GiB: 5.237339019775391
+Output: artifacts\pair_full

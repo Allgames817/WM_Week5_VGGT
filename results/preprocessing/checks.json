@@ -1,0 +1,156 @@
+{
+  "task": "WM-W05-Day2-exercises",
+  "created_utc": "2026-10-12T05:29:47.788246+00:00",
+  "passed": 24,
+  "total": 24,
+  "all_passed": true,
+  "tests": [
+    {
+      "group": "plan",
+      "name": "01_landscape_crop_is_not_forced_square",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "plan",
+      "name": "02_portrait_center_crop",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "plan",
+      "name": "03_mixed_crop_needs_second_stage_padding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "plan",
+      "name": "04_pad_preserves_extent_and_pads_correct_axis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "plan",
+      "name": "05_square_and_input_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "plan",
+      "name": "06_python_round_ties_to_even",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "plan",
+      "name": "07_invalid_sizes_and_mode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "plan",
+      "name": "08_zero_after_rounding_is_rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "affine",
+      "name": "09_identity_and_float64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "affine",
+      "name": "10_actual_axis_scales_not_ideal_single_scale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "affine",
+      "name": "11_crop_subtracts_from_vertical_coordinate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "affine",
+      "name": "12_horizontal_mode_padding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "affine",
+      "name": "13_vertical_batch_padding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "affine",
+      "name": "14_intrinsic_transform_projection_consistency",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "affine",
+      "name": "15_roundtrip_no_clipping_no_mutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "affine",
+      "name": "16_invalid_plan_schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "tokens",
+      "name": "17_frame_shape_and_roundtrip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "tokens",
+      "name": "18_global_shape_and_roundtrip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "tokens",
+      "name": "19_index_identity_preserves_b_s_p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "tokens",
+      "name": "20_global_does_not_merge_batch_groups",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "tokens",
+      "name": "21_dtype_and_no_input_mutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "tokens",
+      "name": "22_noncontiguous_logical_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "tokens",
+      "name": "23_invalid_type_shape_mode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "group": "tokens",
+      "name": "24_nonfinite_and_single_view",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "numpy_version": "1.26.1",
+  "model_executed": false,
+  "scope": "Teaching-contract checks, not model or full renderer verification"
+}

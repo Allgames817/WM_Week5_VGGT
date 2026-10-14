@@ -1,0 +1,135 @@
+{
+  "task": "WM-W05-Day3-CPU-inspection",
+  "created_utc": "2026-10-12T09:37:09.185108+00:00",
+  "layout": {
+    "batch": 1,
+    "views": 2,
+    "height": 350,
+    "width": 518,
+    "profile": "full",
+    "fields": [
+      "depth",
+      "depth_conf",
+      "images",
+      "pose_enc",
+      "world_points",
+      "world_points_conf"
+    ]
+  },
+  "stats": {
+    "pose_enc": {
+      "shape": [
+        1,
+        2,
+        9
+      ],
+      "dtype": "float32",
+      "size": 18,
+      "finite_count": 18,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": -0.5177587866783142,
+      "finite_max": 1.0000101327896118,
+      "finite_mean": 0.28405196754091677
+    },
+    "depth": {
+      "shape": [
+        1,
+        2,
+        350,
+        518,
+        1
+      ],
+      "dtype": "float32",
+      "size": 362600,
+      "finite_count": 362600,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 0.5273823738098145,
+      "finite_max": 2.6547837257385254,
+      "finite_mean": 1.1298432144986221
+    },
+    "depth_conf": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "float32",
+      "size": 362600,
+      "finite_count": 362600,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 1.0,
+      "finite_max": 21.415292739868164,
+      "finite_mean": 9.010741912845873
+    },
+    "world_points": {
+      "shape": [
+        1,
+        2,
+        350,
+        518,
+        3
+      ],
+      "dtype": "float32",
+      "size": 1087800,
+      "finite_count": 1087800,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": -1.4597585201263428,
+      "finite_max": 2.794456958770752,
+      "finite_mean": 0.3679907652367416
+    },
+    "world_points_conf": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "float32",
+      "size": 362600,
+      "finite_count": 362600,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 1.0,
+      "finite_max": 24.759159088134766,
+      "finite_mean": 9.195891000852358
+    },
+    "images": {
+      "shape": [
+        1,
+        2,
+        3,
+        350,
+        518
+      ],
+      "dtype": "float32",
+      "size": 1087800,
+      "finite_count": 1087800,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 0.0,
+      "finite_max": 1.0,
+      "finite_mean": 0.49037229960331286
+    }
+  },
+  "positive_finite_depth_pixels": 362600,
+  "total_depth_pixels": 362600,
+  "shared_preview_scale": {
+    "p02": 0.6066021811962128,
+    "p98": 2.2944102811813356
+  },
+  "preview_mapping": "same within-run scale for all views; nearer dark, farther light; invalid pixels black; constant valid maps mid-gray",
+  "preview_is_metric_depth": false,
+  "geometry_accuracy_verified": false,
+  "warning": "Statistics include padded pixels when padding exists. This is not a visibility or accuracy evaluation."
+}

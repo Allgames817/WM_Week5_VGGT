@@ -1,0 +1,47 @@
+{
+  "task": "WM-W05-Day4-official-comparison",
+  "created_utc": "2026-10-12T12:14:43.674785+00:00",
+  "source_commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "official_helper": "unproject_depth_map_to_point_map",
+  "rtol": 5e-05,
+  "atol": 1e-06,
+  "tolerance_kind": "teaching numerical agreement; NOT geometry accuracy",
+  "mask": "student finite positive-depth mask only; no confidence/padding filtering",
+  "official_dtype": "float64",
+  "student_dtype": "float64",
+  "views": [
+    {
+      "view_index": 0,
+      "student_valid_count": 181300,
+      "official_nonfinite_on_student_valid": 0,
+      "point_distance_model_units": {
+        "count": 181300,
+        "finite_count": 181300,
+        "min": 1.2906442999849382e-12,
+        "max": 6.607718225650526e-08,
+        "mean": 9.170869386382527e-09,
+        "median": 6.612059429996607e-09,
+        "p95": 2.6786426425121428e-08
+      },
+      "elementwise_allclose": true
+    },
+    {
+      "view_index": 1,
+      "student_valid_count": 181300,
+      "official_nonfinite_on_student_valid": 0,
+      "point_distance_model_units": {
+        "count": 181300,
+        "finite_count": 181300,
+        "min": 6.119609562710543e-09,
+        "max": 1.0367970615897561e-07,
+        "mean": 4.152536472514398e-08,
+        "median": 4.1203336760562275e-08,
+        "p95": 5.52458624207446e-08
+      },
+      "elementwise_allclose": true
+    }
+  ],
+  "agreement": true,
+  "model_executed": false,
+  "geometry_accuracy_verified": false
+}

@@ -1,0 +1,111 @@
+{
+  "task": "WM-W05-Day4-unit-checks",
+  "created_utc": "2026-10-12T12:13:46.918016+00:00",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "name": "camera/01_identity",
+      "passed": true
+    },
+    {
+      "name": "camera/02_translation_is_not_center",
+      "passed": true
+    },
+    {
+      "name": "camera/03_rotated_center",
+      "passed": true
+    },
+    {
+      "name": "camera/04_mixed_pose_inverse",
+      "passed": true
+    },
+    {
+      "name": "camera/05_float32_noncontiguous_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "camera/06_shape_and_dtype_errors",
+      "passed": true
+    },
+    {
+      "name": "camera/07_nonfinite_error",
+      "passed": true
+    },
+    {
+      "name": "camera/08_nonrigid_and_reflection_errors",
+      "passed": true
+    },
+    {
+      "name": "unproject/01_integer_grid_and_focal_lengths",
+      "passed": true
+    },
+    {
+      "name": "unproject/02_principal_point",
+      "passed": true
+    },
+    {
+      "name": "unproject/03_world_transform_direction",
+      "passed": true
+    },
+    {
+      "name": "unproject/04_z_is_not_range",
+      "passed": true
+    },
+    {
+      "name": "unproject/05_near_and_nonfinite_mask",
+      "passed": true
+    },
+    {
+      "name": "unproject/06_all_invalid",
+      "passed": true
+    },
+    {
+      "name": "unproject/07_float32_noncontiguous_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "unproject/08_bad_arguments",
+      "passed": true
+    },
+    {
+      "name": "project/01_pinhole",
+      "passed": true
+    },
+    {
+      "name": "project/02_world_to_camera",
+      "passed": true
+    },
+    {
+      "name": "project/03_signed_z_near_boundary",
+      "passed": true
+    },
+    {
+      "name": "project/04_off_image_stays_valid",
+      "passed": true
+    },
+    {
+      "name": "project/05_nonfinite_input_row",
+      "passed": true
+    },
+    {
+      "name": "project/06_empty",
+      "passed": true
+    },
+    {
+      "name": "project/07_float32_noncontiguous_no_mutation",
+      "passed": true
+    },
+    {
+      "name": "project/08_bad_arguments",
+      "passed": true
+    }
+  ],
+  "code_sha256": {
+    "day4_exercise.py": "87e5a43e7b782c13364a93960789600c35d5a77a412bc57d78820229fcba2bbc",
+    "contracts.py": "00d7905da4cb364df9f8369592e62b9debeec73a5555598a35e17b8f2b14babb",
+    "check_day4.py": "deb61032388da18845984737ae95bd3c959092e843277cdd04cc28e20f32794e"
+  },
+  "model_executed": false,
+  "geometry_accuracy_verified": false
+}

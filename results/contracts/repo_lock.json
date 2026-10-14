@@ -1,0 +1,183 @@
+{
+  "task": "WM-W05-Day1-source-lock",
+  "created_utc": "2026-10-12T03:24:04.130290+00:00",
+  "repo_path": "D:\\WM_Study\\Daily\\vggt",
+  "origin": "https://github.com/facebookresearch/vggt.git",
+  "commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "tracked_source_clean": true,
+  "normalized_source_sha256": {
+    "README.md": "56426b9aea25174ccbc4c2c37a3a22107fd8b5ac9dc5a8bf008e7457402ed3bd",
+    "requirements.txt": "171720da9f30387a5232065fd7848d767cc6cb9fafca2da928aa686cb79923f2",
+    "vggt/models/vggt.py": "dbc92d6214882161d9042b1bc60cc932a9fd6bb609fc913d14906328f7833607",
+    "vggt/models/aggregator.py": "c994d7231eda2380f208355a64bce3cd7c4b97ef06393355e632415bfc1513e5",
+    "vggt/utils/pose_enc.py": "845fc3a46cb851bebf0720b8fc2b9f34334ae8e11f1982376ba59f90ff18f22b",
+    "vggt/utils/load_fn.py": "d57b7a16c2e04333a2e68d365aa21f1dd61759e984f744cbcbe6b66d787f37ef",
+    "vggt/utils/geometry.py": "c6f505182e4e926629c04adbdf633eb80238da3a3c87eb8337b6f130ab01ab93",
+    "vggt/heads/head_act.py": "428bdb087f457b809a66e22d7d01147c1cb4dab43bb0d98bc61c7f05d8383a1e"
+  },
+  "source_map": {
+    "vggt/models/vggt.py": [
+      {
+        "name": "VGGT",
+        "line": 17,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "__init__",
+        "line": 18,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "forward",
+        "line": 29,
+        "kind": "FunctionDef"
+      }
+    ],
+    "vggt/models/aggregator.py": [
+      {
+        "name": "Aggregator",
+        "line": 25,
+        "kind": "ClassDef"
+      },
+      {
+        "name": "__init__",
+        "line": 52,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "__build_patch_embed__",
+        "line": 146,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "forward",
+        "line": 187,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "_process_frame_attention",
+        "line": 267,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "_process_global_attention",
+        "line": 291,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "slice_expand_and_flatten",
+        "line": 315,
+        "kind": "FunctionDef"
+      }
+    ],
+    "vggt/utils/pose_enc.py": [
+      {
+        "name": "extri_intri_to_pose_encoding",
+        "line": 11,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "pose_encoding_to_extri_intri",
+        "line": 62,
+        "kind": "FunctionDef"
+      }
+    ],
+    "vggt/utils/load_fn.py": [
+      {
+        "name": "load_and_preprocess_images_square",
+        "line": 13,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "load_and_preprocess_images",
+        "line": 97,
+        "kind": "FunctionDef"
+      }
+    ],
+    "vggt/utils/geometry.py": [
+      {
+        "name": "unproject_depth_map_to_point_map",
+        "line": 15,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "depth_to_world_coords_points",
+        "line": 47,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "depth_to_cam_coords_points",
+        "line": 87,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "closed_form_inverse_se3",
+        "line": 120,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "project_world_points_to_camera_points_batch",
+        "line": 175,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "project_world_points_to_cam",
+        "line": 204,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "img_from_cam",
+        "line": 251,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "cam_from_img",
+        "line": 294,
+        "kind": "FunctionDef"
+      }
+    ],
+    "vggt/heads/head_act.py": [
+      {
+        "name": "activate_pose",
+        "line": 12,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "base_pose_act",
+        "line": 38,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "activate_head",
+        "line": 61,
+        "kind": "FunctionDef"
+      },
+      {
+        "name": "inverse_log_transform",
+        "line": 115,
+        "kind": "FunctionDef"
+      }
+    ]
+  },
+  "forward_positional_arguments": [
+    "self",
+    "images",
+    "query_points"
+  ],
+  "prediction_assignment_keys": [
+    "conf",
+    "depth",
+    "depth_conf",
+    "images",
+    "pose_enc",
+    "pose_enc_list",
+    "track",
+    "vis",
+    "world_points",
+    "world_points_conf"
+  ],
+  "static_interface_check_passed": true,
+  "model_imported": false,
+  "model_executed": false,
+  "runtime_compatibility_verified": false
+}

@@ -1,0 +1,116 @@
+{
+  "task": "WM-W05-Day5-preview",
+  "created_utc": "2026-10-12T14:44:29.368094+00:00",
+  "status": "success",
+  "model_executed": false,
+  "source_comparison_sha256": "0d42fc1d16237eee42bff644782721af0aa7ea43e9c97ce88bf54bcc80739178",
+  "source_archive_sha256": "5544849d9a4ceab6d3c76850c95c19b4aeb1a93564e23df4bad02f4d2205dfff",
+  "confidence_display_ranges": {
+    "depth": {
+      "low": 1.0,
+      "high": 18.648024635314943,
+      "display_only": true,
+      "note": "Shared over views within this head; not a cross-head probability scale"
+    },
+    "direct": {
+      "low": 1.0,
+      "high": 20.856824340820317,
+      "display_only": true,
+      "note": "Shared over views within this head; not a cross-head probability scale"
+    }
+  },
+  "residual_display": {
+    "low": 0.0,
+    "high": 0.3672708807359062,
+    "base_p95": 0.3672708807359062,
+    "fixed_across_views_and_conditions": true,
+    "statistics_use_unclipped_raw_values": true
+  },
+  "scene_display": {
+    "stride": 8,
+    "max_grid_samples": 12000,
+    "grid_fixed_before_confidence_masks": true,
+    "coordinate_limits": [
+      [
+        -1.8751133194998157,
+        1.369923662288512
+      ],
+      [
+        -1.9731976947620762,
+        1.2718392870262516
+      ],
+      [
+        -0.14753118086505457,
+        3.0975058009232734
+      ]
+    ],
+    "same_limits_all_conditions": true,
+    "world_frame_modified": false,
+    "support": "paired mask intersection",
+    "counts": {
+      "all": 5720,
+      "high75": 4906,
+      "high50": 1997
+    },
+    "not_fusion_or_reconstruction": true
+  },
+  "notes": [
+    "Mask PNG is authoritative for which displayed pixels are retained; black RGB can also be original scene content.",
+    "Confidence and residual PNGs use finite display ranges; original arrays are not clipped or normalized.",
+    "3D overlays use the same pixels for both point sources and the same axes for all three levels.",
+    "Point counts in plots/PLY are sampled counts, not the full-grid CSV counts.",
+    "PLY concatenates samples without deduplication, voxel downsampling, normal estimation or surface fusion."
+  ],
+  "artifact_sha256": {
+    "confidence_depth_view00.png": "7e04daeaa4b34dee52befd8188549e2650914b66a6334ae186a1da6e785bdcc4",
+    "confidence_depth_view01.png": "b6b0546bddeee442d021f04c0f62c117ab84ac3b391566e5a4ae8243308044ef",
+    "confidence_direct_view00.png": "50644f4c86bc667e316d0597b4ff10eaeb180847a2ed751c358394a3f62747fd",
+    "confidence_direct_view01.png": "12f5480e7979b24a58f434acf285b83b8fe507a2e1703f5457bd4cd966c5bd0b",
+    "depth_all_samples.ply": "05d5219d369687d570c67e4c9e57c665b0b60ee2088e5baa7d82753da8b693e4",
+    "depth_high50_samples.ply": "745c3475a1a47249c64512d4df31ffdf089157026cebd01f97f9d398472845db",
+    "depth_high75_samples.ply": "b29793cb876c897f169e9f387d7e2f047d416ef627c65ab06223d1a030b4ef57",
+    "direct_all_samples.ply": "57538ab582e76f3892bd492f853faf53fe331a81565fdee6025794802cbb3554",
+    "direct_high50_samples.ply": "07472f3816fbf38248a745a92f75d4a71f83fe145a21cf98000680c234829b8e",
+    "direct_high75_samples.ply": "5c05f492c21e74a6173f989f3d0b846cc3f2591e0b43673769b91c1c08de85d1",
+    "mask_depth_all_view00.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_depth_all_view01.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_depth_high50_view00.png": "e4a354e30548235b39b880ed7cecf2ebaed5bfa52c8e80391afe43debfcaa5ab",
+    "mask_depth_high50_view01.png": "4edaaf402296044eb39d95b5e43b512424c269dedab157270f57842b67af613c",
+    "mask_depth_high75_view00.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_depth_high75_view01.png": "a85a0980e756526d2703e27f3853d11451efc60d2fdb69785d2c10f2bc06de5f",
+    "mask_direct_all_view00.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_direct_all_view01.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_direct_high50_view00.png": "987568a91a78cc9c603c01304e57e0e795ce8f56d4223a0592cbff85536aae9d",
+    "mask_direct_high50_view01.png": "cd74bbbfd3c96c420459887b7c91c26374a39fbc86a36747dfb837620694fbf2",
+    "mask_direct_high75_view00.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_direct_high75_view01.png": "69c5a6933579ac1375fa1fd22db219cbc15ce4a7aa722f5029b1529d874e1261",
+    "mask_pair_all_view00.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_pair_all_view01.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_pair_high50_view00.png": "c68442ce0c7faf57346a544d937907a5191e16f07cdaa1cbea5a5142f94e25d6",
+    "mask_pair_high50_view01.png": "c836503b4a41751660f7a4b11b43e0e40a78f11493bd8eef87c6d7f41c31c900",
+    "mask_pair_high75_view00.png": "30da02145ed1bba4940f4c667d7c4f340c96974d36d55c10f52e3df3c4354a53",
+    "mask_pair_high75_view01.png": "d35766c0dff6dad0aa52b4ca4ae38b4d21037bddeadb90b5e33caab6cdc3f363",
+    "residual_all_view00.png": "83d755e1b41b27cca02e89fb8f437e955c080f74b2ad55d7a954d3845d541425",
+    "residual_all_view01.png": "9a20d9651745d18aec1f95b1768ddf7fbfbc6ad47ebf56f3a814678eaec66ac0",
+    "residual_high50_view00.png": "19944d1d685db099e1090e1b62335552d96b064d34cd486fa6bfb7dd6e3da446",
+    "residual_high50_view01.png": "40aec231dd3a49c80eb10d7ec1172666e642a3aa7eb184120284566203ec7762",
+    "residual_high75_view00.png": "83d755e1b41b27cca02e89fb8f437e955c080f74b2ad55d7a954d3845d541425",
+    "residual_high75_view01.png": "5f395ebb70aee92017d322bd6229875ab599aab0353f569143854aa06725efd2",
+    "rgb_depth_all_view00.png": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+    "rgb_depth_all_view01.png": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+    "rgb_depth_high50_view00.png": "8a3a4ee2c6dc03c51ba51559a43e453e28041c3f9c61a54bca13c26b4e41f438",
+    "rgb_depth_high50_view01.png": "8d1adfc0c6d488df4b201ae2fae7b5c0ce52113b82d6eef8c27695eb3293c0d2",
+    "rgb_depth_high75_view00.png": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+    "rgb_depth_high75_view01.png": "f8a0172fc26ddfe15bb76594e6f246db30a1b486a8642677b4484563e60fa0e4",
+    "rgb_direct_all_view00.png": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+    "rgb_direct_all_view01.png": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+    "rgb_direct_high50_view00.png": "8ae92e57b8aca98a8812440538d257d14de1de93852113275f321ce347c1b88c",
+    "rgb_direct_high50_view01.png": "78ac40dd26913e7a381913f3b7ad6e1ed7a54cb52e2bc2727047c986332e27ec",
+    "rgb_direct_high75_view00.png": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+    "rgb_direct_high75_view01.png": "1c4824723f2608d7da0af0b7b13b3e69822c1bdc9207b6a22a0f6f950bf3d4f3",
+    "scene_all.png": "8f5730efd7cd7343436a6788f4f37982c93e5f05356c68dd9bcf3f29929d4cfb",
+    "scene_high50.png": "36d9e97ac5508159c7b9e9f2f44912255948c7043d49d48d6e89dfc41cd84b46",
+    "scene_high75.png": "4077ea1a08d0b0b7be13ee5e39f498b0913acd57f2f2806909a184239437d2ec"
+  },
+  "finished_utc": "2026-10-12T14:44:31.801528+00:00"
+}

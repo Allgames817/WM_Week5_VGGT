@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-12T17:14:33.748153+00:00",
+  "task": "WM-W05-Day6-preview",
+  "level": "high75",
+  "ratio": "r05",
+  "source_json_sha256": "26b6a2db6be39f86a6c11f0cdca753388759300a233ede70761e0d713bc9cc95",
+  "signed_relative_display_range": [
+    -0.8569342357926352,
+    0.8569342357926352
+  ],
+  "display_stride": 12,
+  "statistics_sampled": false,
+  "image_interpretation": "Binary status masks are on SOURCE grid. Projected markers are on TARGET RGB. These are NOT flow ground truth.",
+  "directions": [
+    {
+      "source_view": 0,
+      "target_view": 1,
+      "plotted_markers": 826
+    },
+    {
+      "source_view": 1,
+      "target_view": 0,
+      "plotted_markers": 834
+    }
+  ],
+  "png_sha256": {
+    "b00_s00_to_s01_comparable_rgb.png": "a7672e5797f9bd689f22a81d00cb5ec8cc555b22fd077bd075dbe79bd208c295",
+    "b00_s00_to_s01_depth_agree.png": "691f44a19464bdf86706742bbc56b02d6457bcc11209fccbe83cf6c4602949f1",
+    "b00_s00_to_s01_front_conflict.png": "9ab5ccb9250e79c4eabec0ecab225782834ab875827f894bb0bd2f45448653f5",
+    "b00_s00_to_s01_label_codes.png": "cc446738916c389e717d244399ce766cb9e8fdcfee46616262dc4a23de02ea9f",
+    "b00_s00_to_s01_nonprojectable.png": "3f421f2f1a58530ce7b41feba349d8e1d8e72927b55d9aa0749228ab42cae9a2",
+    "b00_s00_to_s01_outside_target.png": "0cc150bb4cb722b0afd54d4e21312bd954056a98e13d124e4ea0f2514a287bae",
+    "b00_s00_to_s01_possible_occlusion.png": "9bd00988d06601cfbade185608421a0513eca728a0e2026fab5563add95a76b5",
+    "b00_s00_to_s01_signed_relative_display.png": "62fed8fb8779099854cef7cb8f1dfd4af27df4aea7eea33cd827810a11410191",
+    "b00_s00_to_s01_source_rejected.png": "3f421f2f1a58530ce7b41feba349d8e1d8e72927b55d9aa0749228ab42cae9a2",
+    "b00_s00_to_s01_source_rgb.png": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+    "b00_s00_to_s01_target_projection.png": "9d72241661ea8daae88c65f66fe6ceb73bc00e56d7048e6f836a55b98ca38609",
+    "b00_s00_to_s01_target_rgb.png": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+    "b00_s00_to_s01_target_unsupported.png": "9fbc6d90eb219def4539cdcd9e15c22c66f03761caef1cb3eeb5076b37c3095e",
+    "b00_s01_to_s00_comparable_rgb.png": "1944bf634d7917ae87ed9205ef3889bd870a462370f03673e59fc55e117812bb",
+    "b00_s01_to_s00_depth_agree.png": "809d1317edd12b904ff630cbf7416a5493f679e10060d1d01e719f6bfb7b26a1",
+    "b00_s01_to_s00_front_conflict.png": "ffb9cac224535388b3bcc2974fe42d083f4e3ed7a749102e21edd080bcb0cacc",
+    "b00_s01_to_s00_label_codes.png": "8389b4947f783305b0a4779c97bdf3107eb36bc4c7cfdd2f273bd144a8daadca",
+    "b00_s01_to_s00_nonprojectable.png": "3f421f2f1a58530ce7b41feba349d8e1d8e72927b55d9aa0749228ab42cae9a2",
+    "b00_s01_to_s00_outside_target.png": "1435032927cf552e15bc71464efc7351c271b9e0881cfecb7a316622fc2a2461",
+    "b00_s01_to_s00_possible_occlusion.png": "56ee8c0cc08b974848fcad7ff3f5d588f1c07d79239149a9e79c4114f1cefee4",
+    "b00_s01_to_s00_signed_relative_display.png": "c6c0571f97b82dd012dd8c2349a82706b024221d4525386098b37b0761a06840",
+    "b00_s01_to_s00_source_rejected.png": "81d28594f3c48064b3b8fa0325f06afa1fb9c6ed4dcd27160e40d9d1fd7a906b",
+    "b00_s01_to_s00_source_rgb.png": "519e53a7f4fe4f99bf9d28f146e69a0c1074e02d3af5cd7d65f6a6de4a4745ce",
+    "b00_s01_to_s00_target_projection.png": "49f7b346ffe818964362634e18fdb5f8ea31b76d3ceacb89922006237a576faf",
+    "b00_s01_to_s00_target_rgb.png": "e3008f4f2472f3b5bc837dd674c7f62746566b81df06a4ff1d825ff02760f251",
+    "b00_s01_to_s00_target_unsupported.png": "3f421f2f1a58530ce7b41feba349d8e1d8e72927b55d9aa0749228ab42cae9a2"
+  }
+}

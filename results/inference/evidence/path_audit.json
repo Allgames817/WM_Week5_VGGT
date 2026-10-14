@@ -1,0 +1,114 @@
+{
+  "task": "WM-W05-Day3-path-audit",
+  "created_utc": "2026-10-12T08:32:12.301231+00:00",
+  "status": "passed",
+  "scope": "All 10 Week5_Day3 core Python scripts plus 1 loader-test script; all 7 CLI parsers",
+  "script_sha256": {
+    "check_day3.py": "07fec84f7f5481250e8146f11bd9ddb3898011d171eae692c1a0d46ecf2293f9",
+    "common.py": "3745f385c526fdf53a2e900d550ca271dc8c84fecc02bb2673a280396374cb5c",
+    "day3_exercise.py": "56b3cba8e799377b6404aeb9fc9dc8c64ea3bb341aa5bf69780b2a234e5dbf12",
+    "inspect_run.py": "2c4a7de00db3695c3faa70920f48b2abcab157aa9b4bffed949d1a6e4747ac06",
+    "preflight.py": "a4ed6c2b5cf3ce72f0502b427ebb2db4a6759d51833797a1f553d371744733de",
+    "prepare_inputs.py": "5a28c8ddf655d5dd4ae54c354bc65691319dc2c0719e0cc00352b4054942a6fe",
+    "prepare_weights.py": "637c04b5aab822c816cf8c2e215dbd3121a40831379b1aa76340fad1ceb9167a",
+    "repo_tools.py": "476640f615bace5951b75c030af0a66b74ef8ec1523e2dc79fe8082413985b65",
+    "run_inference.py": "6347603b9b117012e551e24a90b2222f53158a459a89b8dbe6f02ac9c3a2f4df",
+    "verify_source.py": "f3620aaec620e3dc9e6aea9b405da2b68572e26e54099573952de688b98809e1",
+    "tests\\test_checkpoint_loading.py": "a366368043eea7c67d0fed8510f22f2838706defe0fbe253d33532c61d0762b4"
+  },
+  "syntax_checked": [
+    "check_day3.py",
+    "common.py",
+    "day3_exercise.py",
+    "inspect_run.py",
+    "preflight.py",
+    "prepare_inputs.py",
+    "prepare_weights.py",
+    "repo_tools.py",
+    "run_inference.py",
+    "verify_source.py",
+    "tests\\test_checkpoint_loading.py"
+  ],
+  "tested_working_directories": [
+    "D:\\WM_Study\\Daily\\Week5_Day3",
+    "D:\\WM_Study"
+  ],
+  "cli_defaults": [
+    {
+      "script": "check_day3.py",
+      "defaults": {
+        "out": "D:\\WM_Study\\Daily\\Week5_Day3\\evidence\\day3_check.json"
+      },
+      "same_defaults_from_both_cwds": true
+    },
+    {
+      "script": "preflight.py",
+      "defaults": {
+        "repo": "D:\\WM_Study\\Daily\\vggt",
+        "day1_lock": "D:\\WM_Study\\Daily\\Week5_Day1\\evidence\\repo_lock.json",
+        "out": "D:\\WM_Study\\Daily\\Week5_Day3\\evidence\\preflight.json"
+      },
+      "same_defaults_from_both_cwds": true
+    },
+    {
+      "script": "verify_source.py",
+      "defaults": {
+        "repo": "D:\\WM_Study\\Daily\\vggt",
+        "day1_lock": "D:\\WM_Study\\Daily\\Week5_Day1\\evidence\\repo_lock.json",
+        "out": "D:\\WM_Study\\Daily\\Week5_Day3\\evidence\\source_check.json"
+      },
+      "same_defaults_from_both_cwds": true
+    },
+    {
+      "script": "prepare_inputs.py",
+      "defaults": {
+        "source": "D:\\WM_Study\\Daily\\Week5_Day3\\input_raw",
+        "out": "D:\\WM_Study\\Daily\\Week5_Day3\\inputs"
+      },
+      "same_defaults_from_both_cwds": true
+    },
+    {
+      "script": "prepare_weights.py",
+      "defaults": {
+        "directory": "D:\\WM_Study\\Daily\\vggt_weights",
+        "lock": "D:\\WM_Study\\Daily\\Week5_Day3\\evidence\\weights_lock.json"
+      },
+      "same_defaults_from_both_cwds": true
+    },
+    {
+      "script": "run_inference.py",
+      "defaults": {
+        "repo": "D:\\WM_Study\\Daily\\vggt",
+        "day1_lock": "D:\\WM_Study\\Daily\\Week5_Day1\\evidence\\repo_lock.json",
+        "weights_lock": "D:\\WM_Study\\Daily\\Week5_Day3\\evidence\\weights_lock.json",
+        "checks": "D:\\WM_Study\\Daily\\Week5_Day3\\evidence\\day3_check.json",
+        "input_manifest": "D:\\WM_Study\\Daily\\Week5_Day3\\inputs\\input_manifest.json"
+      },
+      "same_defaults_from_both_cwds": true
+    },
+    {
+      "script": "inspect_run.py",
+      "defaults": {},
+      "same_defaults_from_both_cwds": true
+    }
+  ],
+  "explicit_relative_paths": "Preserved relative to the caller working directory",
+  "weight_file": {
+    "path": "D:\\WM_Study\\Daily\\vggt_weights\\model.safetensors",
+    "size_verified": true,
+    "sha256_verified_here": false,
+    "sha256_check": "run_inference verifies the complete checkpoint before loading"
+  },
+  "input_manifest_hashes_verified": true,
+  "checkpoint_loader_tests": {
+    "passed": 3,
+    "log": "evidence/checkpoint_loading_tests.txt",
+    "includes": [
+      "PyTorch strict-load numeric equivalence",
+      "nonpersistent buffers",
+      "missing/extra keys",
+      "wrong shapes/dtypes",
+      "truncated/overlapping/trailing tensor data"
+    ]
+  }
+}

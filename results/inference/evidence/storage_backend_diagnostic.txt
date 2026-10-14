@@ -1,0 +1,5 @@
+Constructing the CPU model for storage-backend diagnosis
+Opening checkpoint with framework=pt
+FAILED: pt OSError ҳ���ļ�̫С���޷���ɲ����� (os error 1455)
+Opening checkpoint with framework=np
+FAILED: np OSError ҳ���ļ�̫С���޷���ɲ����� (os error 1455)

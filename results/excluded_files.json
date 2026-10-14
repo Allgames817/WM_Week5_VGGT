@@ -1,0 +1,33 @@
+{
+  "not_distributed": [
+    {
+      "source": "Daily/vggt",
+      "reason": "Upstream source checkout; linked at the historical commit instead."
+    },
+    {
+      "source": "Daily/vggt_weights",
+      "reason": "5 GB model weights; revision and SHA-256 retained in evidence."
+    },
+    {
+      "source": "Daily/Week5_Day*/**/*.py",
+      "reason": "Original inference, exercises and analysis implementation; this package is for reviewing results. The new verifier is independent."
+    },
+    {
+      "source": "Daily/Week5_Day3/input_raw and inputs/*.png",
+      "reason": "Original/canonical image duplicates omitted; processed inference images and image hashes are included."
+    },
+    {
+      "source": "Daily/Week5_Day3/evidence/failed_runs",
+      "reason": "Detailed failed runs omitted; recovery_report and root diagnostic records preserve the engineering history."
+    },
+    {
+      "source": "Daily/Week5_Day*/notes and templates",
+      "reason": "Rewritten as topic documents. Completed summary in templates was used as an input, not treated as an empty template."
+    },
+    {
+      "source": "**/__pycache__ and local environments",
+      "reason": "Machine-specific caches and dependencies."
+    }
+  ],
+  "historical_paths": "Paths inside copied JSON/TXT/CSV/JSONL may reference omitted files; see source_manifest for included file mappings."
+}

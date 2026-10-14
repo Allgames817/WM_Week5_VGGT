@@ -1,0 +1,98 @@
+{
+  "task": "WM-W05-Day3-CPU-inspection",
+  "created_utc": "2026-10-12T08:42:42.875683+00:00",
+  "layout": {
+    "batch": 1,
+    "views": 2,
+    "height": 350,
+    "width": 518,
+    "profile": "camera-depth",
+    "fields": [
+      "depth",
+      "depth_conf",
+      "images",
+      "pose_enc"
+    ]
+  },
+  "stats": {
+    "pose_enc": {
+      "shape": [
+        1,
+        2,
+        9
+      ],
+      "dtype": "float32",
+      "size": 18,
+      "finite_count": 18,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": -0.5177587866783142,
+      "finite_max": 1.0000101327896118,
+      "finite_mean": 0.28405196754091677
+    },
+    "depth": {
+      "shape": [
+        1,
+        2,
+        350,
+        518,
+        1
+      ],
+      "dtype": "float32",
+      "size": 362600,
+      "finite_count": 362600,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 0.5269686579704285,
+      "finite_max": 2.6547763347625732,
+      "finite_mean": 1.1298303044353541
+    },
+    "depth_conf": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "float32",
+      "size": 362600,
+      "finite_count": 362600,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 1.0,
+      "finite_max": 21.422901153564453,
+      "finite_mean": 9.011315528702092
+    },
+    "images": {
+      "shape": [
+        1,
+        2,
+        3,
+        350,
+        518
+      ],
+      "dtype": "float32",
+      "size": 1087800,
+      "finite_count": 1087800,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 0.0,
+      "finite_max": 1.0,
+      "finite_mean": 0.49037229960331286
+    }
+  },
+  "positive_finite_depth_pixels": 362600,
+  "total_depth_pixels": 362600,
+  "shared_preview_scale": {
+    "p02": 0.6066112434864044,
+    "p98": 2.294440755844116
+  },
+  "preview_mapping": "same within-run scale for all views; nearer dark, farther light; invalid pixels black; constant valid maps mid-gray",
+  "preview_is_metric_depth": false,
+  "geometry_accuracy_verified": false,
+  "warning": "Statistics include padded pixels when padding exists. This is not a visibility or accuracy evaluation."
+}

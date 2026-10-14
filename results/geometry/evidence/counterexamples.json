@@ -1,0 +1,119 @@
+{
+  "task": "WM-W05-Day4-counterexamples",
+  "created_utc": "2026-10-12T12:14:02.805310+00:00",
+  "source": "synthetic arrays generated on this local run; no saved/model scene inputs",
+  "baseline": {
+    "positive_finite_projection_count": 15,
+    "total_points": 15,
+    "uv_error_px": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.0,
+      "max": 2.220446049250313e-16,
+      "mean": 2.960594732333751e-17,
+      "median": 0.0,
+      "p95": 2.220446049250313e-16
+    },
+    "relative_z_error_vs_original_depth": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0
+    }
+  },
+  "one_sided_w2c_c2w_mixup": {
+    "positive_finite_projection_count": 15,
+    "total_points": 15,
+    "uv_error_px": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.6741249472052226,
+      "max": 6.559153908851354,
+      "mean": 3.663992603009784,
+      "median": 3.5899883008165916,
+      "p95": 5.899777405753071
+    },
+    "relative_z_error_vs_original_depth": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.2,
+      "max": 0.3333333333333333,
+      "mean": 0.2562194888741504,
+      "median": 0.25,
+      "p95": 0.3227272727272727
+    }
+  },
+  "z_misread_as_unit_ray_range": {
+    "positive_finite_projection_count": 15,
+    "total_points": 15,
+    "uv_error_px": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.0,
+      "max": 2.220446049250313e-16,
+      "mean": 1.4802973661668754e-17,
+      "median": 0.0,
+      "p95": 6.661338147750916e-17
+    },
+    "relative_z_error_vs_original_depth": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.0,
+      "max": 0.14285714285714296,
+      "mean": 0.08350766004862374,
+      "median": 0.07692307692307684,
+      "p95": 0.14285714285714296
+    }
+  },
+  "joint_global_scale_change": {
+    "positive_finite_projection_count": 15,
+    "total_points": 15,
+    "uv_error_px": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.0,
+      "max": 2.220446049250313e-16,
+      "mean": 2.960594732333751e-17,
+      "median": 0.0,
+      "p95": 2.220446049250313e-16
+    },
+    "relative_z_error_vs_original_depth": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0
+    },
+    "scale_factor": 2.0,
+    "world_vs_scaled_original_error": {
+      "count": 15,
+      "finite_count": 15,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0
+    },
+    "original_camera_separation": 0.39999999999999997,
+    "scaled_camera_separation": 0.7999999999999999,
+    "units": "synthetic model units, not meters"
+  },
+  "questions": [
+    "Why can the range mistake keep nearly identical UV but change camera Z?",
+    "Why can joint scaling preserve projection while changing camera separation?",
+    "Why is using a different transform on only one side different from a consistent coordinate change?"
+  ],
+  "geometry_accuracy_verified": false,
+  "model_executed": false,
+  "unit_check_passed": 24,
+  "code_sha256": {
+    "run_counterexamples.py": "c42328d4e1fc6b0025919a0e44b171983c5a4b1acf23165f7e5f20f7e2895861",
+    "day4_exercise.py": "87e5a43e7b782c13364a93960789600c35d5a77a412bc57d78820229fcba2bbc",
+    "contracts.py": "00d7905da4cb364df9f8369592e62b9debeec73a5555598a35e17b8f2b14babb"
+  }
+}

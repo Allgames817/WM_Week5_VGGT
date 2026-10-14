@@ -1,0 +1,91 @@
+{
+  "task": "WM-W05-Day1-interface-contract",
+  "created_utc": "2026-10-12T03:25:07.532675+00:00",
+  "scope": "synthetic NumPy input/output contract only",
+  "official_model_executed": false,
+  "model_accuracy_verified": false,
+  "passed": 16,
+  "total": 16,
+  "checks": [
+    {
+      "name": "input/01_four_dimensional_adds_one_scene",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "input/02_five_dimensions_and_noncontiguous_float64",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "input/03_closed_interval_endpoints_and_float16",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "input/04_rejects_ambiguous_ranks",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "input/05_rejects_wrong_channel_axis",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "input/06_rejects_non_array_and_non_float",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "input/07_rejects_nan_inf_and_out_of_range_without_clipping",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "input/08_rejects_empty_axes_and_non_patch_aligned_hw",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "schema/09_no_query_exact_tensor_key_set",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "schema/10_camera_shape_retains_batch_and_views",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "schema/11_dense_maps_are_channel_last",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "schema/12_query_adds_pixel_tracks_and_scores",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "schema/13_training_omits_only_preserved_images",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "schema/14_rejects_invalid_canonical_shape",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "schema/15_rejects_invalid_query_count",
+      "passed": true,
+      "message": "OK"
+    },
+    {
+      "name": "schema/16_rejects_non_bool_training_and_non_tensor_fields",
+      "passed": true,
+      "message": "OK"
+    }
+  ]
+}

@@ -1,0 +1,1038 @@
+{
+  "task": "WM-W05-Day3-inference",
+  "created_utc": "2026-10-12T08:42:04.850827+00:00",
+  "status": "success",
+  "profile": "camera-depth",
+  "requested_views": 2,
+  "timings": {
+    "checkpoint_hash_verification_seconds": 5.447033100001136,
+    "preprocessing_seconds": 0.05203159999655327,
+    "cpu_model_construction_seconds": 9.635643800000253,
+    "cpu_checkpoint_loading_seconds": 6.255699100001948,
+    "cuda_model_and_input_transfer_seconds": 1.05056870000044,
+    "forward_first_call_seconds": 1.0523625999994692,
+    "cpu_export_seconds": 0.0028390999978000764,
+    "save_raw_arrays_seconds": 0.27499560000069323,
+    "camera_decode_and_save_seconds": 0.006821099999797298,
+    "workflow_seconds_excluding_download_and_staging": 30.140396599999804
+  },
+  "memory": {
+    "before_model_transfer": {
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "max_allocated_bytes": 0,
+      "max_reserved_bytes": 0,
+      "device_free_bytes": 7451181056,
+      "device_total_bytes": 8585216000
+    },
+    "after_model_transfer": {
+      "allocated_bytes": 4637455872,
+      "reserved_bytes": 4664066048,
+      "max_allocated_bytes": 4637455872,
+      "max_reserved_bytes": 4664066048,
+      "device_free_bytes": 2787115008,
+      "device_total_bytes": 8585216000
+    },
+    "forward_peak_and_end": {
+      "allocated_bytes": 4649377792,
+      "reserved_bytes": 5502926848,
+      "max_allocated_bytes": 5128669696,
+      "max_reserved_bytes": 5502926848,
+      "device_free_bytes": 1167048704,
+      "device_total_bytes": 8585216000
+    }
+  },
+  "stage": "completed",
+  "last_update_utc": "2026-10-12T08:42:34.951885+00:00",
+  "source": {
+    "task": "WM-W05-Day3-source-verification",
+    "created_utc": "2026-10-12T08:42:05.606702+00:00",
+    "day1_commit_verified": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+    "day1_lock_path": "D:\\WM_Study\\Daily\\Week5_Day1\\evidence\\repo_lock.json",
+    "day1_hashes_verified": true,
+    "tracked_source_clean": true,
+    "normalized_source_sha256": {
+      "README.md": "56426b9aea25174ccbc4c2c37a3a22107fd8b5ac9dc5a8bf008e7457402ed3bd",
+      "requirements.txt": "171720da9f30387a5232065fd7848d767cc6cb9fafca2da928aa686cb79923f2",
+      "vggt/models/vggt.py": "dbc92d6214882161d9042b1bc60cc932a9fd6bb609fc913d14906328f7833607",
+      "vggt/models/aggregator.py": "c994d7231eda2380f208355a64bce3cd7c4b97ef06393355e632415bfc1513e5",
+      "vggt/utils/pose_enc.py": "845fc3a46cb851bebf0720b8fc2b9f34334ae8e11f1982376ba59f90ff18f22b",
+      "vggt/utils/load_fn.py": "d57b7a16c2e04333a2e68d365aa21f1dd61759e984f744cbcbe6b66d787f37ef",
+      "vggt/utils/geometry.py": "c6f505182e4e926629c04adbdf633eb80238da3a3c87eb8337b6f130ab01ab93",
+      "vggt/heads/head_act.py": "428bdb087f457b809a66e22d7d01147c1cb4dab43bb0d98bc61c7f05d8383a1e",
+      "vggt/heads/camera_head.py": "d177f3d64d53210209b7bbb8496faaaec91f3fc51d04a4ee8d9d6b70f053e132",
+      "vggt/heads/dpt_head.py": "b83ff030043f2ba808afb0c0ebc2f40f1d2ddc9d0b4b847bdfd53670f2d03e17",
+      "vggt/utils/rotation.py": "ad3a904e243c6654f0aa5f1d0206ace5f2d61011bc1bf8f492b40e0b76cb2070",
+      "vggt/layers/attention.py": "883b82b8fd1d833e4b7060a97cff44aa677288e2f91415763d0deac48d111469",
+      "vggt/layers/block.py": "4f2303fb83b63655d17aac7d4937772093dcc5b27c73b6ea2f727a4068131b51",
+      "vggt/layers/vision_transformer.py": "857932a5a7cf8fa062535464b4831493544715cdfb729648a83a10098a5eae87"
+    },
+    "source_map": {
+      "vggt/models/vggt.py": [
+        {
+          "name": "VGGT",
+          "line": 17,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 18,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 29,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/models/aggregator.py": [
+        {
+          "name": "Aggregator",
+          "line": 25,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 52,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__build_patch_embed__",
+          "line": 146,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 187,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_process_frame_attention",
+          "line": 267,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_process_global_attention",
+          "line": 291,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "slice_expand_and_flatten",
+          "line": 315,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/utils/pose_enc.py": [
+        {
+          "name": "extri_intri_to_pose_encoding",
+          "line": 11,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "pose_encoding_to_extri_intri",
+          "line": 62,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/utils/load_fn.py": [
+        {
+          "name": "load_and_preprocess_images_square",
+          "line": 13,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "load_and_preprocess_images",
+          "line": 97,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/utils/geometry.py": [
+        {
+          "name": "unproject_depth_map_to_point_map",
+          "line": 15,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "depth_to_world_coords_points",
+          "line": 47,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "depth_to_cam_coords_points",
+          "line": 87,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "closed_form_inverse_se3",
+          "line": 120,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "project_world_points_to_camera_points_batch",
+          "line": 175,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "project_world_points_to_cam",
+          "line": 204,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "img_from_cam",
+          "line": 251,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "cam_from_img",
+          "line": 294,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/heads/head_act.py": [
+        {
+          "name": "activate_pose",
+          "line": 12,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "base_pose_act",
+          "line": 38,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "activate_head",
+          "line": 61,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "inverse_log_transform",
+          "line": 115,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/heads/camera_head.py": [
+        {
+          "name": "CameraHead",
+          "line": 19,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 26,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 73,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "trunk_fn",
+          "line": 95,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "modulate",
+          "line": 144,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/heads/dpt_head.py": [
+        {
+          "name": "DPTHead",
+          "line": 21,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 43,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 115,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_forward_impl",
+          "line": 172,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_apply_pos_embed",
+          "line": 249,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "scratch_forward",
+          "line": 261,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_make_fusion_block",
+          "line": 299,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_make_scratch",
+          "line": 313,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "ResidualConvUnit",
+          "line": 344,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 347,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 366,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "FeatureFusionBlock",
+          "line": 389,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 392,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 432,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "custom_interpolate",
+          "line": 459,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/utils/rotation.py": [
+        {
+          "name": "quat_to_mat",
+          "line": 14,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "mat_to_quat",
+          "line": 47,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_sqrt_positive_part",
+          "line": 106,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "standardize_quaternion",
+          "line": 120,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/layers/attention.py": [
+        {
+          "name": "Attention",
+          "line": 21,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 22,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 50,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "MemEffAttention",
+          "line": 75,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "forward",
+          "line": 76,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/layers/block.py": [
+        {
+          "name": "Block",
+          "line": 27,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 28,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 77,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "attn_residual_func",
+          "line": 78,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "ffn_residual_func",
+          "line": 81,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "drop_add_residual_stochastic_depth",
+          "line": 101,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "get_branges_scales",
+          "line": 128,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "add_residual",
+          "line": 136,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "get_attn_bias_and_cat",
+          "line": 151,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "drop_add_residual_stochastic_depth_list",
+          "line": 175,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "NestedTensorBlock",
+          "line": 198,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "forward_nested",
+          "line": 199,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "attn_residual_func",
+          "line": 207,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "ffn_residual_func",
+          "line": 210,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "attn_residual_func",
+          "line": 228,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "ffn_residual_func",
+          "line": 231,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 239,
+          "kind": "FunctionDef"
+        }
+      ],
+      "vggt/layers/vision_transformer.py": [
+        {
+          "name": "named_apply",
+          "line": 24,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "BlockChunk",
+          "line": 35,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "forward",
+          "line": 36,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "DinoVisionTransformer",
+          "line": 42,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 43,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "f",
+          "line": 130,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "init_weights",
+          "line": 173,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "interpolate_pos_encoding",
+          "line": 180,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "prepare_tokens_with_masks",
+          "line": 214,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward_features_list",
+          "line": 228,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward_features",
+          "line": 252,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_get_intermediate_layers_not_chunked",
+          "line": 273,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_get_intermediate_layers_chunked",
+          "line": 285,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "get_intermediate_layers",
+          "line": 299,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 325,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "init_weights_vit_timm",
+          "line": 333,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "vit_small",
+          "line": 341,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "vit_base",
+          "line": 355,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "vit_large",
+          "line": 369,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "vit_giant2",
+          "line": 383,
+          "kind": "FunctionDef"
+        }
+      ]
+    },
+    "aggregator_literal_defaults": {
+      "img_size": 518,
+      "patch_size": 14,
+      "embed_dim": 1024,
+      "depth": 24,
+      "num_heads": 16,
+      "mlp_ratio": 4.0,
+      "num_register_tokens": 4,
+      "qkv_bias": true,
+      "proj_bias": true,
+      "ffn_bias": true,
+      "patch_embed": "dinov2_vitl14_reg",
+      "aa_order": [
+        "frame",
+        "global"
+      ],
+      "aa_block_size": 1,
+      "qk_norm": true,
+      "rope_freq": 100,
+      "init_values": 0.01,
+      "cached_layer_indices": [
+        4,
+        11,
+        17,
+        23
+      ]
+    },
+    "official_module_imported": false,
+    "model_executed": false,
+    "scope": "Git/AST checks; not a runtime, pixel, or model-accuracy verification"
+  },
+  "unit_checks": {
+    "task": "WM-W05-Day3-unit-checks",
+    "created_utc": "2026-10-12T08:16:51.819202+00:00",
+    "passed": 16,
+    "total": 16,
+    "results": [
+      {
+        "name": "S01_finite_float32",
+        "passed": true
+      },
+      {
+        "name": "S02_shape_dtype",
+        "passed": true
+      },
+      {
+        "name": "S03_nonfinite_separate_counts",
+        "passed": true
+      },
+      {
+        "name": "S04_all_invalid_nulls",
+        "passed": true
+      },
+      {
+        "name": "S05_empty",
+        "passed": true
+      },
+      {
+        "name": "S06_scalar",
+        "passed": true
+      },
+      {
+        "name": "S07_strided_readonly_unchanged",
+        "passed": true
+      },
+      {
+        "name": "S08_types_and_float64_accumulation",
+        "passed": true
+      },
+      {
+        "name": "L01_full_layout",
+        "passed": true
+      },
+      {
+        "name": "L02_camera_depth_layout",
+        "passed": true
+      },
+      {
+        "name": "L03_keep_batch_and_views",
+        "passed": true
+      },
+      {
+        "name": "L04_reject_wrong_tensor_shapes",
+        "passed": true
+      },
+      {
+        "name": "L05_missing_fields",
+        "passed": true
+      },
+      {
+        "name": "L06_extra_fields_and_profile_mismatch",
+        "passed": true
+      },
+      {
+        "name": "L07_bad_schema_and_dtypes",
+        "passed": true
+      },
+      {
+        "name": "L08_layout_not_finite_audit_unchanged",
+        "passed": true
+      }
+    ],
+    "exercise_sha256": "56b3cba8e799377b6404aeb9fc9dc8c64ea3bb341aa5bf69780b2a234e5dbf12",
+    "check_script_sha256": "07fec84f7f5481250e8146f11bd9ddb3898011d171eae692c1a0d46ecf2293f9",
+    "scope": "CPU audit-function tests, not VGGT inference or geometry validation"
+  },
+  "environment": {
+    "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.3.1+cu121",
+      "torchvision": "0.18.1+cu121",
+      "numpy": "1.26.1",
+      "Pillow": "12.3.0",
+      "huggingface_hub": "2.2.0",
+      "safetensors": "0.8.0",
+      "einops": "0.8.2",
+      "opencv-python": "4.10.0.84",
+      "matplotlib": "3.11.2"
+    },
+    "torch_cuda_build": "12.1",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "compute_capability": [
+      8,
+      9
+    ],
+    "bf16_supported": true,
+    "gpu_total_bytes": 8585216000,
+    "gpu_free_bytes_at_probe": 7451181056,
+    "model_loaded": false,
+    "inference_verified": false
+  },
+  "script_sha256": {
+    "run_inference.py": "6347603b9b117012e551e24a90b2222f53158a459a89b8dbe6f02ac9c3a2f4df",
+    "common.py": "3745f385c526fdf53a2e900d550ca271dc8c84fecc02bb2673a280396374cb5c",
+    "day3_exercise.py": "56b3cba8e799377b6404aeb9fc9dc8c64ea3bb341aa5bf69780b2a234e5dbf12",
+    "verify_source.py": "f3620aaec620e3dc9e6aea9b405da2b68572e26e54099573952de688b98809e1",
+    "repo_tools.py": "476640f615bace5951b75c030af0a66b74ef8ec1523e2dc79fe8082413985b65"
+  },
+  "input_manifest": {
+    "task": "WM-W05-Day3-real-inputs",
+    "created_utc": "2026-10-12T07:55:24.928299+00:00",
+    "ordering": "case-insensitive filename sort of source photographs",
+    "orientation_policy": "EXIF orientation applied once; PNG outputs contain no EXIF rotation",
+    "alpha_policy": "composite onto white before RGB conversion",
+    "images": [
+      {
+        "index": 0,
+        "raw_name": "01.png",
+        "raw_sha256": "54527a575988094058cdc1975b421c48e0f446726473d0ac21ea55ecb24e96a7",
+        "original_hw": [
+          520,
+          779
+        ],
+        "original_exif_orientation": null,
+        "file": "00.png",
+        "canonical_hw": [
+          520,
+          779
+        ],
+        "canonical_sha256": "154b17a43845062cbd314a73ba49e9b4a5a74b1a4eae66ceedfbbc9505df7348"
+      },
+      {
+        "index": 1,
+        "raw_name": "02.png",
+        "raw_sha256": "0ad4c6d74c16661ed427f8100124aaf53e7fd0577b32c362f13559dfad7027a7",
+        "original_hw": [
+          520,
+          779
+        ],
+        "original_exif_orientation": null,
+        "file": "01.png",
+        "canonical_hw": [
+          520,
+          779
+        ],
+        "canonical_sha256": "7134a3e9448f2e62a73e5362bd28c9d584bac90f178ecc853adb6d61e907d5f8"
+      }
+    ],
+    "scene_geometry_verified": false
+  },
+  "input_manifest_sha256": "0395a74686fa7763ae4e9aa8481d4551a8d3bf324ceec7c083cb56689885809d",
+  "selected_input_indices": [
+    0,
+    1
+  ],
+  "input_order": [
+    "00.png",
+    "01.png"
+  ],
+  "query_points": null,
+  "precision": {
+    "parameter_storage": "float32",
+    "autocast_dtype": "bfloat16",
+    "autocast_cache_enabled": false,
+    "inference_mode": true,
+    "eval_mode": true,
+    "note": "Official forward disables autocast for camera/depth/point heads; outputs need not be BF16."
+  },
+  "execution_route": "official aggregator + camera/depth heads; DPT chunk size 1",
+  "tracking_note": "No queries => no tracking output. Full profile still retains track-head parameters.",
+  "weights": {
+    "task": "WM-W05-Day3-weights-lock",
+    "created_utc": "2026-10-12T08:08:19.824587+00:00",
+    "repo_id": "facebook/VGGT-1B",
+    "filename": "model.safetensors",
+    "revision": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+    "local_path": "D:\\WM_Study\\Daily\\vggt_weights\\model.safetensors",
+    "size_bytes": 5026367224,
+    "sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+    "official_etag_sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+    "source_endpoint": "https://huggingface.co",
+    "model_constructed": false,
+    "note": "Original VGGT-1B, not VGGT-1B-Commercial or VGGT-Omega"
+  },
+  "preprocess": {
+    "helper": "load_and_preprocess_images",
+    "mode": "crop",
+    "extra_resize": false,
+    "input_shape_4d": [
+      2,
+      3,
+      350,
+      518
+    ],
+    "input_shape_5d": [
+      1,
+      2,
+      3,
+      350,
+      518
+    ],
+    "input_dtype": "torch.float32",
+    "input_min": 0.0,
+    "input_max": 1.0,
+    "K_grid": "actual processed H,W, not original photograph H,W",
+    "normalization": "No external mean/std; Aggregator handles it"
+  },
+  "checkpoint_load": {
+    "strict": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "strict_policy": "Exact key set, shapes, FP32/integer dtypes and complete byte ranges validated before copying",
+    "weight_format": "safetensors",
+    "storage_backend": "bounded_file_reads",
+    "loading_strategy": "Copy one tensor buffer into model storage; no full-file mmap or full checkpoint tensor dictionary",
+    "tensors_loaded": 1797,
+    "largest_tensor_bytes": 67108864,
+    "all_heads_loaded_before_profile_selection": true
+  },
+  "depth_frames_chunk_size": 1,
+  "resident_parameter_bytes": 4631765968,
+  "resident_parameter_dtypes": [
+    "torch.float32"
+  ],
+  "model_training_flag": false,
+  "timing_scope": "Synchronized first forward only: no download, weight load, preprocessing, CPU export, decode, disk save or steady-state warm-up.",
+  "raw_output_metadata": {
+    "pose_enc": {
+      "kind": "tensor",
+      "shape": [
+        1,
+        2,
+        9
+      ],
+      "dtype": "torch.float32",
+      "requires_grad": false
+    },
+    "pose_enc_list": {
+      "kind": "list",
+      "length": 4,
+      "elements": [
+        {
+          "shape": [
+            1,
+            2,
+            9
+          ],
+          "dtype": "torch.float32"
+        },
+        {
+          "shape": [
+            1,
+            2,
+            9
+          ],
+          "dtype": "torch.float32"
+        },
+        {
+          "shape": [
+            1,
+            2,
+            9
+          ],
+          "dtype": "torch.float32"
+        },
+        {
+          "shape": [
+            1,
+            2,
+            9
+          ],
+          "dtype": "torch.float32"
+        }
+      ]
+    },
+    "depth": {
+      "kind": "tensor",
+      "shape": [
+        1,
+        2,
+        350,
+        518,
+        1
+      ],
+      "dtype": "torch.float32",
+      "requires_grad": false
+    },
+    "depth_conf": {
+      "kind": "tensor",
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "torch.float32",
+      "requires_grad": false
+    },
+    "images": {
+      "kind": "tensor",
+      "shape": [
+        1,
+        2,
+        3,
+        350,
+        518
+      ],
+      "dtype": "torch.float32",
+      "requires_grad": false
+    }
+  },
+  "export_policy": "All tensor outputs exported as CPU float32, axes retained. List entries saved separately. No clipping or NaN replacement.",
+  "layout": {
+    "batch": 1,
+    "views": 2,
+    "height": 350,
+    "width": 518,
+    "profile": "camera-depth",
+    "fields": [
+      "depth",
+      "depth_conf",
+      "images",
+      "pose_enc"
+    ]
+  },
+  "array_stats": {
+    "pose_enc": {
+      "shape": [
+        1,
+        2,
+        9
+      ],
+      "dtype": "float32",
+      "size": 18,
+      "finite_count": 18,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": -0.5177587866783142,
+      "finite_max": 1.0000101327896118,
+      "finite_mean": 0.28405196754091677
+    },
+    "depth": {
+      "shape": [
+        1,
+        2,
+        350,
+        518,
+        1
+      ],
+      "dtype": "float32",
+      "size": 362600,
+      "finite_count": 362600,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 0.5269686579704285,
+      "finite_max": 2.6547763347625732,
+      "finite_mean": 1.1298303044353541
+    },
+    "depth_conf": {
+      "shape": [
+        1,
+        2,
+        350,
+        518
+      ],
+      "dtype": "float32",
+      "size": 362600,
+      "finite_count": 362600,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 1.0,
+      "finite_max": 21.422901153564453,
+      "finite_mean": 9.011315528702092
+    },
+    "images": {
+      "shape": [
+        1,
+        2,
+        3,
+        350,
+        518
+      ],
+      "dtype": "float32",
+      "size": 1087800,
+      "finite_count": 1087800,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 0.0,
+      "finite_max": 1.0,
+      "finite_mean": 0.49037229960331286
+    }
+  },
+  "camera_stats": {
+    "w2c": {
+      "shape": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dtype": "float32",
+      "size": 24,
+      "finite_count": 24,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": -0.5177587866783142,
+      "finite_max": 1.0,
+      "finite_mean": 0.22901807201371108
+    },
+    "K": {
+      "shape": [
+        1,
+        2,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "size": 18,
+      "finite_count": 18,
+      "nan_count": 0,
+      "posinf_count": 0,
+      "neginf_count": 0,
+      "finite_min": 0.0,
+      "finite_max": 516.7885131835938,
+      "finite_mean": 162.63132900661893
+    }
+  },
+  "camera_contract": {
+    "extrinsic": "OpenCV world-to-camera 3x4; Pc=R Pw+t",
+    "intrinsic_grid_hw": [
+      350,
+      518
+    ],
+    "depth_type": "camera Z",
+    "reference": "first input-camera reference as intended by VGGT",
+    "metric_scale_guaranteed": false,
+    "geometry_accuracy_verified": false
+  },
+  "artifact_sha256": {
+    "raw_predictions.npz": "a7e922b39d1a4e7c604f29bf4f1886f62f1ad3db8528e3f6c9b05e7c46b5a9f9",
+    "pose_iterations.npz": "32d29828f237c0f900039c537814d8aefc8249aa9721e5d4ad23563d2dbb25bd",
+    "cameras.npz": "a9a58be04b839111c02406ce7ec24002784100f4f988956d01a3d48de9ce8ff5"
+  },
+  "numeric_contract_passed": true,
+  "geometry_accuracy_verified": false,
+  "finished_utc": "2026-10-12T08:42:34.990891+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "task": "WM-W05-Day3-weights-lock",
+  "created_utc": "2026-10-12T08:08:19.824587+00:00",
+  "repo_id": "facebook/VGGT-1B",
+  "filename": "model.safetensors",
+  "revision": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+  "local_path": "D:\\WM_Study\\Daily\\vggt_weights\\model.safetensors",
+  "size_bytes": 5026367224,
+  "sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+  "official_etag_sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+  "source_endpoint": "https://huggingface.co",
+  "model_constructed": false,
+  "note": "Original VGGT-1B, not VGGT-1B-Commercial or VGGT-Omega"
+}

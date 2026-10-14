@@ -1,0 +1,456 @@
+{
+  "scope": "Workspace UTF-8 md/txt/py/json/ps1/yaml/yml; excludes third-party COLMAP and Daily/vggt. Files over 4 MB skipped. Local Markdown file targets checked; fragments, remote URLs, dynamic paths and generated-output prose are not existence assertions.",
+  "text_files_scanned": 1757,
+  "local_markdown_links_checked": 1000,
+  "skipped": [
+    "Daily\\Week3_Day1\\requirements.local.txt",
+    "Daily\\Week3_Day1\\day1_inspect_console.txt",
+    "Daily\\Week3_Day1\\day1_check_console.txt",
+    "Daily\\Week3_Day5\\requirements.local.txt",
+    "Daily\\Week3_Day4\\requirements.local.txt",
+    "Daily\\Week3_Day7\\requirements.local.txt",
+    "Daily\\Week4_Day1\\reports\\render_console.txt",
+    "Daily\\Week4_Day1\\reports\\env_console.txt",
+    "Daily\\Week4_Day1\\reports\\check_cuda_console.txt",
+    "Daily\\Week4_Day1\\reports\\check_cpu_console.txt",
+    "Daily\\Week3_Day2\\day2_rays_console.txt",
+    "Daily\\Week3_Day2\\day2_inspect_console.txt",
+    "Daily\\Week3_Day2\\day2_check_console.txt",
+    "Daily\\Week3_Day4\\day4_inspect_console.txt",
+    "Daily\\Week3_Day4\\day4_environment_console.txt",
+    "Daily\\Week3_Day4\\day4_encoding_console.txt",
+    "Daily\\Week3_Day4\\day4_bridge_console.txt",
+    "Daily\\Week3_Day4\\day4_network_console.txt",
+    "Daily\\Week3_Day7\\day7_reconcile_console.txt",
+    "Daily\\Week3_Day7\\day7_interface_console.txt",
+    "Daily\\Week3_Day7\\day7_environment_console.txt",
+    "Daily\\Week3_Day7\\day7_check_console.txt",
+    "Daily\\Week3_Day5\\day5_overfit_console.txt",
+    "Daily\\Week3_Day5\\day5_inspect_console.txt",
+    "Daily\\Week3_Day5\\day5_evaluation_console.txt",
+    "Daily\\Week3_Day5\\day5_environment_console.txt",
+    "Daily\\Week3_Day5\\day5_check_console.txt",
+    "Daily\\Week3_Day5\\day5_train_console.txt",
+    "Daily\\Week3_Day5\\day5_smoke_console.txt",
+    "Daily\\Week3_Day3\\day3_render_console.txt",
+    "Daily\\Week3_Day3\\day3_layers_console.txt",
+    "Daily\\Week3_Day3\\day3_check_console.txt",
+    "Daily\\Week3_Day6\\day6_pdf_console.txt",
+    "Daily\\Week3_Day6\\day6_pair_train_console.txt",
+    "Daily\\Week3_Day6\\day6_pair_evaluate_console.txt",
+    "Daily\\Week3_Day6\\day6_inspect_console.txt",
+    "Daily\\Week3_Day6\\day6_frozen_console.txt",
+    "Daily\\Week3_Day6\\day6_environment_console.txt",
+    "Daily\\Week3_Day6\\day6_check_console.txt",
+    "WM_Week3_Neural_Radiance_Fields\\results\\volume_rendering\\check_console.txt",
+    "WM_Week3_Neural_Radiance_Fields\\results\\validation\\check_console.txt",
+    "Daily\\Week4_Day3\\reports\\experiment_console.txt",
+    "Daily\\Week4_Day2\\reports\\before_torch241_fix_20261011_200805\\compare_gsplat_console.txt",
+    "Daily\\Week2_Day5\\reports\\pip_before_day5.txt",
+    "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\compare_gsplat_console.txt",
+    "WM_Week3_Neural_Radiance_Fields\\results\\training\\check_console.txt",
+    "WM_Week3_Neural_Radiance_Fields\\results\\rays\\check_console.txt",
+    "Daily\\Week4_Day4\\reports\\experiment_console.txt",
+    "WM_Week3_Neural_Radiance_Fields\\results\\dataset\\check_console.txt",
+    "WM_Week3_Neural_Radiance_Fields\\results\\hierarchical_sampling\\check_console.txt",
+    "Daily\\Week4_Day4\\reports\\compare_gsplat_console.txt",
+    "Daily\\Week4_Day4\\reports\\check_cpu_console.txt",
+    "Daily\\Week2_Day3\\outputs\\features2048\\models_txt\\0\\images.txt",
+    "Daily\\Week2_Day3\\outputs\\base4096\\models_txt\\0\\points3D.txt",
+    "Daily\\Week2_Day3\\outputs\\base4096\\models_txt\\0\\images.txt"
+  ],
+  "missing_markdown_targets": [
+    {
+      "file": "Daily\\Week5_Day2\\notes\\preprocessing.md",
+      "line": 68,
+      "target": "/D:/WM_Study/Daily/Week5_Day2/artifacts/crop/01_02_portrait_crop.png"
+    },
+    {
+      "file": "Daily\\Week5_Day2\\notes\\preprocessing.md",
+      "line": 68,
+      "target": "/D:/WM_Study/Daily/Week5_Day2/artifacts/pad/01_02_portrait_pad.png"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\self_check.md",
+      "line": 5,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/evidence/day1_check.json"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\self_check.md",
+      "line": 11,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:29"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\self_check.md",
+      "line": 17,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/pose_enc.py:62"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\self_check.md",
+      "line": 17,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/rotation.py:14"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\self_check.md",
+      "line": 23,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/geometry.py:47"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\self_check.md",
+      "line": 29,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:29"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\self_check.md",
+      "line": 35,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/heads/head_act.py:61"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\self_check.md",
+      "line": 42,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/evidence/day1_check.json"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 9,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:17"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 9,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/aggregator.py:187"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 13,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/pose_enc.py:62"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 13,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/geometry.py:87"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 15,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/DAY1_GUIDE.md"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 25,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:29"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 29,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/READING_MAP.md"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 31,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/evidence/repo_lock.json"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 33,
+      "target": "/D:/WM_Study/Daily/vggt/README.md:57"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 33,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:29"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 33,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/pose_enc.py:62"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 45,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/evidence/environment.json"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 47,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/evidence/repo_lock.json"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\overview.md",
+      "line": 48,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/evidence/day1_check.json"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 17,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:29"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 21,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/load_fn.py:97"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 23,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/aggregator.py:187"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 27,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/contract_exercise.py:11"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 36,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:29"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 40,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:29"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 73,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/pose_enc.py:62"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 82,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/rotation.py:14"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 97,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/geometry.py:47"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 99,
+      "target": "/D:/WM_Study/Daily/vggt/README.md:130"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 103,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/utils/geometry.py:87"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 107,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/models/vggt.py:18"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 107,
+      "target": "/D:/WM_Study/Daily/vggt/vggt/heads/head_act.py:61"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 120,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/evidence/day1_check.json"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 120,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/check_day1.py"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\notes\\input_output_contract.md",
+      "line": 120,
+      "target": "/D:/WM_Study/Daily/Week5_Day1/TODO_CONTRACT.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 7,
+      "target": "reports/check_cpu.json"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 7,
+      "target": "reports/check_cpu_console.txt"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 9,
+      "target": "reports/compare_gsplat.json"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 9,
+      "target": "reports/compare_gsplat_console.txt"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 11,
+      "target": "outputs/day3/index.html"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 11,
+      "target": "outputs/day3/experiment_report.json"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 11,
+      "target": "outputs/day3/projection_stats.csv"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 72,
+      "target": "outputs/day3/projection_stats.csv"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 107,
+      "target": "INTERFACE_CONTRACT.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 107,
+      "target": "DAY3_GUIDE.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 134,
+      "target": "reports/before_torch241_fix_20261011_212436/compare_gsplat_console.txt"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_white_background_20261011_215843\\projection_notes.md",
+      "line": 134,
+      "target": "reports/before_torch241_fix_20261011_212436/compare_gsplat.json"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 8,
+      "target": "DAY3_GUIDE.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 8,
+      "target": "SOURCES.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 9,
+      "target": "CODE_READING.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 10,
+      "target": "INTERFACE_CONTRACT.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 11,
+      "target": "PROJECTION_NOTES_TEMPLATE.md"
+    },
+    {
+      "file": "Daily\\Week4_Day3\\reports\\before_torch241_fix_20261011_212436\\README.md",
+      "line": 38,
+      "target": "HANDOFF.md"
+    }
+  ],
+  "legacy_directory_mentions": [
+    {
+      "file": "Daily\\Week5_Day4\\WINDOWS_RUNBOOK.md",
+      "line": 4,
+      "text": "在 `WM_W05_Day4` 文件夹中打开 PowerShell。"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\WINDOWS_RUNBOOK.md",
+      "line": 11,
+      "text": "├─ WM_W05_Day1/evidence/repo_lock.json"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\WINDOWS_RUNBOOK.md",
+      "line": 12,
+      "text": "├─ WM_W05_Day3/artifacts/"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\WINDOWS_RUNBOOK.md",
+      "line": 16,
+      "text": "└─ WM_W05_Day4/"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\WINDOWS_RUNBOOK.md",
+      "line": 27,
+      "text": "python verify_source.py --repo ..\\vggt --day1-lock ..\\WM_W05_Day1\\evidence\\repo_lock.json"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\WINDOWS_RUNBOOK.md",
+      "line": 48,
+      "text": "python analyze_run.py --run ..\\WM_W05_Day3\\artifacts\\pair_full --out .\\artifacts\\pair_geometry"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\WINDOWS_RUNBOOK.md",
+      "line": 54,
+      "text": "python analyze_run.py --run ..\\WM_W05_Day3\\artifacts\\pair_camera_depth --out .\\artifacts\\pair_geometry"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\WINDOWS_RUNBOOK.md",
+      "line": 63,
+      "text": "python analyze_run.py --run ..\\WM_W05_Day3\\artifacts\\single_full --out .\\artifacts\\single_geometry"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\verify_source.py",
+      "line": 85,
+      "text": "    parser.add_argument(\"--day1-lock\", type=Path, default=Path(\"../WM_W05_Day1/evidence/repo_lock.json\"))"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\compare_official.py",
+      "line": 19,
+      "text": "    ap.add_argument('--day1-lock',type=Path,default=Path('../WM_W05_Day1/evidence/repo_lock.json'))"
+    },
+    {
+      "file": "Daily\\Week5_Day4\\analyze_run.py",
+      "line": 120,
+      "text": "    ap.add_argument('--day1-lock',type=Path,default=Path('../WM_W05_Day1/evidence/repo_lock.json'))"
+    },
+    {
+      "file": "Daily\\Week5_Day3\\notes\\inference_log.md",
+      "line": 64,
+      "text": "- 最初使用旧目录名 `WM_W05_Day1`，在源码/单元检查阶段找不到 Day1 lock。默认路径已改为以脚本目录为基准，并使用实际 `Week5_Day1` 目录。旧日志保存在 [原始路径错误记录](../evidence/failed_runs/single_full_20261012_161252/run.json)。"
+    },
+    {
+      "file": "Daily\\Week5_Day3\\evidence\\recovery_report.json",
+      "line": 9,
+      "text": "  \"original_failure\": \"Day1 lock path used WM_W05_Day1 instead of Week5_Day1; failed output directory then blocked rerun\","
+    },
+    {
+      "file": "Daily\\Week5_Day2\\notes\\preprocessing.md",
+      "line": 31,
+      "text": "默认路径现已从脚本位置指向同级 `vggt` 和 `Week5_Day1/evidence/repo_lock.json`。曾经报错的 `WM_W05_Day1` 是旧目录名；实际目录是 `Week5_Day1`。"
+    },
+    {
+      "file": "Daily\\Week5_Day3\\evidence\\failed_runs\\single_full_20261012_161252\\run.json",
+      "line": 14,
+      "text": "  \"error_message\": \"Day1 lock not found: ..\\\\WM_W05_Day1\\\\evidence\\\\repo_lock.json. Point to your actual Day1 evidence; do not invent a commit.\","
+    },
+    {
+      "file": "Daily\\Week5_Day3\\evidence\\failed_runs\\single_full_20261012_161252\\error.txt",
+      "line": 11,
+      "text": "RuntimeError: Day1 lock not found: ..\\WM_W05_Day1\\evidence\\repo_lock.json. Point to your actual Day1 evidence; do not invent a commit."
+    },
+    {
+      "file": "Daily\\Week5_Day1\\MANIFEST.json",
+      "line": 2,
+      "text": "  \"package\": \"WM_W05_Day1\","
+    },
+    {
+      "file": "Daily\\Week5_Day1\\ENVIRONMENT_WINDOWS.md",
+      "line": 17,
+      "text": "把解压出的 `WM_W05_Day1` 放在你的 World Model 学习目录中。"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\ENVIRONMENT_WINDOWS.md",
+      "line": 18,
+      "text": "在 `WM_W05_Day1` 文件夹打开 PowerShell。"
+    },
+    {
+      "file": "Daily\\Week5_Day1\\ENVIRONMENT_WINDOWS.md",
+      "line": 23,
+      "text": "  WM_W05_Day1/    # 此包；当前 PowerShell 工作目录"
+    }
+  ]
+}

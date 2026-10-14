@@ -1,0 +1,19 @@
+Stage: source_and_unit_checks
+Stage: input_verification
+Stage: checkpoint_hash_verification
+Verifying checkpoint SHA-256 (local disk read, no download)...
+Stage: cpu_preprocessing
+Stage: cpu_model_construction
+Stage: cpu_checkpoint_loading
+Stage: cuda_model_and_input_transfer
+Stage: forward
+D:\WM_Study\Daily\vggt\vggt\layers\attention.py:61: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  x = F.scaled_dot_product_attention(q, k, v, dropout_p=self.attn_drop.p if self.training else 0.0)
+Stage: cpu_export
+Stage: saving_raw_arrays
+Stage: layout_and_finite_audit
+Stage: camera_decode_cpu
+SUCCESS: execution + numeric interface only, NOT geometric accuracy.
+Forward first-call seconds: 1.0523625999994692
+Forward peak allocated GiB: 4.7764458656311035
+Output: artifacts\pair_camera_depth
